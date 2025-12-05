@@ -1,0 +1,2915 @@
+- **this-no**: 1
+- **no**: 1
+- **title**: PIXIU: A Comprehensive Benchmark, Instruction Dataset and Large Language Model for Finance
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2306.05443
+
+NIPS2023
+https://papers.nips.cc/paper_files/paper/2023/file/6a386d703b50f1cf1f61ab02a15967bb-Paper-Datasets_and_Benchmarks.pdf](https://arxiv.org/abs/2306.05443
+
+NIPS2023
+https://papers.nips.cc/paper_files/paper/2023/file/6a386d703b50f1cf1f61ab02a15967bb-Paper-Datasets_and_Benchmarks.pdf)
+- **pdf-url**: [https://arxiv.org/pdf/2306.05443](https://arxiv.org/pdf/2306.05443)
+- **record-time**: July 8, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+LLM-Reasoning-Benchmark
+- **note**: Update (Date: 09-22-2023)
+
+🚀 We're thrilled to announce that our paper, "PIXIU: A Comprehensive Benchmark, Instruction Dataset and Large Language Model for Finance", has been accepted by NeurIPS 2023 Track Datasets and Benchmarks!
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: Jun 8, 2023
+- **article-category**: N/A
+- **abstract**: Although large language models (LLMs) has shown great performance on natural language processing (NLP) in the financial domain, there are no publicly available financial tailtored LLMs, instruction tuning datasets, and evaluation benchmarks, which is critical for continually pushing forward the open-source development of financial artificial intelligence (AI). This paper introduces PIXIU, a comprehensive framework including the first financial LLM based on fine-tuning LLaMA with instruction data, the first instruction data with 136K data samples to support the fine-tuning, and an evaluation benchmark with 5 tasks and 9 datasets. We first construct the large-scale multi-task instruction data considering a variety of financial tasks, financial document types, and financial data modalities. We then propose a financial LLM called FinMA by fine-tuning LLaMA with the constructed dataset to be able to follow instructions for various financial tasks. To support the evaluation of financial LLMs, we propose a standardized benchmark that covers a set of critical financial tasks, including five financial NLP tasks and one financial prediction task. With this benchmark, we conduct a detailed analysis of FinMA and several existing LLMs, uncovering their strengths and weaknesses in handling critical financial tasks. The model, datasets, benchmark, and experimental results are open-sourced to facilitate future research in financial AI. 
+- **github-url**: [https://github.com/The-FinAI/PIXIU](https://github.com/The-FinAI/PIXIU)
+- **huggingface-url**: English Evaluation Dataset
+https://huggingface.co/collections/TheFinAI/english-evaluation-dataset-658f515911f68f12ea193194
+
+Spanish Evaluation Datasets
+https://huggingface.co/collections/TheFinAI/spanish-evaluation-datasets-65e5855900680b19bc83e03d
+
+中文评估数据集
+https://huggingface.co/collections/TheFinAI/chinese-evaluation-datasets-65e5851af7daaa71c1c59902
+
+Fin-O1
+https://huggingface.co/collections/TheFinAI/fin-o1-682702bbd25a7ef4512df24d
+
+FinTagging
+https://huggingface.co/collections/TheFinAI/fintagging-68270132372c6608ac069bef
+
+MultiFinBen
+https://huggingface.co/collections/TheFinAI/multifinben-6826f6fc4bc13d8af4fab223
+
+Plutus: Benchmarking Greek Financial LLMs
+https://huggingface.co/collections/TheFinAI/plutus-benchmarking-greek-financial-llms-67bc718fb8d897c65f1e87db
+
+Open FinLLMs
+https://huggingface.co/collections/TheFinAI/open-finllms-66b671f2b4958a65e20decbe
+- **other-url**: FinBen Leaderboard
+https://huggingface.co/spaces/finosfoundation/Open-Financial-LLM-Leaderboard
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: The paper titled "PIXIU: A Large Language Model, Instruction Data and Evaluation Benchmark for Finance" introduces PIXIU, a comprehensive framework that includes the first financial large language model (LLM) based on fine-tuning LLaMA with instruction data, the first instruction data with 136K samples, and an evaluation benchmark with 5 tasks and 9 datasets.
+- **base-topics**: Financial natural language processing (NLP), large language models (LLMs), instruction tuning, financial task evaluation, multi-task learning, multi-modality data
+- **base-core-author**: Qianqian Xie, Weiguang Han, Xiao Zhang, Yanzhao Lai, Min Peng, Alejandro Lopez-Lira, Jimin Huang
+- **base-core-group**: Wuhan University, Sun Yat-Sen University, Southwest Jiaotong University, University of Florida, ChanceFocus AMC
+- **problems**: The paper addresses the lack of publicly available financial LLMs, instruction tuning datasets, and evaluation benchmarks, which hinders the development of open-source financial AI.
+- **problems-main-problem**: The absence of open-sourced financial LLMs and the lack of financial-specific instruction tuning datasets and evaluation benchmarks.
+- **problems-focus-problem**: Developing efficient and openly available LLMs tailored for finance, building large-scale and high-quality financial instruction data, and creating a comprehensive financial evaluation benchmark.
+- **problems-why-important**: Open-sourced financial LLMs and datasets are critical for advancing research and development in financial AI, enabling better understanding and prediction in financial tasks.
+- **motivations**: The paper aims to fill the gap by proposing PIXIU, a framework that includes the first financial LLM (FinMA), the first financial instruction tuning dataset (FIT), and the first financial evaluation benchmark (FLARE).
+- **motivations-main-finding**: The proposed FinMA model significantly outperforms existing LLMs on most financial tasks in the FLARE benchmark, demonstrating the effectiveness of domain-specific instruction tuning.
+- **motivations-main-insight**: Domain-specific instruction tuning and multi-task learning are crucial for improving the performance of LLMs in the financial domain.
+- **motivations-why-necessary**: These contributions are necessary to enhance the generalization ability of LLMs in financial tasks and to provide a standardized benchmark for evaluating their performance.
+- **solutions**: The paper proposes constructing multi-task and multi-modal instruction data, fine-tuning LLaMA with this data to create FinMA, and developing the FLARE benchmark for comprehensive evaluation.
+- **solutions-main-idea**: Fine-tuning LLaMA with multi-task and multi-modal financial instruction data to create a domain-specific LLM capable of handling various financial tasks.
+- **solutions-main-method**: Multi-task instruction tuning with a diverse set of financial tasks, including sentiment analysis, named entity recognition, question answering, and stock movement prediction.
+- **solutions-main-result**: FinMA achieves state-of-the-art performance on 3 financial NLP tasks and 1 financial prediction task, outperforming models like BloombergGPT, ChatGPT, and GPT-4.
+- **solutions-main-conclusion**: Domain-specific instruction tuning significantly improves the performance of LLMs in financial tasks, and the proposed benchmark provides a comprehensive evaluation framework.
+- **potential-inspiration**: Further research could focus on improving quantitative reasoning abilities in financial LLMs, exploring larger model sizes, and addressing resource constraints to enhance model generalizability. Additionally, the potential negative impacts of financial misinformation and unethical market influence need to be studied.
+
+---
+
+- **this-no**: 2
+- **no**: 44
+- **title**: MASS: Multi-Agent Simulation Scaling for Portfolio Construction
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2505.10278](https://arxiv.org/abs/2306.05443)
+- **pdf-url**: [https://arxiv.org/pdf/2505.10278](https://arxiv.org/pdf/2306.05443)
+- **record-time**: July 8, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 15 May 2025
+- **article-category**: N/A
+- **abstract**: LLM-based multi-agent has gained significant attention for their potential in simulation and enhancing performance. However, existing works are limited to pure simulations or are constrained by predefined workflows, restricting their applicability and effectiveness. In this paper, we introduce the Multi-Agent Scaling Simulation (MASS) for portfolio construction. MASS achieves stable and continuous excess returns by progressively increasing the number of agents for large-scale simulations to gain a superior understanding of the market and optimizing agent distribution end-to-end through a reverse optimization process, rather than relying on a fixed workflow. We demonstrate its superiority through performance experiments, ablation studies, backtesting experiments, experiments on updated data and stock pools, scaling experiments, parameter sensitivity experiments, and visualization experiments, conducted in comparison with 6 state-of-the-art baselines on 3 challenging A-share stock pools. We expect the paradigm established by MASS to expand to other tasks with similar characteristics. The implementation of MASS has been open-sourced at this https URL. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: arXiv:2505.10278v1 [cs.AI] 15 May 2025; Title: MASS: Multi-Agent Simulation Scaling for Portfolio Construction; Open-source: https://github.com/gta0804/MASS
+- **base-topics**: Multi-agent simulation, Large Language Models (LLMs), Portfolio construction, Financial market modeling, Scaling laws, End-to-end optimization, Chinese A-share market
+- **base-core-author**: Taian Guo, Haiyang Shen, Jinsheng Huang, Zhengyang Mao, Junyu Luo, Zhuoru Chen, Xuhui Liu, Bingyu Xia, Luchen Liu, Yun Ma, Ming Zhang
+- **base-core-group**: School of Computer Science & Institute for Artificial Intelligence, Peking University; Zhengren Quant, Beijing, China
+- **problems**: Existing LLM-based multi-agent systems are limited to pure simulations or fixed workflows, cannot accurately replicate real-world agent distributions, lack end-to-end optimization for decision-making, and have not been scaled beyond 64 agents; portfolio construction lacks adaptive, large-scale simulation approaches
+- **problems-main-problem**: How to leverage large-scale, adaptive, end-to-end optimized multi-agent simulation to construct portfolios that consistently achieve superior excess returns in dynamic markets
+- **problems-focus-problem**: Designing a multi-agent framework that scales to hundreds of agents, optimizes agent distribution dynamically via backward optimization, and translates heterogeneous agent decisions into profitable portfolio allocations without relying on predefined workflows
+- **problems-why-important**: Real-world financial markets are dynamic and heterogeneous; accurate simulation of diverse investor behaviors and adaptive optimization is essential for robust, profitable, and generalizable portfolio construction strategies
+- **motivations**: MASS introduces the first large-scale (up to 512 agents) multi-agent simulation paradigm for portfolio construction; demonstrates empirically that exponentially increasing agents yields linear improvements in performance (scaling law); provides open-source code and comprehensive Chinese A-share datasets
+- **motivations-main-finding**: MASS significantly outperforms six state-of-the-art baselines across three challenging Chinese stock pools (SSE 50, CSI 300, ChiNext 100) in terms of IC, ICIR, RIC, RICIR; achieves consistent and growing excess returns in rigorous backtesting; effectiveness confirmed on unseen 2025 data and new CSI A500 pool
+- **motivations-main-insight**: Market understanding and portfolio performance improve monotonically with the number of agents; dynamically optimizing agent distribution via backward optimization captures regime shifts and investor heterogeneity more effectively than fixed workflows; consensus-minus-disagreement signal successfully aggregates diverse agent decisions
+- **motivations-why-necessary**: Prior methods are limited in scale, adaptability, and real-world applicability; MASS addresses these gaps by introducing scalable simulation, end-to-end optimization, and empirical validation on challenging recent market data, thereby advancing both academic research and practical quantitative finance
+- **solutions**: Multi-Agent Scaling Simulation (MASS) framework: initializes LLM agents with diverse investment styles, aggregates their stock selections into consensus/disagreement signals, and optimizes agent distribution daily via a backward optimization loop using simulated annealing to maximize expected portfolio returns
+- **solutions-main-idea**: Simulate thousands of heterogeneous LLM investors, aggregate their decisions through a market-disagreement hypothesis, and iteratively optimize the distribution of agent types to adapt to market dynamics and maximize risk-adjusted returns
+- **solutions-main-method**: Forward propagation: LLM agents generate strategies and select candidate stocks; aggregation via weighted consensus/disagreement signal; backward optimization: online learning with look-back window and simulated annealing to update agent-type proportions
+- **solutions-main-result**: RankIC improves from ~0.02 (64 agents) to ~0.08 (512 agents); MASS achieves highest IC (6.12–8.16), ICIR (24.41–55.88), RIC (3.36–7.62), RICIR (34.56–62.87) among all baselines; backtested cumulative excess return significantly exceeds CSI 300 with lower drawdown
+- **solutions-main-conclusion**: MASS establishes a scalable, adaptive, and robust paradigm for portfolio construction via large-scale multi-agent simulation and end-to-end optimization; the scaling law and backward optimization are essential for sustained outperformance in dynamic markets
+- **potential-inspiration**: Extend MASS paradigm to other domains needing large-scale agent-based decision-making under uncertainty (supply chain, agriculture, weather); incorporate richer multimodal data and timing strategies; investigate theoretical limits of multi-agent scaling; explore causal discovery of agent interactions; develop real-time deployment with latency constraints
+
+---
+
+- **this-no**: 3
+- **no**: 0
+- **title**: 【已撤稿】FinEval-KR: A Financial Domain Evaluation Framework for Large Language Models' Knowledge and Reasoning
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2506.21591](https://arxiv.org/abs/2505.10278)
+- **pdf-url**: N/A
+- **record-time**: N/A
+- **classification**: LLM-FinancialRisk-Benchmark
+LLM-Reasoning-Framework
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: N/A
+- **article-category**: N/A
+- **abstract**: N/A
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: N/A
+- **base-topics**: N/A
+- **base-core-author**: N/A
+- **base-core-group**: N/A
+- **problems**: N/A
+- **problems-main-problem**: N/A
+- **problems-focus-problem**: N/A
+- **problems-why-important**: N/A
+- **motivations**: N/A
+- **motivations-main-finding**: N/A
+- **motivations-main-insight**: N/A
+- **motivations-why-necessary**: N/A
+- **solutions**: N/A
+- **solutions-main-idea**: N/A
+- **solutions-main-method**: N/A
+- **solutions-main-result**: N/A
+- **solutions-main-conclusion**: N/A
+- **potential-inspiration**: N/A
+
+---
+
+- **this-no**: 4
+- **no**: 245
+- **title**: BizFinBench: A Business-Driven Real-World Financial Benchmark for Evaluating LLMs
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2505.19457](https://arxiv.org/abs/2506.21591)
+- **pdf-url**: [https://arxiv.org/pdf/2505.19457](https://arxiv.org/pdf/2505.19457)
+- **record-time**: July 9, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 26 May 2025
+- **article-category**: N/A
+- **abstract**: Large language models excel in general tasks, yet assessing their reliability in logic-heavy, precision-critical domains like finance, law, and healthcare remains challenging. To address this, we introduce BizFinBench, the first benchmark specifically designed to evaluate LLMs in real-world financial applications. BizFinBench consists of 6,781 well-annotated queries in Chinese, spanning five dimensions: numerical calculation, reasoning, information extraction, prediction recognition, and knowledge-based question answering, grouped into nine fine-grained categories. The benchmark includes both objective and subjective metrics. We also introduce IteraJudge, a novel LLM evaluation method that reduces bias when LLMs serve as evaluators in objective metrics. We benchmark 25 models, including both proprietary and open-source systems. Extensive experiments show that no model dominates across all tasks. Our evaluation reveals distinct capability patterns: (1) In Numerical Calculation, Claude-3.5-Sonnet (63.18) and DeepSeek-R1 (64.04) lead, while smaller models like Qwen2.5-VL-3B (15.92) lag significantly; (2) In Reasoning, proprietary models dominate (ChatGPT-o3: 83.58, Gemini-2.0-Flash: 81.15), with open-source models trailing by up to 19.49 points; (3) In Information Extraction, the performance spread is the largest, with DeepSeek-R1 scoring 71.46, while Qwen3-1.7B scores 11.23; (4) In Prediction Recognition, performance variance is minimal, with top models scoring between 39.16 and 50.00. We find that while current LLMs handle routine finance queries competently, they struggle with complex scenarios requiring cross-concept reasoning. BizFinBench offers a rigorous, business-aligned benchmark for future research. The code and dataset are available at this https URL. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: Title: BizFinBench: A Business-Driven Real-World Financial Benchmark for Evaluating LLMs. Authors: Guilong Lu, Xuntao Guo, Rongjunchen Zhang, Wenqiao Zhu, Ji Liu. Affiliation: HiThink Research, Harbin Institute of Technology. Year: 2025. ArXiv: 2505.19457. Dataset & Code: https://github.com/HiThink-Research/BizFinBench.
+- **base-topics**: Financial-domain evaluation of large language models; business-grounded dataset construction; adversarial and temporal reasoning; numerical, informational, predictive and knowledge tasks; LLM-as-a-judge bias mitigation.
+- **base-core-author**: Guilong Lu, Xuntao Guo, Rongjunchen Zhang (corresponding).
+- **base-core-group**: HiThink Research.
+- **problems**: Existing benchmarks inadequately capture real-world financial complexity; LLMs exhibit unquantified gaps in multi-step, temporally-sensitive, adversarial financial reasoning; current LLM-as-a-judge methods suffer from bias and low expert alignment.
+- **problems-main-problem**: Lack of a rigorous, business-oriented benchmark to reliably assess LLM capabilities in realistic, high-stakes financial applications.
+- **problems-focus-problem**: Designing a comprehensive evaluation suite that reflects complex, noisy, time-critical financial workflows and establishing an unbiased, expert-calibrated evaluation framework.
+- **problems-why-important**: Finance demands precision, robustness and compliance; unreliable LLMs could cause monetary loss and systemic risk; trustworthy evaluation is prerequisite for safe deployment.
+- **motivations**: Introduce BizFinBench, the first finance benchmark grounded in real business queries; propose IteraJudge, a novel iterative calibration-based LLM evaluation method that reduces bias.
+- **motivations-main-finding**: No single model dominates all tasks; proprietary models excel in reasoning and knowledge, open-source models lag by up to 19.49 points; performance gaps widen in temporal reasoning and cross-concept tasks.
+- **motivations-main-insight**: Numerical accuracy and information extraction show widest model variance; prediction tasks exhibit ceiling effects; complex scenarios requiring joint temporal and causal reasoning remain challenging.
+- **motivations-why-necessary**: Prior benchmarks used synthetic or static data, leading to over-optimistic estimates; industry needs granular diagnostics to select, fine-tune or regulate financial LLMs.
+- **solutions**: Construct BizFinBench with 6,781 Chinese queries spanning 5 dimensions and 9 fine-grained categories; implement IteraJudge that refines answers dimension-by-dimension and contrastively scores deficiencies.
+- **solutions-main-idea**: Couple real user questions from iwencai APP with expert-annotated, temporally-aligned context and adversarial distractors; iteratively calibrate LLM judges to mimic expert reasoning.
+- **solutions-main-method**: Multi-expert annotation with unanimous-consensus validation; GPT-4o-assisted data cleaning and balancing; IteraJudge pipeline: refine → benchmark → contrastive scoring.
+- **solutions-main-result**: Comprehensive evaluation of 25 models; IteraJudge boosts Spearman correlation with expert judgments by up to 17.24%; reveals clear capability patterns and actionable limitations.
+- **solutions-main-conclusion**: BizFinBench provides rigorous, business-aligned diagnostics; IteraJudge improves reliability of LLM evaluation; both together accelerate development of trustworthy financial AI.
+- **potential-inspiration**: Extend benchmark to complex derivatives pricing, real-time risk modeling, multi-turn conversational finance; adapt IteraJudge to other precision-critical domains like healthcare and law; explore hybrid human-in-the-loop calibration.
+
+---
+
+- **this-no**: 5
+- **no**: 246
+- **title**: MultiFinRAG: An Optimized Multimodal Retrieval-Augmented Generation (RAG) Framework for Financial Question Answering
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2506.20821](https://arxiv.org/abs/2505.19457)
+- **pdf-url**: [https://arxiv.org/pdf/2506.20821](https://arxiv.org/pdf/2505.19457)
+- **record-time**: July 9, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+MultiModal-Evaluation-Benchmark
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 25 Jun 2025
+- **article-category**: N/A
+- **abstract**: Financial documents--such as 10-Ks, 10-Qs, and investor presentations--span hundreds of pages and combine diverse modalities, including dense narrative text, structured tables, and complex figures. Answering questions over such content often requires joint reasoning across modalities, which strains traditional large language models (LLMs) and retrieval-augmented generation (RAG) pipelines due to token limitations, layout loss, and fragmented cross-modal context. We introduce MultiFinRAG, a retrieval-augmented generation framework purpose-built for financial QA. MultiFinRAG first performs multimodal extraction by grouping table and figure images into batches and sending them to a lightweight, quantized open-source multimodal LLM, which produces both structured JSON outputs and concise textual summaries. These outputs, along with narrative text, are embedded and indexed with modality-aware similarity thresholds for precise retrieval. A tiered fallback strategy then dynamically escalates from text-only to text+table+image contexts when necessary, enabling cross-modal reasoning while reducing irrelevant context. Despite running on commodity hardware, MultiFinRAG achieves 19 percentage points higher accuracy than ChatGPT-4o (free-tier) on complex financial QA tasks involving text, tables, images, and combined multimodal reasoning. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: [Title: MultiFinRAG: An Optimized Multimodal Retrieval-Augmented Generation (RAG) Framework for Financial Question Answering; Date: 25 Jun 2025 (arXiv:2506.20821v1); Type: Preprint; Domain: Natural Language Processing, Financial QA, Multimodal RAG](https://github.com/HiThink-Research/BizFinBench)
+- **base-topics**: Retrieval-Augmented Generation (RAG), Multimodal Inference, Large Language Models, Natural Language Processing, Financial Question Answering, PDF Document Understanding, Deep Learning
+- **base-core-author**: Chinmay Gondhalekar, Urjitkumar Patel, Fang-Chun Yeh
+- **base-core-group**: S&P Global Ratings, New York, USA
+- **problems**: 1. Financial documents are hundreds of pages and multimodal (text, tables, figures) so LLMs exceed token limits and costs explode. 2. Standard RAG flattens tables/charts into text, destroying layout and numeric context. 3. Fixed-size text chunks fragment coherent explanations and numeric context. 4. Static top-k retrieval returns redundant or marginally relevant snippets. 5. Existing systems cannot jointly reason across text, tables, and images.
+- **problems-main-problem**: Enabling accurate and cost-effective question answering over long, multimodal financial documents that combine dense narrative text, structured tables, and complex figures.
+- **problems-focus-problem**: How to retrieve, align, and synthesize information across text, tables, and figures within the token and compute constraints of commodity hardware.
+- **problems-why-important**: Accurate QA on filings like 10-K/10-Q is critical for risk monitoring, compliance, and investment decisions; current LLMs and RAG pipelines fail on length, cost, and cross-modal reasoning, leading to unreliable answers.
+- **motivations**: 1. Need for domain-specific RAG that handles multimodal financial content without proprietary APIs. 2. Demonstration that lightweight open-source multimodal LLMs can outperform closed-source models like ChatGPT-4o when paired with modality-aware retrieval. 3. Empirical evidence that semantic chunking, multimodal extraction, and tiered fallback improve both accuracy and efficiency.
+- **motivations-main-finding**: MultiFinRAG achieves 75.3% overall accuracy on 300 hand-crafted questions, 19 pp higher than ChatGPT-4o (56.0%), while running on Google Colab free tier with quantized 12B models; text, table, and image modalities each contribute to gains.
+- **motivations-main-insight**: Modality-aware retrieval thresholds (text 0.70, table 0.65, image 0.55) plus a tiered escalation from text-only to text+table+image balance precision and coverage, cutting token usage by ~60% without losing quality.
+- **motivations-why-necessary**: Financial analysts need trustworthy, low-cost, and timely insights from filings; prior methods either ignore visual data or require expensive proprietary LLMs, leaving a practical gap that MultiFinRAG fills.
+- **solutions**: MultiFinRAG: a three-stage pipeline—(1) batch multimodal extraction of tables/figures into JSON + summaries via quantized open-source multimodal LLMs, (2) semantic chunking & modality-aware FAISS indexing with similarity thresholds, (3) tiered fallback retrieval that escalates from text to text+table+image contexts when needed.
+- **solutions-main-idea**: Preserve and leverage the native structure of text, tables, and figures by extracting them separately, embedding them with modality-specific similarity cut-offs, and dynamically combining only the minimal yet sufficient multimodal context for each query.
+- **solutions-main-method**: Detectron2Layout + pdfminer for region detection; quantized Gemma3 12B or LLaMA-3.2-11B-Vision for batched table parsing and image summarization; BAAI/bge-base-en-v1.5 embeddings; FAISS IVF-PQ indexes; tiered retrieval logic with parameters k_text=6, k_table=4, k_image=3.
+- **solutions-main-result**: 90.4% accuracy on text-only questions, 66.7% on image, 69.4% on table, 40% on combined; overall 75.3% vs 56.0% ChatGPT-4o; average 25 min processing of 200-page PDF with 200 tables 150 images on Colab T4 GPU; zero monetary cost.
+- **solutions-main-conclusion**: A carefully engineered open-source pipeline can surpass proprietary LLMs on complex multimodal financial QA while dramatically reducing cost and token usage, proving that modality-aware retrieval and lightweight multimodal LLMs are sufficient for domain-specific intelligence.
+- **potential-inspiration**: 1. Extend to cross-document and longitudinal analysis (compare 10-K vs 10-Q across years). 2. Ingest live web financial articles with embedded tables/charts for real-time QA. 3. Fine-tune retrieval/generation models on proprietary financial QA datasets. 4. Add robustness modules (OCR ensembles, consistency checks, error-correcting LLMs). 5. Generalize pipeline to other regulated domains (medical, legal) with similar multimodal document challenges.
+
+---
+
+- **this-no**: 6
+- **no**: 247
+- **title**: FinMME: Benchmark Dataset for Financial Multi-Modal Reasoning Evaluation
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2505.24714](https://arxiv.org/abs/2506.20821)
+- **pdf-url**: [https://arxiv.org/pdf/2505.24714](https://arxiv.org/pdf/2506.20821)
+- **record-time**: July 9, 2025
+- **classification**: MultiModal-Evaluation-Benchmark
+LLM-FinancialRisk-Benchmark
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 30 May 2025
+- **article-category**: N/A
+- **abstract**: Multimodal Large Language Models (MLLMs) have experienced rapid development in recent years. However, in the financial domain, there is a notable lack of effective and specialized multimodal evaluation datasets. To advance the development of MLLMs in the finance domain, we introduce FinMME, encompassing more than 11,000 high-quality financial research samples across 18 financial domains and 6 asset classes, featuring 10 major chart types and 21 subtypes. We ensure data quality through 20 annotators and carefully designed validation mechanisms. Additionally, we develop FinScore, an evaluation system incorporating hallucination penalties and multi-dimensional capability assessment to provide an unbiased evaluation. Extensive experimental results demonstrate that even state-of-the-art models like GPT-4o exhibit unsatisfactory performance on FinMME, highlighting its challenging nature. The benchmark exhibits high robustness with prediction variations under different prompts remaining below 1%, demonstrating superior reliability compared to existing datasets. Our dataset and evaluation protocol are available at this https URL and this https URL. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: Title: FINMME: Benchmark Dataset for Financial Multi-Modal Reasoning Evaluation; Date: 2025-05-30; arXiv: 2505.24714v1 [cs.CL]; Dataset & code: https://huggingface.co/datasets/luojunyu/FinMME, https://github.com/luo-junyu/FinMME
+- **base-topics**: Multimodal Large Language Models, Financial domain evaluation, Financial multimodal dataset, Hallucination penalty, Domain-normalized evaluation, Financial chart understanding, Knowledge-intensive reasoning
+- **base-core-author**: Junyu Luo, Zhizhuo Kou, Liming Yang, Xiao Luo, Jinsheng Huang, Zhiping Xiao, Jingshu Peng, Chengzhong Liu, Jiaming Ji, Xuanzhe Liu, Sirui Han, Ming Zhang, Yike Guo
+- **base-core-group**: Peking University, HKUST, University of California Los Angeles, University of Washington
+- **problems**: 1. Lack of comprehensive, high-quality multimodal evaluation datasets specifically designed for the financial domain. 2. Existing MLLMs underperform in knowledge-intensive financial tasks. 3. High risk of hallucination and low tolerance for inaccuracy in financial decision-making. 4. Absence of rigorous evaluation metrics that balance accuracy and reliability.
+- **problems-main-problem**: There is no large-scale, high-quality, domain-specific benchmark to evaluate and advance MLLMs in the complex, knowledge-intensive, multimodal financial domain.
+- **problems-focus-problem**: How to design a robust benchmark dataset and evaluation protocol that accurately measures MLLMs' capabilities in financial multimodal reasoning while penalizing hallucinations and accounting for domain complexity.
+- **problems-why-important**: Financial decisions have high stakes; inaccurate or hallucinated outputs can lead to significant monetary losses and systemic risks. A reliable benchmark is essential to ensure MLLMs meet the stringent accuracy and reliability requirements of real-world finance.
+- **motivations**: 1. Introduce FINMME, the largest high-quality financial multimodal dataset (11,099 samples) covering 18 domains and 6 asset classes. 2. Propose FinScore, a novel evaluation metric combining domain-normalized scoring with hallucination penalties. 3. Demonstrate that even state-of-the-art models (GPT-4o, Gemini Flash, Claude 3.5 Sonnet) score only ~50%, highlighting the challenge. 4. Achieve <1% performance variance under prompt perturbations, proving robustness.
+- **motivations-main-finding**: Current top proprietary and open-source MLLMs struggle significantly on financial multimodal tasks, achieving only ~50% accuracy and very low FinScore, indicating urgent need for specialized research.
+- **motivations-main-insight**: Domain complexity, hallucination control, and fine-grained reasoning are more critical than model size for financial applications; specialized benchmarks like FINMME are indispensable for progress.
+- **motivations-why-necessary**: Without such a benchmark, the community lacks an objective, rigorous, and practical yardstick to guide development and deployment of safe, reliable financial MLLMs.
+- **solutions**: 1. Curate 11,099 high-quality samples with hierarchical QA pairs covering perception, reasoning, and calculation tasks. 2. Implement multi-stage quality control with 20 annotators and expert validation. 3. Design FinScore that normalizes domain difficulty and penalizes hallucinations. 4. Evaluate 17 models across multiple dimensions, providing comprehensive baselines.
+- **solutions-main-idea**: Create a comprehensive, expertly validated financial multimodal dataset and introduce FinScore—a domain-aware, hallucination-penalizing metric—to reliably benchmark and guide MLLM development for finance.
+- **solutions-main-method**: Hybrid manual & automated data collection, expert-guided annotation pipeline, parallel human-LLM annotation with consistency checks, domain-normalized scoring, and hallucination-penalty formulation.
+- **solutions-main-result**: Released FINMME dataset and FinScore metric; established baselines showing GPT-4o 46.56%, Gemini Flash 51.85%, Qwen2.5-VL-72B 52.54%, with FinScores around 15–21 for top models; demonstrated robustness with <1% variance.
+- **solutions-main-conclusion**: FINMME sets a new standard for financial multimodal evaluation; significant gaps persist for all models; future work must prioritize domain specialization and hallucination mitigation over scale alone.
+- **potential-inspiration**: 1. Extend FINMME to include real-time data, audio/video modalities, and interactive tasks. 2. Develop domain-specific continual pre-training strategies using FINMME. 3. Explore fine-tuning techniques to reduce hallucinations in financial contexts. 4. Investigate prompt-engineering and uncertainty estimation for reliability. 5. Create sub-benchmarks for specific financial instruments or regulatory environments. 6. Study adversarial robustness against noisy or manipulated financial data.
+
+---
+
+- **this-no**: 7
+- **no**: 248
+- **title**: FinMem: A performance-enhanced LLM trading agent with layered memory and character design
+- **citation**: N/A
+- **paper-page-url**: [https://ojs.aaai.org/index.php/AAAI-SS/article/view/31290](https://arxiv.org/abs/2505.24714)
+- **pdf-url**: [https://ojs.aaai.org/index.php/AAAI-SS/article/download/31290/33450](https://arxiv.org/pdf/2505.24714)
+- **record-time**: July 9, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+LLM-Reasoning-Framework
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 2024-05-20 00:00:00
+- **article-category**: N/A
+- **abstract**: Recent advancements in Large Language Models (LLMs) have exhibited notable efficacy in question-answering (QA) tasks across diverse domains. Their prowess in integrating extensive web knowledge has fueled interest in developing LLM-based autonomous agents. While LLMs are efficient in decoding human instructions and deriving solutions by holistically processing historical inputs, transitioning to purpose-driven agents requires a supplementary rational architecture to process multi-source information, establish reasoning chains, and prioritize critical tasks. Addressing this, we introduce FinMem, a novel LLM-based agent framework devised for financial decision-making. It encompasses three core modules: Profiling, to customize the agent's characteristics; Memory, with layered message processing, to aid the agent in assimilating hierarchical financial data; and Decision-making, to convert insights gained from memories into investment decisions. Notably, FinMem's memory module aligns closely with the cognitive structure of human traders, offering robust interpretability and real-time tuning. Its adjustable cognitive span allows for the retention of critical information beyond human perceptual limits, thereby enhancing trading outcomes. This framework enables the agent to self-evolve its professional knowledge, react agilely to new investment cues, and continuously refine trading decisions in the volatile financial environment. We first compare FinMem with various algorithmic agents on a scalable real-world financial dataset, underscoring its leading trading performance in stocks. We then fine-tuned the agent's perceptual span and character setting to achieve a significantly enhanced trading performance. Collectively, FinMem presents a cutting-edge LLM agent framework for automated trading, boosting cumulative investment returns. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: Title: FINMEM: A Performance-Enhanced LLM Trading Agent with Layered Memory and Character Design; Year: 2024; Venue: AAAI Spring Symposium Series (SSS-24); DOI: Not explicitly provided
+- **base-topics**: Large Language Models (LLMs), Autonomous trading agents, Financial decision-making, Layered memory architecture, Human-like cognition, Reinforcement learning limitations, Interpretability in finance, Real-time knowledge updating
+- **base-core-author**: Yangyang Yu, Haohang Li, Zhi Chen, Yuechen Jiang, Yang Li, Denghui Zhang, Rong Liu, Jordan W. Suchow, Khaldoun Khashanah
+- **base-core-group**: Stevens Institute of Technology, Hoboken, NJ, United States
+- **problems**: 1. Human traders have cognitive limitations in processing vast and diverse financial data. 2. Existing DRL agents lack interpretability and struggle to integrate textual and numerical data. 3. Current LLM-based agents act mainly as QA systems and fail to prioritize temporally sensitive financial information. 4. Lack of memory mechanisms leads to poor retention and prioritization of critical events.
+- **problems-main-problem**: Bridging the gap between general LLM capabilities and the specialized needs of autonomous, interpretable, and memory-equipped financial trading agents.
+- **problems-focus-problem**: Designing a memory architecture that mirrors human cognitive layers to handle the varying timeliness and importance of financial data.
+- **problems-why-important**: Overcoming human cognitive limits and DRL interpretability issues can significantly improve trading performance, risk management, and trust in autonomous systems; efficient processing of multi-modal data is crucial in volatile markets.
+- **motivations**: 1. Leverage LLMs' pre-trained knowledge and reasoning to surpass DRL limitations. 2. Introduce layered memory to emulate human cognition and manage temporal hierarchies. 3. Provide transparent, adaptive, and self-evolving trading agents. 4. Demonstrate superior performance with limited training data.
+- **motivations-main-finding**: FINMEM outperforms algorithmic baselines on a real-world stock dataset, achieves enhanced returns via tunable cognitive spans, and evolves its knowledge base continuously.
+- **motivations-main-insight**: Mimicking human working and long-term memory layers, combined with dynamic character profiling, enables LLM agents to surpass human perceptual limits and adapt to market volatility without extensive retraining.
+- **motivations-why-necessary**: Financial markets demand real-time, interpretable, and data-efficient decision-making; traditional models either lack transparency or cannot scale to textual data; a human-aligned memory system is essential for capturing nuanced, time-sensitive insights.
+- **solutions**: FINMEM framework: three modules—Profiling (customizable risk-inclined persona), Memory (working + shallow/intermediate/deep long-term layers with recency-relevancy-importance metrics), Decision-making (synthesize memories with market state).
+- **solutions-main-idea**: Embed hierarchical, human-like memory into an LLM agent to prioritize and retain multi-source financial information across time-scales, then couple it with a dynamic character profile to generate transparent, adaptive trading decisions.
+- **solutions-main-method**: 1. Design layered memory with decay-tuned retention for daily news (shallow), quarterly data (intermediate), and annual reports (deep). 2. Retrieve top-k memories from each layer via weighted scoring. 3. Use prompt-driven LLM reasoning to reflect, summarize, and act. 4. Fine-tune perceptual span and persona via ablation studies.
+- **solutions-main-result**: Achieves state-of-the-art cumulative returns on stocks, maintains robustness with smaller datasets, and allows real-time memory tuning to boost performance beyond human limits.
+- **solutions-main-conclusion**: A cognitively-inspired, LLM-based trading agent with layered memory and dynamic profiling can effectively integrate heterogeneous financial data, deliver interpretable decisions, and continually evolve—outperforming prior DRL and LLM baselines.
+- **potential-inspiration**: 1. Extend layered memory to other high-stakes domains (healthcare, cybersecurity) with time-critical data. 2. Combine memory with causal reasoning modules for deeper market insight. 3. Explore federated memory updates across multiple agents for collective intelligence. 4. Investigate ethical and regulatory frameworks for transparent autonomous trading.
+
+---
+
+- **this-no**: 8
+- **no**: 0
+- **title**: 【已撤稿】FinEval-KR: A Financial Domain Evaluation Framework for Large Language Models' Knowledge and Reasoning
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2506.21591](https://ojs.aaai.org/index.php/AAAI-SS/article/view/31290)
+- **pdf-url**: N/A
+- **record-time**: N/A
+- **classification**: LLM-FinancialRisk-Benchmark
+LLM-Reasoning-Framework
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: N/A
+- **article-category**: N/A
+- **abstract**: N/A
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: N/A
+- **base-topics**: N/A
+- **base-core-author**: N/A
+- **base-core-group**: N/A
+- **problems**: N/A
+- **problems-main-problem**: N/A
+- **problems-focus-problem**: N/A
+- **problems-why-important**: N/A
+- **motivations**: N/A
+- **motivations-main-finding**: N/A
+- **motivations-main-insight**: N/A
+- **motivations-why-necessary**: N/A
+- **solutions**: N/A
+- **solutions-main-idea**: N/A
+- **solutions-main-method**: N/A
+- **solutions-main-result**: N/A
+- **solutions-main-conclusion**: N/A
+- **potential-inspiration**: N/A
+
+---
+
+- **this-no**: 9
+- **no**: 273
+- **title**: Deep Learning Based K-Line Chart Recognition for Financial Quantitative Investment Analysis
+- **citation**: N/A
+- **paper-page-url**: [https://link.springer.com/chapter/10.1007/978-981-97-4399-5_19](https://arxiv.org/abs/2506.21591)
+- **pdf-url**: N/A
+- **record-time**: N/A
+- **classification**: LLM-FinancialRisk-Benchmark
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: N/A
+- **article-category**: N/A
+- **abstract**: In financial quantitative investment analysis field, most of existing artificial intelligence analysis methods are based on sequential data, and very few research apply expert intuitive image experience based intelligence method to analyze many K-line patterns. In this paper, a Faster R-CNN based image recognition method is proposed to analyze and predict the financial image (e.g., w-bottom patterns, pivots in entanglement theory, trend and consolidation patterns, etc.). The proposed method can intuitively recognize the K-line pattern images effectively and accurately. To do so, a Faster R-CNN is firstly constructed. The financial data images are then fed into the constructed neural network for training. What is more, the trained network model is used to predict some new financial images. The proposed method can not only recognize a financial K-line pattern feature, but also recognize multiple-features image patterns. The experimental results show that the recognition algorithm based on Faster -R-CNN greatly improves the accuracy of K-line pattern recognition, and the method is effective.
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: N/A
+- **base-topics**: N/A
+- **base-core-author**: N/A
+- **base-core-group**: N/A
+- **problems**: N/A
+- **problems-main-problem**: N/A
+- **problems-focus-problem**: N/A
+- **problems-why-important**: N/A
+- **motivations**: N/A
+- **motivations-main-finding**: N/A
+- **motivations-main-insight**: N/A
+- **motivations-why-necessary**: N/A
+- **solutions**: N/A
+- **solutions-main-idea**: N/A
+- **solutions-main-method**: N/A
+- **solutions-main-result**: N/A
+- **solutions-main-conclusion**: N/A
+- **potential-inspiration**: N/A
+
+---
+
+- **this-no**: 10
+- **no**: 289
+- **title**: OmniEval: An Omnidirectional and Automatic RAG Evaluation Benchmark in Financial Domain.
+- **citation**: N/A
+- **paper-page-url**: [https://doi.org/10.48550/arXiv.2412.13018](https://link.springer.com/chapter/10.1007/978-981-97-4399-5_19)
+- **pdf-url**: [https://arxiv.org/pdf/2412.13018](https://arxiv.org/pdf/2412.13018)
+- **record-time**: July 9, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+MultiModal-Evaluation-Benchmark
+- **note**: 202507051651.AgenticFin目标会议近5年论文集，关键词：financ & bench
+- **journal-or-conf**: SIGIR
+- **level**: CCF-A
+- **publish-time**: 17 Feb 2025
+- **article-category**: 数据基准
+- **abstract**: Retrieval-augmented generation (RAG) has
+emerged as a key application of large language
+models (LLMs), especially in vertical domains
+where LLMs may lack domain-speciffc knowledge.
+This paper introduces OmniEval, an omnidirectional
+and automatic RAG benchmark
+for the ffnancial domain, featured by its multidimensional
+evaluation framework: First, we
+categorize RAG scenarios by ffve task classes
+and 16 ffnancial topics, leading to a matrixbased
+structured assessment for RAG evaluation;
+Next, we leverage a multi-dimensional
+evaluation data generation method that integrates
+GPT-4-based automatic generation and
+human annotation approaches, achieving an
+87.47% acceptance ratio in human evaluations
+of generated instances; Further, we utilize a
+multi-stage evaluation pipeline to assess both
+retrieval and generation performance, resulting
+in an all-sided evaluation of the RAG pipeline.
+Finally, rule-based and LLM-based metrics are
+combined to build a multi-dimensional evaluation
+system, enhancing the reliability of assessments
+through ffne-tuned LLM-based evaluators.
+Our omnidirectional evaluation experiments
+highlight the performance variations of
+RAG systems across diverse topics and tasks
+and reveal signiffcant opportunities for RAG
+models to improve their capabilities in vertical
+domains. The code link of our benchmark is
+https://github.com/RUC-NLPIR/OmniEval
+
+- **github-url**: [https://github.com/RUC-NLPIR/OmniEval
+](https://github.com/RUC-NLPIR/OmniEval
+)
+- **huggingface-url**: /
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: Title: OmniEval: An Omnidirectional and Automatic RAG Evaluation Benchmark in Financial Domain. Venue: arXiv preprint arXiv:2412.13018v2. Year: 2025. Link: https://github.com/RUC-NLPIR/OmniEval
+- **base-topics**: Retrieval-Augmented Generation (RAG), Financial Domain Evaluation, Large Language Models (LLMs), Benchmark Construction, Multi-dimensional Evaluation, Matrix-based Scenario Assessment, Automatic Data Generation, Human Annotation, Multi-hop Reasoning, Contrast QA, Conversational QA, Long-form QA
+- **base-core-author**: Shuting Wang, Jiejun Tan, Zhicheng Dou, Ji-Rong Wen
+- **base-core-group**: Gaoling School of Artificial Intelligence, Renmin University of China
+- **problems**: Existing RAG benchmarks lack comprehensive and automatic evaluation frameworks for vertical domains; current financial RAG benchmarks neglect retrieval performance and do not cover diverse real-world query scenarios; there is no standardized matrix-based evaluation that combines topic and task dimensions for financial RAG systems; the quality and diversity of automatically generated evaluation data remain insufficient
+- **problems-main-problem**: The absence of an omnidirectional, automatic, and high-quality RAG evaluation benchmark tailored for the financial domain that simultaneously assesses both retrieval and generation performance across diverse topic-task scenarios
+- **problems-focus-problem**: How to construct a systematic, automatic, and reliable RAG benchmark that covers 16 financial topics and 5 task types, ensuring both retrieval and generation are evaluated with high-quality data generated via GPT-4 and human annotation
+- **problems-why-important**: Financial domain requires high accuracy and reliability; RAG systems must handle diverse complex queries; lack of such benchmarks hinders progress in domain-specific RAG development and fair comparison of models
+- **motivations**: Introduce a matrix-based evaluation framework combining topic and task dimensions; leverage GPT-4 for scalable automatic data generation; integrate human annotation for quality assurance; develop fine-tuned LLM evaluators for nuanced assessment; provide comprehensive evaluation metrics beyond traditional rule-based ones
+- **motivations-main-finding**: Achieved 87.47% human acceptance rate for auto-generated data; demonstrated significant performance variation across topics and tasks; revealed large improvement space for RAG in vertical domains; validated effectiveness of fine-tuned evaluators (74.4% accuracy)
+- **motivations-main-insight**: Matrix-based evaluation reveals granular RAG capabilities; combining automatic generation with human curation ensures both scalability and quality; financial RAG systems show uneven expertise across subdomains and tasks; retrieval quality critically impacts generation in expert domains
+- **motivations-why-necessary**: Existing benchmarks are either domain-agnostic or lack comprehensive coverage; manual dataset creation is costly and unscalable; financial applications demand rigorous evaluation due to high-stakes decisions; need to diagnose specific weaknesses in RAG systems for targeted improvements
+- **solutions**: Constructed OmniEval benchmark with 11.4k auto-generated and 1.7k human-annotated test examples across 16 finance topics and 5 RAG tasks; implemented multi-agent pipeline using GPT-4 for data generation and quality inspection; developed hybrid evaluation metrics combining rule-based (Rouge, MAP, MRR) and fine-tuned LLM-based metrics (accuracy, completeness, hallucination, utilization, numerical accuracy)
+- **solutions-main-idea**: Create a topic-task matrix to systematically cover all RAG scenarios in finance; use GPT-4 to automatically generate diverse, high-quality evaluation data; validate with human annotation; evaluate both retrieval and generation components with multi-dimensional metrics
+- **solutions-main-method**: Multi-stage pipeline: (1) collect diverse financial corpus from 6 sources, (2) generate topic-task matrix via GPT-4, (3) auto-generate QA pairs using GPT-4 agents with quality inspection, (4) human verification and correction, (5) evaluate with hybrid metrics including fine-tuned Qwen2.5-7B evaluator
+- **solutions-main-result**: Successfully created comprehensive benchmark; demonstrated GTE-Qwen2-1.5B as best retriever and showed RAG consistently outperforms closed-book LLMs; revealed significant performance gaps across topics/tasks (e.g., poor multi-hop reasoning); provided detailed matrix-based performance profiles
+- **solutions-main-conclusion**: OmniEval provides the first omnidirectional financial RAG benchmark; automatic generation with human validation is effective; current RAG systems have substantial room for improvement in vertical domains; matrix-based evaluation enables targeted RAG enhancement
+- **potential-inspiration**: Extend matrix-based evaluation to other vertical domains; explore few-shot adaptation of evaluators to reduce annotation cost; investigate techniques to balance RAG performance across unevenly distributed topics; develop retrieval strategies specifically for multi-hop financial reasoning; create adaptive retrieval that adjusts based on query complexity and topic familiarity
+
+---
+
+- **this-no**: 11
+- **no**: 290
+- **title**: BizBench: A Quantitative Reasoning Benchmark for Business and Finance.
+- **citation**: N/A
+- **paper-page-url**: [https://doi.org/10.18653/v1/2024.acl-long.452](https://doi.org/10.18653/v1/2024.acl-long.452)
+- **pdf-url**: [https://aclanthology.org/2024.acl-long.452.pdf](https://arxiv.org/pdf/2412.13018)
+- **record-time**: July 10, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+LLM-Reasoning-Benchmark
+- **note**: 202507051652.AgenticFin目标会议近5年论文集，关键词：financ & bench
+- **journal-or-conf**: AAAI
+- **level**: CCF-A
+- **publish-time**: 2024
+- **article-category**: 数据基准
+- **abstract**: [Answering questions within business and finance requires reasoning, precision, and a wide-breadth of technical knowledge. Together, these requirements make this domain difficult for large language models (LLMs). We introduce BizBench, a benchmark for evaluating models’ ability to reason about realistic financial problems. BizBench comprises eight quantitative reasoning tasks, focusing on question-answering (QA) over financial data via program synthesis. We include three financially-themed code-generation tasks from newly collected and augmented QA data. Additionally, we isolate the reasoning capabilities required for financial QA: reading comprehension of financial text and tables for extracting intermediate values, and understanding financial concepts and formulas needed to calculate complex solutions. Collectively, these tasks evaluate a model’s financial background knowledge, ability to parse financial documents, and capacity to solve problems with code. We conduct an in-depth evaluation of open-source and commercial LLMs, comparing and contrasting the behavior of code-focused and language-focused models. We demonstrate that the current bottleneck in performance is due to LLMs’ limited business and financial understanding, highlighting the value of a challenging benchmark for quantitative reasoning within this domain.](https://github.com/RUC-NLPIR/OmniEval)
+- **github-url**: N/A
+- **huggingface-url**: [https://huggingface.co/datasets/kensho/bizbench](https://huggingface.co/datasets/kensho/bizbench)
+- **other-url**: [https://benchmarks.kensho.com/,](https://benchmarks.kensho.com/,)
+- **summary**: 本文介绍了一个名为BizBench的新基准测试，用于评估模型在商业和金融领域的定量推理能力。该基准测试包括了八个任务，主要关注通过程序合成来回答财务数据中的问题。其中包括三个金融主题代码生成任务，这些任务是从新收集和增强的问答数据中提取的。此外，还针对金融QA所需的推理能力进行了分离，包括对金融文本和表格的理解以及计算复杂解决方案所需的概念和公式。通过比较开源和商用LLM的行为，展示了当前性能瓶颈是由于LLM在商业和金融方面的知识有限所导致的，并强调了在这个领域内进行定量推理的挑战性基准测试的价值。
+- **dataset-innovation**: BizBench是一个新的基准测试，它包含了三个金融主题代码生成任务，这些任务是从新收集和增强的问答数据中提取的。其中包括FinCode、CodeFinQA和CodeTAT-QA。此外，还包括SEC-Num、TAT-QA Extract(E)和ConvFinQA Extract(E)，这些任务可以回答基于文本或表格的数值范围问题。
+- **algo-innovation**: BizBench的目标是评估模型在商业和金融领域的定量推理能力。为了实现这一目标，该基准测试包括了八个任务，主要关注通过程序合成来回答财务数据中的问题。这些任务涵盖了从阅读理解到理解和计算复杂解决方案所需的概念和公式等多个方面。此外，还包括了两个金融主题代码生成任务，这些任务可以从新收集和增强的问答数据中提取。
+- **base**: [Title: "BizBench: A Quantitative Reasoning Benchmark for Business and Finance"; Venue: Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024, Volume 1: Long Papers); Pages: 8309–8332; Date: August 11–16, 2024; DOI: ©2024 Association for Computational Linguistics; Dataset & Leaderboard: https://huggingface.co/datasets/kensho/bizbench & https://benchmarks.kensho.com/](https://github.com/RUC-NLPIR/OmniEval)
+- **base-topics**: Quantitative reasoning in finance; Program synthesis for question answering; Financial domain knowledge evaluation; Numerical extraction from SEC filings; Code generation for financial problems; Transparent and auditable AI reasoning
+- **base-core-author**: Rik Koncel-Kedziorski; Michael Krumdick; Viet Lai; Varshini Reddy; Charles Lovering; Chris Tanner
+- **base-core-group**: Kensho Technologies (part of S&P Global)
+- **problems**: 1. Current LLMs struggle with precise, multi-step quantitative reasoning in business and finance. 2. Lack of transparent and auditable reasoning paths in high-stakes financial decisions. 3. No comprehensive benchmark measuring financial-domain code generation, quantity extraction, and domain knowledge in tandem. 4. Existing datasets ignore complex real-world financial documents and professional exam questions.
+- **problems-main-problem**: The inability of large language models to perform transparent, accurate, and complex quantitative reasoning required for real-world business and finance tasks.
+- **problems-focus-problem**: Designing a challenging, multi-task benchmark that evaluates LLMs’ ability to (a) extract correct numbers from noisy financial text/tables, (b) apply correct financial formulas, and (c) synthesize executable code that yields auditable answers.
+- **problems-why-important**: Financial decisions involve large monetary stakes; even small errors can incur significant losses. Auditable reasoning is mandated by regulators and demanded by professionals. Improving these capabilities is crucial for trustworthy AI deployment in finance.
+- **motivations**: • Introduce BizBench, the first holistic benchmark combining program synthesis, quantity extraction, and domain knowledge for finance. • Provide novel datasets (FinCode, SEC-Num, FormulaEval) and code-augmented versions of FinQA & TAT-QA. • Demonstrate that even state-of-the-art models (e.g., GPT-4) fail on ~36% of hardest tasks, primarily owing to gaps in financial knowledge. • Show that targeted supervised fine-tuning with modest data (<3k samples) can outperform much larger pretrained models.
+- **motivations-main-finding**: GPT-4 tops the leaderboard yet still misses over one-third of FinCode questions; the dominant failure mode is lack of financial background knowledge rather than extraction or coding errors.
+- **motivations-main-insight**: Transparent program synthesis is a more reliable evaluation paradigm than chain-of-thought for high-stakes finance QA because it ties outputs to executable, auditable code.
+- **motivations-why-necessary**: Prior benchmarks only cover sentiment, NER, or stock prediction; none assess the full pipeline of locating numbers, selecting formulas, and computing answers with code. This gap hinders progress toward production-ready financial AI systems.
+- **solutions**: • Create eight complementary tasks split into three categories: Program Synthesis (FinCode, CodeFinQA, CodeTAT-QA), Quantity Extraction (SEC-Num, ConvFinQA-E, TAT-QA-E), and Domain Knowledge (FinKnow, FormulaEval). • Frame every QA instance as a Python program synthesis problem to enforce transparency. • Curate questions from professional exams (CFA, CPA), SEC 10-K/Q filings, and existing datasets; augment with human-verified code solutions. • Evaluate 12 open-source & proprietary LLMs under zero-shot, few-shot, and fine-tuned settings. • Provide public leaderboard and dataset to prevent contamination and spur community progress.
+- **solutions-main-idea**: Reformulate financial question answering as executable code generation so that the reasoning chain is explicit, reproducible, and verifiable.
+- **solutions-main-method**: (1) Expert curation & LLM-bootstrapping pipeline to generate semantically rich Python programs; (2) Strict unit-test evaluation where output is correct only if numeric answer is within 1% of ground truth; (3) Fine-tuning experiments showing data scaling laws across tasks.
+- **solutions-main-result**: • GPT-4 achieves 63.6% on FinCode, 78.8% on CodeFinQA, 90.6% on CodeTAT-QA, 79.3% on SEC-Num, 100% on FormulaEval, and 80.1% on FinKnow. • Llama-2-7B fine-tuned on 3 k examples beats Llama-2-70B zero-shot by 9–13% absolute on three tasks at a fraction of inference cost. • Error analysis reveals 84% of residual GPT-4 errors stem from incorrect financial formulas or concepts.
+- **solutions-main-conclusion**: Current LLMs’ limited financial domain knowledge is the primary bottleneck; transparent program-synthesis benchmarks like BizBench are essential to guide future model development, data collection, and evaluation in high-stakes finance.
+- **potential-inspiration**: • Extend BizBench to multilingual corporate filings and non-US markets. • Integrate retrieval-augmented generation to fetch up-to-date regulations and definitions. • Explore symbolic-solver hybrids that combine LLM code generation with formal financial calculus engines. • Develop interactive debugging tools that let analysts step through generated code. • Create privacy-preserving federated fine-tuning protocols on bank-internal documents. • Adapt the benchmark for adjacent quantitative domains (insurance, real-estate, actuarial science).
+
+---
+
+- **this-no**: 12
+- **no**: 291
+- **title**: Fin-Fact: A Benchmark Dataset for Multimodal Financial Fact-Checking and Explanation Generation.
+- **citation**: N/A
+- **paper-page-url**: [https://doi.org/10.1145/3701716.3715292](https://doi.org/10.1145/3701716.3715292)
+- **pdf-url**: [https://dl.acm.org/doi/pdf/10.1145/3701716.3715292](https://aclanthology.org/2024.acl-long.452.pdf)
+- **record-time**: July 10, 2025
+- **classification**: MultiModal-Evaluation-Benchmark
+- **note**: 202507051653.AgenticFin目标会议近5年论文集，关键词：financ & bench
+- **journal-or-conf**: AAAI
+- **level**: CCF-A
+- **publish-time**: 23 May 2025
+- **article-category**: 数据基准
+- **abstract**: Misinformation poses significant risks to society, with the rise of cryptocurrency exchanges exemplifying the growing problem of financial misinformation. This issue is particularly troubling given the proliferation of false claims often paired with convincing yet misleading images. Despite the seriousness of this challenge, there is a notable absence of fact-checking datasets tailored to real-world financial claims. Additionally, given the high stakes of financial fact-checking, generating clear explanations for claim verdicts is essential to help decision-makers understand the reasoning behind these judgments. To address these challenges, we introduce Fin-Fact, a benchmark dataset comprising 3,369 financial claims. Each claim is annotated with a truthfulness label and a ruling statement, supported by both textual and visual evidence. We establish performance baselines for Fin-Fact using Gemini Pro and GPT-4. Our experimental results reveal that multimodal financial fact-checking remains a challenging task, even for cutting-edge generative models.
+- **github-url**: [https://github.com/IIT-DM/Fin-Fact/](https://github.com/IIT-DM/Fin-Fact/)
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: 这篇论文介绍了一个名为FIN-FACT的数据集，用于金融领域的多模态事实核查和解释生成。该数据集包括专家事实核查者的注释和详细的证明，从而提高了数据集的专业性和可信度。FIN-FACT采用多模态方法，不仅包括文本，还包括视觉内容，提供了互补的信息来源，以便更全面地分析真实性。此外，该数据集还提供了解释性信息，帮助用户深入了解事实核查决策背后的理由，并可用于自动化系统生成解释。透明度不仅可以验证声明的可信度，还可以增强对整个事实核查过程的信任。
+- **dataset-innovation**: FIN-FACT采用多模态方法，不仅包括文本，还包括视觉内容，提供了互补的信息来源，以便更全面地分析真实性。此外，该数据集还提供了解释性信息，帮助用户深入了解事实核查决策背后的理由，并可用于自动化系统生成解释。透明度不仅可以验证声明的可信度，还可以增强对整个事实核查过程的信任。
+- **algo-innovation**: 本论文未提及任何算法创新。
+- **base**: Title: Fin-Fact: A Benchmark Dataset for Multimodal Financial Fact-Checking and Explanation Generation; Year: 2025; Venue: Companion Proceedings of the ACM Web Conference 2025 (WWW Companion ’25); DOI: https://doi.org/10.1145/3701716.3715292; License: Creative Commons Attribution 4.0 International
+- **base-topics**: Financial misinformation, multimodal fact-checking, explanation generation, benchmark dataset, cryptocurrency, large language models, natural language inference
+- **base-core-author**: Aman Rangapur, Haoran Wang, Ling Jian, Kai Shu
+- **base-core-group**: Illinois Institute of Technology, Emory University, China University of Petroleum
+- **problems**: Lack of tailored datasets for real-world financial claim verification; absence of expert-annotated financial data; difficulty in handling multimodal evidence (text and images) in financial claims; need for transparent explanations for high-stakes financial decisions; evolving and context-sensitive nature of financial information
+- **problems-main-problem**: There is no comprehensive, expert-annotated benchmark dataset for multimodal financial fact-checking that includes both textual and visual evidence along with veracity labels and explanations
+- **problems-focus-problem**: Creating a high-quality, multimodal dataset (Fin-Fact) specifically for financial claim verification and explanation generation, addressing the unique challenges of the financial domain
+- **problems-why-important**: Financial misinformation can distort markets, erode public trust, and lead to significant economic losses; accurate and explainable fact-checking is essential for informed decision-making and market stability
+- **motivations**: To fill the critical gap in financial fact-checking resources; to provide a rigorous benchmark that enables development and evaluation of models capable of handling complex financial language and multimodal evidence; to advance transparency through explanation generation
+- **motivations-main-finding**: Introduced Fin-Fact, a dataset of 3,369 financial claims with expert-verified truthfulness labels, textual and visual evidence, and human-written justifications; established that even state-of-the-art LLMs (GPT-4, Gemini Pro) struggle with multimodal financial fact-checking, indicating the dataset’s difficulty and the need for specialized methods
+- **motivations-main-insight**: Multimodal context (especially images) significantly influences fact-checking accuracy; current models exhibit inconsistent performance and poor calibration, highlighting the need for better handling of financial nuances and visual content
+- **motivations-why-necessary**: Existing general-purpose or non-financial fact-checking datasets do not capture the specialized terminology, contextual volatility, and multimodal manipulation tactics prevalent in finance; a dedicated resource is essential to drive progress in this high-stakes domain
+- **solutions**: Curated and released Fin-Fact; designed systematic data collection and annotation pipeline leveraging PolitiFact and Snopes; implemented stringent quality control including expert filtering, cleaning, and GPT-4-assisted refinement; benchmarked leading LLMs and NLI models; evaluated explanation generation quality
+- **solutions-main-idea**: Build a comprehensive, expert-validated dataset that integrates textual claims, visual evidence, veracity labels, and human-written explanations, enabling rigorous evaluation and advancement of multimodal financial fact-checking systems
+- **solutions-main-method**: (1) Keyword-filtering finance-related claims from PolitiFact and Snopes using 70 curated terms; (2) expert annotation of truthfulness (True, False, NEI) and justification; (3) extraction and linkage of textual and visual evidence; (4) data cleaning and GPT-4 refinement; (5) benchmarking with GPT-4, Gemini Pro, LLaVA, InstructBLIP, and NLI models; (6) evaluation via precision, recall, F1, accuracy, ROUGE, GLUE metrics
+- **solutions-main-result**: Fin-Fact comprises 3,369 claims: 1,275 True, 1,492 False, 602 NEI; GPT-4 achieves best overall performance (F1 ≈ 0.75 multimodal, 0.76 text-only) but still leaves substantial room for improvement; NLI models perform poorly (F1 < 0.35); explanation generation shows GPT-4 ROUGE-1 0.91 vs Gemini Pro 0.87
+- **solutions-main-conclusion**: Multimodal financial fact-checking remains challenging; Fin-Fact provides a robust benchmark that reveals current model limitations and guides future research; transparency via explanation generation is feasible but requires continued refinement
+- **potential-inspiration**: Extend Fin-Fact to video-based financial claims and real-time social media streams; investigate debiasing techniques against visually manipulated evidence; develop domain-specific pre-training objectives for financial language and chart understanding; explore interactive fact-checking interfaces that leverage human-AI collaboration; create multilingual or regional variants to study cultural biases in financial misinformation
+
+---
+
+- **this-no**: 13
+- **no**: 292
+- **title**: FinBen: A Holistic Financial Benchmark for Large Language Models.
+- **citation**: N/A
+- **paper-page-url**: [http://papers.nips.cc/paper_files/paper/2024/hash/adb1d9fa8be4576d28703b396b82ba1b-Abstract-Datasets_and_Benchmarks_Track.html](http://papers.nips.cc/paper_files/paper/2024/hash/adb1d9fa8be4576d28703b396b82ba1b-Abstract-Datasets_and_Benchmarks_Track.html)
+- **pdf-url**: [https://proceedings.neurips.cc/paper_files/paper/2024/file/adb1d9fa8be4576d28703b396b82ba1b-Paper-Datasets_and_Benchmarks_Track.pdf](https://dl.acm.org/doi/pdf/10.1145/3701716.3715292)
+- **record-time**: July 10, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+- **note**: 202507051655.AgenticFin目标会议近5年论文集，关键词：financ & bench
+- **journal-or-conf**: NIPS
+- **level**: CCF-A
+- **publish-time**: NeurIPS 2024
+- **article-category**: 数据基准
+- **abstract**: LLMs have transformed NLP and shown promise in various fields, yet their potential in finance is underexplored due to a lack of comprehensive benchmarks, the rapid development of LLMs, and the complexity of financial tasks. In this paper, we introduce FinBen, the first extensive open-source evaluation benchmark, including 42 datasets spanning 24 financial tasks, covering eight critical aspects: information extraction (IE), textual analysis, question answering (QA), text generation, risk management, forecasting, decision-making, and bilingual (English and Spanish). FinBen offers several key innovations: a broader range of tasks and datasets, the first evaluation of stock trading, novel agent and Retrieval-Augmented Generation (RAG) evaluation, and two novel datasets for regulations and stock trading. Our evaluation of 21 representative LLMs, including GPT-4, ChatGPT, and the latest Gemini, reveals several key findings: While LLMs excel in IE and textual analysis, they struggle with advanced reasoning and complex tasks like text generation and forecasting. GPT-4 excels in IE and stock trading, while Gemini is better at text generation and forecasting. Instruction-tuned LLMs improve textual analysis but offer limited benefits for complex tasks such as QA. FinBen has been used to host the first financial LLMs shared task at the FinNLP-AgentScen workshop during IJCAI-2024, attracting 12 teams. Their novel solutions outperformed GPT-4, showcasing FinBen's potential to drive innovations in financial LLMs. All datasets and code are publicly available for the research community, with results shared and updated regularly on the Open Financial LLM Leaderboard.
+- **github-url**: [https://github.com/The-FinAI/PIXIU](https://github.com/IIT-DM/Fin-Fact/)
+- **huggingface-url**: N/A
+- **other-url**: [https://finosfoundation/Open-Financial-LLM-Leaderboard](https://finosfoundation/Open-Financial-LLM-Leaderboard)
+- **summary**: 本篇论文介绍了一个名为FinBen的全新金融基准测试，该测试包括了42个数据集，涵盖了8个关键方面，如信息提取、文本分析、问答、文本生成、风险管理、预测、决策制定和双语（英语和西班牙语）等。该测试的主要创新之处在于其广泛性和多样性，以及它所涵盖的不同类型的金融任务。通过使用这个基准测试，可以更好地评估大型语言模型在金融领域的表现，并推动其在金融领域的应用和发展。此外，论文还介绍了如何使用这个基准测试来评估不同的大型语言模型，并提供一些有用的见解和建议。
+- **dataset-innovation**: 该研究提出了一个新的开放源代码的金融基准测试，称为FinBen，该测试包括了42个数据集，涵盖了8个关键方面，如信息提取、文本分析、问答、文本生成、风险管理、预测、决策制定和双语（英语和西班牙语）等。这些数据集是通过对现有数据集的收集和整合而来的，包括了来自不同来源的数据，例如新闻报道、社交媒体帖子、财务报告等。此外，该研究还创建了两个新的数据集，用于法规和股票交易等领域。这些数据集的多样性和广泛性使得它们成为评估大型语言模型在金融领域性能的理想工具。
+- **algo-innovation**: 该研究没有涉及到任何算法创新，而是着重于建立一个完整的金融基准测试，以便评估现有的大型语言模型在金融领域的性能。
+- **base**: [Title: FinBen: A Holistic Financial Benchmark for Large Language Models; Venue: 38th Conference on Neural Information Processing Systems (NeurIPS 2024) Track on Datasets and Benchmarks; Type: open-source benchmark paper; ArXiv-style link: https://github.com/The-FinAI/PIXIU](https://doi.org/10.1145/3701716.3715292)
+- **base-topics**: Financial-domain evaluation of large language models; holistic benchmark design; stock-trading evaluation; retrieval-augmented generation (RAG) & agent-based evaluation; bilingual (English-Spanish) financial NLP; risk management, forecasting, decision-making, information extraction, textual analysis, question answering, text generation
+- **base-core-author**: Qianqian Xie, Weiguang Han, Min Peng, Sophia Ananiadou, Alejandro Lopez-Lira, Hao Wang, Jimin Huang
+- **base-core-group**: The Fin AI (in collaboration with Wuhan University, University of Manchester, Columbia University, University of Florida, Sichuan University, Stevens Institute of Technology, etc.)
+- **problems**: Lack of comprehensive, open benchmarks for evaluating LLMs in finance; existing benchmarks cover only narrow NLP tasks and ignore complex financial reasoning such as forecasting, risk management, and trading; rapid evolution of LLMs outpaces evaluation tools; no standardized multilingual (Spanish) financial tasks
+- **problems-main-problem**: Absence of a holistic open-source benchmark that systematically evaluates LLMs across the full spectrum of financial tasks—from low-level IE to high-level decision-making
+- **problems-focus-problem**: Designing and releasing FinBen, a benchmark that spans 24 tasks over 42 datasets covering 8 financial aspects, including the first stock-trading evaluation and bilingual Spanish tasks
+- **problems-why-important**: Financial decisions carry high economic stakes; understanding LLM capabilities and limitations in finance is critical before deployment in real markets; comprehensive benchmarking accelerates safe innovation and regulatory insight
+- **motivations**: Introduce the first extensive open-source financial LLM benchmark; pioneer evaluation of stock-trading agents and RAG-augmented models; release two novel datasets (FinTrade for trading, Regulations for long-form QA on EU OTC derivatives); host a community shared task at IJCAI-2024
+- **motivations-main-finding**: GPT-4 excels in IE and stock trading, Gemini in text generation and forecasting; instruction-tuned LLMs improve textual analysis but plateau on complex reasoning; open-source models still lag closed-source; teams in FinLLM challenge surpassed GPT-4, proving benchmark utility
+- **motivations-main-insight**: Holistic, diverse, and realistic evaluation (including agent-based trading) reveals gaps invisible in narrow NLP benchmarks; multilingual and cross-task generalization remains limited; dataset size and imbalance heavily penalize smaller models
+- **motivations-why-necessary**: Existing benchmarks (PIXIU, FinanceBench, BizBench) are insufficient for real-world finance; holistic evaluation guides safer model deployment, informs regulation, and drives targeted research into reasoning-heavy financial tasks
+- **solutions**: Construct FinBen: curate 42 datasets covering 8 financial aspects; design zero-shot/few-shot evaluation protocols; implement agent-based and RAG evaluation; release all data and code under OSI-approved licenses; launch open leaderboard under FINOS/Linux Foundation
+- **solutions-main-idea**: Provide a unified, multi-task, multilingual evaluation suite that reflects the complexity of real-world finance, enabling reproducible comparison and continuous community updates
+- **solutions-main-method**: Expert-driven curation of datasets from SEC filings, EDGAR, Yahoo Finance, ESMA regulations, etc.; creation of FinTrade (stock trading) and Regulations (long-form QA) datasets; standardized prompt engineering; evaluation with financial metrics (Sharpe ratio, MCC, ROUGE, F1, etc.)
+- **solutions-main-result**: Comprehensive leaderboard of 21 LLMs; GPT-4 leads in IE & trading, Gemini in generation & forecasting; open-source models show promise but need scaling; community challenge yielded 12 teams with methods outperforming GPT-4 on some tasks
+- **solutions-main-conclusion**: FinBen establishes a new standard for financial LLM evaluation; reveals clear strengths (IE, sentiment) and weaknesses (forecasting, risk reasoning); highlights need for larger open models, better reasoning mechanisms, and broader multilingual data
+- **potential-inspiration**: Extend FinBen to multimodal financial data (news + charts + audio); integrate real-time market simulation; develop privacy-preserving federated benchmarks; create domain-specific guardrails and explainability modules; explore continual learning to adapt to evolving regulations and market regimes
+
+---
+
+- **this-no**: 14
+- **no**: 1
+- **title**: 【重复】PIXIU: A Comprehensive Benchmark, Instruction Dataset and Large Language Model for Finance
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2306.05443](https://arxiv.org/abs/2306.05443)
+- **pdf-url**: N/A
+- **record-time**: N/A
+- **classification**: LLM-FinancialRisk-Benchmark
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: N/A
+- **article-category**: N/A
+- **abstract**: N/A
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: N/A
+- **base-topics**: N/A
+- **base-core-author**: N/A
+- **base-core-group**: N/A
+- **problems**: N/A
+- **problems-main-problem**: N/A
+- **problems-focus-problem**: N/A
+- **problems-why-important**: N/A
+- **motivations**: N/A
+- **motivations-main-finding**: N/A
+- **motivations-main-insight**: N/A
+- **motivations-why-necessary**: N/A
+- **solutions**: N/A
+- **solutions-main-idea**: N/A
+- **solutions-main-method**: N/A
+- **solutions-main-result**: N/A
+- **solutions-main-conclusion**: N/A
+- **potential-inspiration**: N/A
+
+---
+
+- **this-no**: 15
+- **no**: 294
+- **title**: FinRL-Meta: Market Environments and Benchmarks for Data-Driven Financial Reinforcement Learning.
+- **citation**: N/A
+- **paper-page-url**: [http://papers.nips.cc/paper_files/paper/2022/hash/0bf54b80686d2c4dc0808c2e98d430f7-Abstract-Datasets_and_Benchmarks.html](https://arxiv.org/abs/2306.05443)
+- **pdf-url**: [https://proceedings.neurips.cc/paper_files/paper/2022/file/0bf54b80686d2c4dc0808c2e98d430f7-Paper-Datasets_and_Benchmarks.pdf](https://proceedings.neurips.cc/paper_files/paper/2022/file/0bf54b80686d2c4dc0808c2e98d430f7-Paper-Datasets_and_Benchmarks.pdf)
+- **record-time**: July 10, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+- **note**: 202507051657.AgenticFin目标会议近5年论文集，关键词：financ & bench
+- **journal-or-conf**: NIPS
+- **level**: CCF-A
+- **publish-time**: NeurIPS 2022
+- **article-category**: 数据基准
+- **abstract**: Finance is a particularly challenging playground for deep reinforcement learning. However, establishing high-quality market environments and benchmarks for financial reinforcement learning is challenging due to three major factors, namely, low signal-to-noise ratio of financial data, survivorship bias of historical data, and backtesting overfitting. In this paper, we present an openly accessible FinRL-Meta library that has been actively maintained by the AI4Finance community. First, following a DataOps paradigm, we will provide hundreds of market environments through an automatic data curation pipeline that processes dynamic datasets from real-world markets into gym-style market environments. Second, we reproduce popular papers as stepping stones for users to design new trading strategies. We also deploy the library on cloud platforms so that users can visualize their own results and assess the relative performance via community-wise competitions. Third, FinRL-Meta provides tens of Jupyter/Python demos organized into a curriculum and a documentation website to serve the rapidly growing community. FinRL-Meta is available at: \url{https://github.com/AI4Finance-Foundation/FinRL-Meta}
+- **github-url**: [https://github.com/AI4Finance-Foundation/FinRL-Meta](https://github.com/AI4Finance-Foundation/FinRL-Meta)
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: 本文介绍了FinRL-Meta库的设计和实现，包括自动化的数据处理管道、多种市场环境、流行论文的复现以及云端平台上的可视化工具等。这些功能旨在帮助研究人员更轻松地设计新的交易策略并评估其性能。
+- **dataset-innovation**: 本文没有详细介绍数据集方面的创新，但提到了从真实市场中获取动态数据并将其转换为gym风格的市场环境的过程。
+- **algo-innovation**: 本文没有详细介绍算法方面的创新，但提到了可以使用循环神经网络（如RDPG算法）来解决POMDP模型中的时间序列预测问题。
+- **base**: Title: FinRL-Meta: Market Environments and Benchmarks for Data-Driven Financial Reinforcement Learning. Venue: 36th Conference on Neural Information Processing Systems (NeurIPS 2022). URL: https://github.com/AI4Finance-Foundation/FinRL-Meta
+- **base-topics**: Deep reinforcement learning in finance; Financial market environments; Data curation pipeline; Benchmarks for trading strategies; Simulation-to-reality gap; DataOps; Open-source library
+- **base-core-author**: Xiao-Yang Liu, Ziyi Xia, Jingyang Rui, Jiechao Gao, Hongyang Yang, Ming Zhu, Christina Dan Wang, Zhaoran Wang, Jian Guo
+- **base-core-group**: AI4Finance community (Columbia University, NYU Shanghai, Northwestern University, IDEA Research, etc.)
+- **problems**: Low signal-to-noise ratio in financial data; Survivorship bias in historical data; Backtesting overfitting; Lack of reproducible benchmarks; Simulation-to-reality gap; Limited availability of gym-style market environments
+- **problems-main-problem**: Establishing high-quality, reproducible market environments and benchmarks for data-driven financial reinforcement learning despite data quality issues
+- **problems-focus-problem**: How to create a unified, automated, and extensible framework that curates real-world financial data into gym-style environments and provides reproducible benchmarks
+- **problems-why-important**: Without standardized environments and benchmarks, RL research in finance suffers from irreproducibility, overfitting, and poor real-world deployment, hindering both academic progress and industrial adoption
+- **motivations**: Provide an open-source, community-maintained library; Automate data curation via DataOps; Reproduce popular papers as stepping stones; Offer cloud-based competitions and visualization
+- **motivations-main-finding**: The FinRL-Meta library successfully integrates hundreds of market environments, supports multiple RL libraries, and reproduces key papers with superior or comparable performance
+- **motivations-main-insight**: Following the DataOps paradigm allows continuous, automated curation of noisy, unstructured financial big data into standardized gym environments, bridging the simulation-to-reality gap
+- **motivations-why-necessary**: Existing libraries (FinRL, D4RL, NeoRL) are either static, limited in scope, or lack reproducibility; FinRL-Meta fills this gap with dynamic, scalable, and community-driven infrastructure
+- **solutions**: FinRL-Meta framework: layered architecture (data, environment, agent), automated DataOps pipeline, cloud deployment, curriculum learning, multiprocessing with GPU vector environments
+- **solutions-main-idea**: Combine DataOps automation with gym-style environments to continuously generate, clean, and feature-engineer real-world financial data into RL-ready datasets and benchmarks
+- **solutions-main-method**: Automatic data curation pipeline (accessing, cleaning, feature engineering), gym-style environment layer with market frictions, cloud-based benchmarking (Weights & Biases), integration with ElegantRL, Stable-Baselines3, RLlib
+- **solutions-main-result**: Successfully reproduced stock trading, portfolio allocation, crypto trading, liquidation strategy, and ensemble strategy benchmarks; demonstrated 25.9 % annual return and 1.53 Sharpe ratio on DJIA ensemble strategy
+- **solutions-main-conclusion**: FinRL-Meta provides an extensible, reproducible, and community-driven platform that significantly lowers the barrier to entry for financial RL research and deployment
+- **potential-inspiration**: Explore GAN or HMM-based synthetic market generation; integrate federated learning for privacy-preserving multi-institution training; extend to multi-asset derivatives and ESG-driven portfolios; investigate evolutionary market simulators for regulatory stress testing
+
+---
+
+- **this-no**: 16
+- **no**: 295
+- **title**: FinanceBench: A New Benchmark for Financial Question Answering.
+- **citation**: N/A
+- **paper-page-url**: [https://doi.org/10.48550/arXiv.2311.11944](https://doi.org/10.48550/arXiv.2311.11944)
+- **pdf-url**: [https://arxiv.org/pdf/2311.11944](https://proceedings.neurips.cc/paper_files/paper/2022/file/0bf54b80686d2c4dc0808c2e98d430f7-Paper-Datasets_and_Benchmarks.pdf)
+- **record-time**: July 10, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+- **note**: 202507051658.AgenticFin目标会议近5年论文集，关键词：financ & bench
+- **journal-or-conf**: NIPS
+- **level**: CCF-A
+- **publish-time**: 20 Nov 2023
+- **article-category**: 数据基准
+- **abstract**: [FinanceBench is a first-of-its-kind test suite for evaluating the performance of LLMs on open book financial question answering (QA). It comprises 10,231 questions about publicly traded companies, with corresponding answers and evidence strings. The questions in FinanceBench are ecologically valid and cover a diverse set of scenarios. They are intended to be clear-cut and straightforward to answer to serve as a minimum performance standard. We test 16 state of the art model configurations (including GPT-4-Turbo, Llama2 and Claude2, with vector stores and long context prompts) on a sample of 150 cases from FinanceBench, and manually review their answers (n=2,400). The cases are available open-source. We show that existing LLMs have clear limitations for financial QA. Notably, GPT-4-Turbo used with a retrieval system incorrectly answered or refused to answer 81% of questions. While augmentation techniques such as using longer context window to feed in relevant evidence improve performance, they are unrealistic for enterprise settings due to increased latency and cannot support larger financial documents. We find that all models examined exhibit weaknesses, such as hallucinations, that limit their suitability for use by enterprises. ](https://github.com/AI4Finance-Foundation/FinRL-Meta)
+- **github-url**: [https://github.com/patronus-ai/financebench
+](https://github.com/AI4Finance-Foundation/FinRL-Meta)
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: 本篇论文介绍了 FINANCEBENCH 数据集，该数据集是一个用于评估语言模型在金融问答任务上的性能的新基准测试。数据集中包含了 10,231 个关于公开交易公司的财务问题，每个问题都有对应的答案和证据字符串。该数据集旨在作为语言模型的最低性能标准，涵盖了广泛的场景，并且具有生态学有效性。本文还对多个模型进行了测试并手动审查了它们的答案，发现现有语言模型在金融问答方面存在明显的局限性。
+- **dataset-innovation**: FINANCEBENCH 是第一个专门针对金融问答的数据集，它包括了 10,231 个关于公开交易公司的财务问题，每个问题都有对应的答案和证据字符串。该数据集旨在成为语言模型在金融问答方面的最低性能标准，具有生态学有效性，可以覆盖各种场景。
+- **algo-innovation**: 本文没有介绍新的算法或方法，而是通过测试多个现有模型来验证其在金融问答方面的表现，并发现了这些模型存在的局限性和弱点。
+- **base**: [FINANCEBENCH: A New Benchmark for Financial Question Answering, arXiv preprint, Nov 2023, 10,231 questions on 40 US public companies, open-source evaluation sample of 150 cases, 16 model configurations tested.](https://github.com/AI4Finance-Foundation/FinRL-Meta)
+- **base-topics**: Financial question answering, large language models, retrieval-augmented generation, evaluation benchmarks, enterprise finance, hallucination risk, vector stores, long-context windows, numerical reasoning.
+- **base-core-author**: Pranab Islam, Anand Kannappan, Douwe Kiela, Rebecca Qian, Nino Scherrer, Bertie Vidgen.
+- **base-core-group**: Patronus AI (lead), Contextual AI, Stanford University.
+- **problems**: Lack of rigorous evaluation for LLMs in finance; existing datasets are generic or sentiment-focused; models hallucinate, fail at numerical reasoning, and struggle with long documents; unclear suitability for high-stakes enterprise use.
+- **problems-main-problem**: No comprehensive, ecologically valid benchmark to assess LLM performance on open-book financial QA tasks involving real-world financial documents and metrics.
+- **problems-focus-problem**: How well do state-of-the-art LLMs (GPT-4-Turbo, Claude2, Llama2) perform on retrieving and reasoning over financial documents (10-Ks, 10-Qs, 8-Ks) to answer analyst-style questions?
+- **problems-why-important**: Financial decisions are high-stakes; errors propagate into investment strategies and due diligence; without reliable benchmarks, enterprises cannot safely adopt LLMs.
+- **motivations**: Introduce FINANCEBENCH, the first large-scale, open-book financial QA benchmark covering 40 companies, 361 filings, 2015-2023, with extractive, numerical, and logical reasoning questions designed by finance experts.
+- **motivations-main-finding**: Even best model (GPT-4-Turbo + long context) only 79 % accurate; retrieval (vector store, long context) is necessary but not sufficient; hallucinations and refusal-to-answer remain major issues; performance drops sharply when documents are shared across companies.
+- **motivations-main-insight**: Current LLMs are not yet ready for unsupervised enterprise financial QA; retrieval quality and reasoning accuracy must both improve; prompt order (context-first vs context-last) significantly affects long-context performance.
+- **motivations-why-necessary**: Provides transparent, reproducible yardstick for practitioners and researchers to measure progress and identify failure modes before real-world deployment.
+- **solutions**: Release FINANCEBENCH dataset and evaluation protocol; test 16 configurations spanning closed-book, oracle, single/shared vector stores, long-context windows; human expert review of 2,400 answers; open-source 150-case sample.
+- **solutions-main-idea**: Create an ecologically valid benchmark that mirrors daily analyst workflows: retrieve evidence from filings and compute or extract answers, then rigorously score outputs.
+- **solutions-main-method**: Multi-disciplinary team of finance analysts annotated questions, answers, evidence strings; programmatic generation of metrics-based questions; stratified evaluation across question types and models; qualitative error analysis.
+- **solutions-main-result**: Public leaderboard showing GPT-4-Turbo (long context) 79 %, Claude2 76 %, GPT-4-Turbo (shared vector) 19 %, Llama2 19 %; oracle setting peaks at 85 %; 81 % of GPT-4-Turbo+shared vector answers were wrong or refused.
+- **solutions-main-conclusion**: Retrieval augmentation is essential; longer context helps but is costly and still error-prone; all models exhibit hallucinations; enterprises must validate outputs with multiple sources before use.
+- **potential-inspiration**: Develop retrieval systems tuned for financial jargon; chain-of-thought prompting for numerical reasoning; fine-tuning on FINANCEBENCH; conversational multi-turn QA; cross-company comparative QA; extend to private documents; integrate calculators/APIs to reduce hallucinations.
+
+---
+
+- **this-no**: 17
+- **no**: 296
+- **title**: Benchmarking Large Language Models on CFLUE - A Chinese Financial Language Understanding Evaluation Dataset.
+- **citation**: N/A
+- **paper-page-url**: [https://doi.org/10.18653/v1/2024.findings-acl.337](https://doi.org/10.18653/v1/2024.findings-acl.337)
+- **pdf-url**: [https://aclanthology.org/2024.findings-acl.337.pdf](https://arxiv.org/pdf/2311.11944)
+- **record-time**: July 11, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+- **note**: 202507051660.AgenticFin目标会议近5年论文集，关键词：financ & bench
+- **journal-or-conf**: ACL
+- **level**: CCF-A
+- **publish-time**: August 2024
+- **article-category**: 数据基准
+- **abstract**: In light of recent breakthroughs in large language models (LLMs) that have revolutionized natural language processing (NLP), there is an urgent need for new benchmarks to keep pace with the fast development of LLMs. In this paper, we propose CFLUE, the Chinese Financial Language Understanding Evaluation benchmark, designed to assess the capability of LLMs across various dimensions. Specifically, CFLUE provides datasets tailored for both knowledge assessment and application assessment. In knowledge assessment, it consists of 38K+ multiple-choice questions with associated solution explanations. These questions serve dual purposes: answer prediction and question reasoning. In application assessment, CFLUE features 16K+ test instances across distinct groups of NLP tasks such as text classification, machine translation, relation extraction, reading comprehension, and text generation. Upon CFLUE, we conduct a thorough evaluation of representative LLMs. The results reveal that only Qwen-72B, GPT-4, and GPT-4-turbo achieve an accuracy exceeding 60% in answer prediction for knowledge assessment, suggesting that there is still substantial room for improvement in current LLMs. In application assessment, while GPT-4 and GPT-4-turbo rank as the top two performers on average, their significant advantage over open-source LLMs is noticeably diminished, given that Qwen-72B achieves the best performance in 2 out of 5 tasks. The datasets and scripts associated with CFLUE are openly accessible at https://github.com/aliyun/cflue.
+- **github-url**: [https://github.com/aliyun/cflue](https://github.com/patronus-ai/financebench)
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: 本文主要介绍了一个名为CFLUE的中文金融语言理解评估基准，旨在评估大型语言模型在金融领域的表现。该基准包括知识评估和应用评估两个部分，前者提供了38K+个问答题和解决方案解释，后者则涵盖了文本分类、机器翻译、关系提取、阅读理解和文本生成等不同类型的NLP任务。通过对代表性大型语言模型的评估，发现目前仍存在改进的空间。
+- **dataset-innovation**: CFLUE基准是针对中文金融领域的第一个大规模评估基准，具有较高的实用性和可操作性。
+- **algo-innovation**: 本文并未涉及算法创新。
+- **base**: Title: Benchmarking Large Language Models on CFLUE: A Chinese Financial Language Understanding Evaluation Dataset; Venue: Association for Computational Linguistics: ACL 2024; Pages: 5673–5693; Date: August 11–16, 2024; DOI: ©2024 Association for Computational Linguistics
+- **base-topics**: Chinese financial language understanding; large language model evaluation; benchmark dataset; knowledge assessment; application assessment; NLP tasks in finance
+- **base-core-author**: Jie Zhu; Junhui Li; Yalong Wen; Lifan Guo
+- **base-core-group**: Alibaba Group; School of Computer Science and Technology, Soochow University
+- **problems**: Lack of comprehensive and diverse Chinese financial evaluation datasets for LLMs; existing datasets are limited in size, diversity, and task coverage; need for standardized assessment of LLMs in Chinese financial domain
+- **problems-main-problem**: Current Chinese financial evaluation datasets (e.g., FinanceIQ, FinEval) are restricted in size and diversity, focusing only on multiple-choice tasks, lacking text generation evaluation, and limiting comprehensive assessment of LLMs
+- **problems-focus-problem**: Creating a robust, diverse, and comprehensive benchmark (CFLUE) to evaluate LLMs across both knowledge and application dimensions in the Chinese financial domain
+- **problems-why-important**: Rapid advancement of LLMs necessitates accurate and comprehensive benchmarks to guide development, identify limitations, and improve model performance in domain-specific contexts like finance
+- **motivations**: Introduce CFLUE as a novel benchmark addressing limitations of existing datasets; evaluate leading LLMs to reveal current capabilities and gaps; provide open-access resources for future research
+- **motivations-main-finding**: Only GPT-4, GPT-4-turbo, and Qwen-72B exceed 60% accuracy in knowledge assessment; open-source LLMs can match or surpass proprietary models with fine-tuning; financial-domain LLMs underperform due to limited data diversity
+- **motivations-main-insight**: Knowledge and application assessments yield inconsistent LLM rankings; specialized open-source models can outperform general models in specific tasks; significant room for improvement remains for all models
+- **motivations-why-necessary**: Accurate benchmarking is crucial for guiding LLM development, especially in high-stakes domains like finance; insights help prioritize future research and resource allocation
+- **solutions**: Develop CFLUE benchmark with 38K+ multiple-choice questions for knowledge assessment and 16K+ instances across five NLP task groups for application assessment; evaluate 15 LLMs under zero-shot settings; provide open-source data and scripts
+- **solutions-main-idea**: Construct a dual-aspect benchmark covering both theoretical knowledge (via qualification exam questions) and practical applications (via real-world NLP tasks) to holistically assess LLM capabilities in Chinese finance
+- **solutions-main-method**: Curate diverse datasets from mock exams and real financial data; annotate with professional oversight; implement rigorous quality control; evaluate models using standardized prompts and metrics
+- **solutions-main-result**: Established CFLUE as a comprehensive benchmark; revealed performance gaps among LLMs; demonstrated benefits of fine-tuning; provided baseline results for future comparisons
+- **solutions-main-conclusion**: CFLUE successfully addresses evaluation gaps in Chinese financial NLP; current LLMs show substantial room for improvement; benchmark will facilitate progress in domain-specific model development
+- **potential-inspiration**: Extend CFLUE to other languages/domains; incorporate few-shot learning evaluation; develop better evaluation metrics beyond BLEU/ROUGE; explore ensemble methods combining financial and general models; investigate reasons behind financial-domain LLMs' underperformance
+
+---
+
+- **this-no**: 18
+- **no**: 297
+- **title**: Financial Numeric Extreme Labelling: A dataset and benchmarking.
+- **citation**: N/A
+- **paper-page-url**: [https://doi.org/10.18653/v1/2023.findings-acl.219](https://doi.org/10.18653/v1/2023.findings-acl.219)
+- **pdf-url**: [https://aclanthology.org/2023.findings-acl.219.pdf](https://aclanthology.org/2024.findings-acl.337.pdf)
+- **record-time**: July 11, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+- **note**: 202507051661.AgenticFin目标会议近5年论文集，关键词：financ & bench
+- **journal-or-conf**: ACL
+- **level**: CCF-A
+- **publish-time**: July 2023
+- **article-category**: 数据基准
+- **abstract**: [The U.S. Securities and Exchange Commission (SEC) mandates all public companies to file periodic financial statements that should contain numerals annotated with a particular label from a taxonomy. In this paper, we formulate the task of automating the assignment of a label to a particular numeral span in a sentence from an extremely large label set. Towards this task, we release a dataset, Financial Numeric Extreme Labelling (FNXL), annotated with 2,794 labels. We benchmark the performance of the FNXL dataset by formulating the task as (a) a sequence labelling problem and (b) a pipeline with span extraction followed by Extreme Classification. Although the two approaches perform comparably, the pipeline solution provides a slight edge for the least frequent labels.](https://github.com/aliyun/cflue.)
+- **github-url**: [https://github.com/soummyaah/FNXL](https://github.com/aliyun/cflue)
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: 本文主要介绍了一个名为 Financial Numeric Extreme Labelling (FNXL) 的数据集以及其在XBRL标记任务上的基准测试。该数据集包含了来自美国证券交易委员会（SEC）要求公开公司提交的财务报表中的数值标注标签，共有2,794个不同的标签。本文通过两种方法对数据集进行了基准测试，一种是序列标注问题，另一种是管道方法，包括数字提取和极端分类。虽然这两种方法表现相似，但管道解决方案在处理最不频繁的标签时略占优势。
+- **dataset-innovation**: FNXL 数据集是一个包含大量标签的数据集，用于自动分配特定标签给句子中的数值范围。
+- **algo-innovation**: 本文通过两种方法对数据集进行了基准测试，一种是序列标注问题，另一种是管道方法，包括数字提取和极端分类。
+- **base**: Title: Financial Numeric Extreme Labelling: A Dataset and Benchmarking for XBRL Tagging; Venue: Findings of ACL 2023; Pages: 3550–3561; Date: July 9-14, 2023
+- **base-topics**: extreme multi-label classification; XBRL tagging; financial numeric annotation; US-GAAP metrics; sequence labelling; AttentionXML; FiNER; long-tail label distribution
+- **base-core-author**: Soumya Sharma, Subhendu Khatuya, Manjunath Hegde, Afreen Shaikh, Koustuv Dasgupta, Pawan Goyal, Niloy Ganguly
+- **base-core-group**: Indian Institute of Technology Kharagpur; Goldman Sachs, Data Science & Machine Learning
+- **problems**: 1) Manual XBRL tagging of numerals in SEC filings is labor-intensive; 2) Existing datasets only cover ~139 frequent labels, whereas real-world labels exceed 2,000; 3) Extreme label imbalance with a long-tail distribution; 4) Need for automation to handle evolving US-GAAP taxonomy
+- **problems-main-problem**: Automating the assignment of the correct XBRL/US-GAAP label to each numeric span in SEC filings when the label space is extremely large (2,794 labels)
+- **problems-focus-problem**: Designing and benchmarking methods that can accurately tag numerals under an extreme-classification regime with scarce data for most labels
+- **problems-why-important**: Reduces manual annotation cost; ensures consistent and scalable tagging of new and legacy filings; supports regulatory compliance and downstream financial analytics
+- **motivations**: Release of FNXL, the first large-scale dataset with 2,794 XBRL labels; demonstration that extreme-classification (AttentionXML) competes with and even surpasses sequence-labelling (FiNER) on macro metrics, especially for infrequent labels; human-in-the-loop evaluation showing practical utility
+- **motivations-main-finding**: AttentionXML pipeline achieves 47.54% Macro-F1 vs 47.13% for best FiNER, while FiNER leads on Micro-F1 (75.84%); pipeline excels on least frequent labels (42.77% vs 39.17%); Hits@5≈90% enables efficient SME review
+- **motivations-main-insight**: Treating XBRL tagging as extreme multi-label text classification after span extraction can outperform pure sequence labelling when the label space is large and skewed; masking strategies and model choice should depend on label frequency
+- **motivations-why-necessary**: Real-world SEC filings demand handling thousands of labels; previous 139-label simplification insufficient; need rigorous benchmarks and human validation for trustworthy automation
+- **solutions**: Two-fold: (a) sequence labelling with FiNER (BERT-based, subword tokenization with [NUM]/[SHAPE] pseudo-tokens), (b) pipeline of span extraction followed by extreme classification with AttentionXML (BiLSTM+attention, masking non-relevant numerals)
+- **solutions-main-idea**: Combine precise numeral span detection with powerful extreme-classification to cope with 2,794 US-GAAP labels; leverage masking to focus context on the target numeral
+- **solutions-main-method**: 1) Train binary BERT tagger to detect relevant numerals; 2) Feed sentence with non-relevant numerals masked to AttentionXML for label prediction; 3) Compare against FiNER end-to-end sequence labelling
+- **solutions-main-result**: AttentionXML pipeline yields best Macro-F1 (47.54%); FiNER best Micro-F1 (75.84%); both methods struggle on zero-shot labels; human evaluation confirms top-5 suggestions save ~30 annotations/hour
+- **solutions-main-conclusion**: Extreme-classification pipelines are viable for large-scale XBRL tagging, especially for tail labels; future gains may come from richer context and human-AI feedback loops
+- **potential-inspiration**: Extend FNXL to include annotated words and tables; integrate paragraph-level context and tabular metadata; explore prompt-based few-shot learning for zero-shot labels; develop active-learning loops that leverage SME feedback to iteratively refine models; investigate hierarchical label structures or label embeddings to exploit semantic similarity
+
+---
+
+- **this-no**: 19
+- **no**: 298
+- **title**: TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance.
+- **citation**: N/A
+- **paper-page-url**: [https://doi.org/10.18653/v1/2021.acl-long.254](https://doi.org/10.18653/v1/2021.acl-long.254)
+- **pdf-url**: [https://aclanthology.org/2021.acl-long.254.pdf](https://aclanthology.org/2023.findings-acl.219.pdf)
+- **record-time**: July 11, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+MultiModal-Evaluation-Benchmark
+- **note**: 202507051662.AgenticFin目标会议近5年论文集，关键词：financ & bench
+- **journal-or-conf**: ACL
+- **level**: CCF-A
+- **publish-time**: August 2021
+- **article-category**: 数据基准
+- **abstract**: Hybrid data combining both tabular and textual content (e.g., financial reports) are quite pervasive in the real world. However, Question Answering (QA) over such hybrid data is largely neglected in existing research. In this work, we extract samples from real financial reports to build a new large-scale QA dataset containing both Tabular And Textual data, named TAT-QA, where numerical reasoning is usually required to infer the answer, such as addition, subtraction, multiplication, division, counting, comparison/sorting, and the compositions. We further propose a novel QA model termed TAGOP, which is capable of reasoning over both tables and text. It adopts sequence tagging to extract relevant cells from the table along with relevant spans from the text to infer their semantics, and then applies symbolic reasoning over them with a set of aggregation operators to arrive at the final answer. TAGOP achieves 58.0% inF1, which is an 11.1% absolute increase over the previous best baseline model, according to our experiments on TAT-QA. But this result still lags far behind performance of expert human, i.e.90.8% in F1. It is demonstrated that our TAT-QA is very challenging and can serve as a benchmark for training and testing powerful QA models that address hybrid form data.
+- **github-url**: [https://nextplusplus.github.io/TAT-QA/](https://github.com/soummyaah/FNXL)
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: 本篇论文提出了一种名为TAT-QA的新数据集，该数据集包含了混合了表格和文本的内容，用于解决现实世界中涉及金融报告等领域的问答问题。此外，该论文还介绍了一种名为TAGOP的新型算法，它采用序列标记来提取相关单元格和文本段落，然后通过一组聚合运算符对它们进行符号推理，从而得出最终的答案。实验表明，TAGOP在F1得分上达到了58.0%，比之前的最佳基准模型提高了11.1%。然而，这仍然远远落后于人类专家的表现（F1得分为90.8%），因此该数据集被认为是一个非常具有挑战性的基准，可以用来训练和测试强大的QA模型，以应对混合数据。最后，该论文呼吁更多的研究关注混合数据上的问答问题，并提供了一些可借鉴的灵感和潜在创新点。
+- **dataset-innovation**: TAT-QA是一种全新的问答数据集，其主要特点在于混合了表格和文本的内容，这是目前大部分问答系统所忽视的。该数据集来源于真实的金融报告，包括了大量的实际应用场景，使得研究人员能够更好地理解和解决实际问题。
+- **algo-innovation**: TAGOP是一种基于序列标记和符号推理的新型算法，它可以有效地处理混合了表格和文本的数据。具体来说，该算法采用了序列标记技术来提取相关的单元格和文本段落，并利用一组聚合运算符对其进行符号推理，从而得到最终的答案。这种算法创新为解决混合数据上的问答问题提供了新的思路和方法。
+- **base**: Title: TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance; Venue: Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (ACL-IJCNLP 2021); Pages: 3277–3287; Date: August 1–6, 2021; DOI: https://nextplusplus.github.io/TAT-QA/
+- **base-topics**: Hybrid question answering; Tabular and textual data fusion; Financial report analysis; Numerical reasoning; Benchmark dataset creation; Sequence tagging and symbolic reasoning; Explainable QA models
+- **base-core-author**: Fengbin Zhu; Wenqiang Lei; Youcheng Huang; Chao Wang; Shuo Zhang; Jiancheng Lv; Fuli Feng; Tat-Seng Chua
+- **base-core-group**: National University of Singapore (lead institution); Sichuan University; Bloomberg; 26Estates Pte Ltd
+- **problems**: Existing QA systems ignore hybrid data combining tables and text; Lack of large-scale datasets for QA over hybrid financial documents; Current models struggle with numerical reasoning spanning both tables and text; Human experts still far outperform machines (90.8% vs 58.0% F1)
+- **problems-main-problem**: There is no comprehensive benchmark or effective model for question answering over real-world hybrid contexts that tightly integrate tabular and textual financial data
+- **problems-focus-problem**: Designing a dataset and model that jointly reason over intertwined numerical tables and descriptive paragraphs in financial reports
+- **problems-why-important**: Hybrid tabular-textual data are pervasive in finance, medicine, and scientific literature; critical for high-stakes decisions; bridging this gap unlocks automated analysis of complex documents
+- **motivations**: Present TAT-QA: the first large-scale dataset (16,552 questions from 182 reports); Introduce TAGOP model combining sequence tagging and symbolic reasoning; Demonstrate 11.1% absolute F1 gain over prior best baseline
+- **motivations-main-finding**: Joint extraction of relevant table cells and text spans followed by symbolic aggregation operators enables effective hybrid reasoning; Scale prediction is crucial for finance QA; Human-level performance remains distant, showing the task’s complexity
+- **motivations-main-insight**: Close semantic linkage between tables and surrounding paragraphs is more powerful than loose hyperlink-style connections; Explicit derivation steps significantly advance explainability and model training
+- **motivations-why-necessary**: Prior datasets and models handle text-only, KB-only, or table-only; real-world documents demand unified reasoning; numerical errors in finance have high stakes, requiring rigorous benchmarks
+- **solutions**: TAT-QA dataset creation pipeline and TAGOP model architecture
+- **solutions-main-idea**: Extract hybrid contexts from real financial reports, annotate questions requiring numerical reasoning, then build a model that first tags relevant evidence in both modalities and second applies predefined symbolic operators to compute answers
+- **solutions-main-method**: 1. Data extraction: 20 k candidate tables → 2,757 contexts with ≥2 surrounding paragraphs; 2. Annotation: finance-major students create questions with derivations; 3. Model: RoBERTa encoder → IO sequence tagging → operator classifier → symbolic aggregation (sum, diff, division, etc.) → scale classifier
+- **solutions-main-result**: TAGOP achieves 50.1 EM / 58.0 F1 on test set vs best baseline 37.0 / 46.9; human performance 84.1 EM / 90.8 F1; error analysis reveals 84 % of failures are evidence extraction mistakes
+- **solutions-main-conclusion**: TAT-QA provides a challenging benchmark; joint tabular-textual reasoning with symbolic operators is promising but still lags human experts; future work must improve evidence extraction and integrate domain knowledge
+- **potential-inspiration**: Extend framework to other hybrid domains (medical, scientific papers); incorporate external financial knowledge bases or formulas; explore end-to-end differentiable reasoning instead of symbolic operators; investigate few-shot adaptation to other languages or report formats; human-in-the-loop annotation to reduce evidence extraction errors
+
+---
+
+- **this-no**: 20
+- **no**: 299
+- **title**: When FLUE Meets FLANG: Benchmarks and Large Pretrained Language Model for Financial Domain.
+- **citation**: N/A
+- **paper-page-url**: [https://doi.org/10.18653/v1/2022.emnlp-main.148](https://doi.org/10.18653/v1/2022.emnlp-main.148)
+- **pdf-url**: [https://aclanthology.org/2022.emnlp-main.148.pdf](https://aclanthology.org/2021.acl-long.254.pdf)
+- **record-time**: July 11, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+- **note**: 202507051663.AgenticFin目标会议近5年论文集，关键词：financ & bench
+- **journal-or-conf**: EMNLP
+- **level**: CCF-A
+- **publish-time**: Dec. 2022
+- **article-category**: 数据基准
+- **abstract**: Pre-trained language models have shown impressive performance on a variety of tasks and domains. Previous research on financial language models usually employs a generic training scheme to train standard model architectures, without completely leveraging the richness of the financial data. We propose a novel domain specific Financial LANGuage model (FLANG) which uses financial keywords and phrases for better masking, together with span boundary objective and in-filing objective. Additionally, the evaluation benchmarks in the field have been limited. To this end, we contribute the Financial Language Understanding Evaluation (FLUE), an open-source comprehensive suite of benchmarks for the financial domain. These include new benchmarks across 5 NLP tasks in financial domain as well as common benchmarks used in the previous research. Experiments on these benchmarks suggest that our model outperforms those in prior literature on a variety of NLP tasks. Our models, code and benchmark data will be made publicly available on Github and Huggingface.
+- **github-url**: [https://saltnlp.github.io/FLANG/.](https://nextplusplus.github.io/TAT-QA/)
+- **huggingface-url**: [https://huggingface.co/SALT-NLP/FLANG-BERT](https://huggingface.co/SALT-NLP/FLANG-BERT)
+- **other-url**: N/A
+- **summary**: 本文提出了一种新的金融语言模型——FLANG，通过利用金融关键词和短语进行更好的遮盖，并结合边界目标和填充目标来训练模型。同时，该研究还贡献了一个全新的金融领域基准测试——FLUE。实验表明，FLANG在各种金融领域的自然语言处理任务上表现优于之前的研究。
+- **dataset-innovation**: 该研究贡献了一个全新的金融领域基准测试——FLUE，包括了5个NLP任务和常用的金融领域评估指标，使得研究人员可以更好地了解当前金融领域中自然语言处理的效果。
+- **algo-innovation**: FLANG采用了一种新颖的语言模型预训练方法，通过使用金融关键词和短语来进行更好的遮盖，并结合边界目标和填充目标来训练模型。这种方法可以帮助模型更好地理解金融领域的语言特征。
+- **base**: [Title: WHEN FLUE MEETS FLANG: Benchmarks and Large Pre-trained Language Model for Financial Domain; Conference: EMNLP 2022; Pages: 2322–2335; Date: December 7-11, 2022; DOI: none; Venue: Association for Computational Linguistics](https://nextplusplus.github.io/TAT-QA/)
+- **base-topics**: Domain-specific pre-trained language models; Financial NLP; Masked language modeling; Span boundary objective; Benchmark suite creation; Financial sentiment analysis; News headline classification; Named entity recognition; Structure boundary detection; Question answering
+- **base-core-author**: Raj Sanjay Shah (Georgia Tech), Kunal Chawla (Georgia Tech), Dheeraj Eidnani (Georgia Tech), Agam Shah (Georgia Tech), Wendi Du (Georgia Tech), Sudheer Chava (Georgia Tech), Natraj Raman (JPMorgan AI Research), Charese Smiley (JPMorgan AI Research), Jiaao Chen (Georgia Tech), Diyi Yang (Stanford University)
+- **base-core-group**: Georgia Institute of Technology (primary), JPMorgan AI Research, Stanford University
+- **problems**: 1. Generic pre-trained models ignore domain-specific financial terminology and phrasal knowledge. 2. Existing financial language models lack comprehensive evaluation benchmarks. 3. Prior work does not exploit multi-token financial phrases (e.g., margin call, break-even analysis) during pre-training. 4. Limited evaluation on diverse downstream financial NLP tasks.
+- **problems-main-problem**: The absence of a domain-specific pre-training strategy and a holistic evaluation benchmark for financial language understanding tasks
+- **problems-focus-problem**: How to inject financial domain knowledge—especially multi-word financial terms—into pre-training via preferential masking and span boundary objectives, and how to create a unified benchmark suite (FLUE) for rigorous evaluation
+- **problems-why-important**: Financial text contains domain-specific semantics where generic models underperform; accurate models can improve investment decisions, risk assessment, and market analytics; comprehensive benchmarks are needed for fair comparison and progress tracking
+- **motivations**: 1. Financial language differs from general language (e.g., “oil prices up” is negative). 2. Multi-token phrases carry critical meaning. 3. Existing benchmarks cover only sentiment, lacking breadth. 4. Need reproducible, open-source resources
+- **motivations-main-finding**: FLANG-BERT and FLANG-ELECTRA outperform FinBERT and baselines on all 5 FLUE tasks; span boundary + phrase masking yields state-of-the-art results; preferential 30 % masking of financial tokens minimizes perplexity; FLUE benchmark becomes a standard for financial NLP
+- **motivations-main-insight**: Preferentially masking domain terms and phrases, combined with span boundary objectives, robustly encodes multi-word financial concepts; evaluation must span multiple task types to truly measure domain adaptation
+- **motivations-why-necessary**: Generic models misinterpret financial nuances; without comprehensive benchmarks and domain-aware training, progress remains opaque and incremental; reproducible models and data accelerate research and industry adoption
+- **solutions**: 1. FLANG-BERT: BERT-base with financial word/phrase masking. 2. FLANG-ELECTRA: ELECTRA-base + phrase masking + span boundary objective + supervised contrastive fine-tuning. 3. FLUE benchmark suite: 5 tasks (sentiment classification/regression, news headline classification, NER, structure boundary detection, QA) with public datasets and unified metrics
+- **solutions-main-idea**: Inject financial domain knowledge into pre-training by strategically masking financial words/phrases and predicting span boundaries, then evaluate on a broad, open benchmark
+- **solutions-main-method**: Multi-stage pre-training: first mask single financial tokens, then mask multi-token phrases; span boundary objective trains generator to reconstruct masked spans from boundary representations; fine-tune with cross-entropy plus supervised contrastive loss on FLUE tasks
+- **solutions-main-result**: Accuracy gains: FPB sentiment +4.0 % over FinBERT; FiQA sentiment MSE 0.034 vs 0.070; headline F1 0.978 vs 0.968; NER F1 0.83 vs 0.80; QA nDCG 0.55 vs 0.42; lowest perplexity 17.34 on validation set
+- **solutions-main-conclusion**: Domain-specific masking and span objectives yield superior financial language models; FLUE provides a rigorous, open benchmark; techniques generalize to other domains
+- **potential-inspiration**: 1. Extend FLUE to abstractive summarization once large annotated datasets exist. 2. Incorporate social media (Twitter, Reddit) with noise-robust masking. 3. Adapt method to multilingual financial corpora. 4. Apply span boundary idea to other specialized domains (legal, medical). 5. Explore decoder-only or sequence-to-sequence models (GPT, T5) for financial generation tasks.
+
+---
+
+- **this-no**: 21
+- **no**: 306
+- **title**: FinTMMBench: Benchmarking Temporal-Aware Multi-Modal RAG in Finance
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2503.05185](https://arxiv.org/abs/2503.05185)
+- **pdf-url**: [https://arxiv.org/pdf/2503.05185](https://aclanthology.org/2022.emnlp-main.148.pdf)
+- **record-time**: July 12, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+MultiModal-Evaluation-Benchmark
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 7 Mar 2025
+- **article-category**: N/A
+- **abstract**: Finance decision-making often relies on in-depth data analysis across various data sources, including financial tables, news articles, stock prices, etc. In this work, we introduce FinTMMBench, the first comprehensive benchmark for evaluating temporal-aware multi-modal Retrieval-Augmented Generation (RAG) systems in finance. Built from heterologous data of NASDAQ 100 companies, FinTMMBench offers three significant advantages. 1) Multi-modal Corpus: It encompasses a hybrid of financial tables, news articles, daily stock prices, and visual technical charts as the corpus. 2) Temporal-aware Questions: Each question requires the retrieval and interpretation of its relevant data over a specific time period, including daily, weekly, monthly, quarterly, and annual periods. 3) Diverse Financial Analysis Tasks: The questions involve 10 different tasks, including information extraction, trend analysis, sentiment analysis and event detection, etc. We further propose a novel TMMHybridRAG method, which first leverages LLMs to convert data from other modalities (e.g., tabular, visual and time-series data) into textual format and then incorporates temporal information in each node when constructing graphs and dense indexes. Its effectiveness has been validated in extensive experiments, but notable gaps remain, highlighting the challenges presented by our FinTMMBench. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: Title: FinTMMBench: Benchmarking Temporal-Aware Multi-Modal RAG in Finance; Authors: Fengbin Zhu, Junfeng Li, Liangming Pan, Wenjie Wang, Fuli Feng, Chao Wang, Huanbo Luan, Tat-Seng Chua; Year: 2025; Venue: arXiv preprint 2503.05185; DOI: https://arxiv.org/abs/2503.05185
+- **base-topics**: Financial question answering, retrieval-augmented generation, multi-modal data, temporal awareness, heterogeneous corpus, knowledge graphs, dense retrieval, benchmark construction
+- **base-core-author**: Fengbin Zhu, Junfeng Li
+- **base-core-group**: National University of Singapore
+- **problems**: Existing financial QA benchmarks either: (1) cover only limited modalities (text, time-series, or visual individually), (2) ignore explicit temporal constraints critical to financial analysis, or (3) fail to require retrieval across heterogeneous data types. Consequently, current RAG systems cannot be reliably evaluated for real-world finance decision-making that demands multi-modal, time-sensitive evidence.
+- **problems-main-problem**: Lack of a comprehensive benchmark and retrieval method that jointly handle multi-modal financial data (tabular, textual, time-series, visual) under explicit temporal constraints.
+- **problems-focus-problem**: How to design a benchmark and a retrieval system that can accurately answer temporal-aware questions requiring synchronized evidence from heterogeneous financial modalities.
+- **problems-why-important**: Accurate, time-sensitive synthesis of multi-modal financial evidence is fundamental for equity investment, risk management, and regulatory compliance; gaps in evaluation tools impede progress toward trustworthy AI in finance.
+- **motivations**: Propose the first temporal-aware multi-modal RAG benchmark (FinTMMBench) with 7 380 QA pairs spanning 10 financial tasks and 4 modalities; introduce TMMHybridRAG that integrates dense retrieval and temporal knowledge graphs with multi-modal LLM reasoning.
+- **motivations-main-finding**: TMMHybridRAG significantly outperforms BM25, Naive RAG, GraphRAG, and LightRAG on FinTMMBench, yet absolute F1 remains low (23.71 %), indicating that the benchmark poses strong unsolved challenges.
+- **motivations-main-insight**: Effective financial RAG requires explicit encoding of temporal properties at both indexing and retrieval stages; multi-modal data must be converted into shared textual-graph representations while preserving raw data fidelity for final generation.
+- **motivations-why-necessary**: Prior benchmarks omit either modality diversity or temporal awareness, leaving no standard to measure progress toward practical financial RAG systems; a rigorous benchmark and baseline method are prerequisites for future research and deployment.
+- **solutions**: Construct FinTMMBench from NASDAQ-100 data across 1 500 tables, 3 133 news, 25 200 daily stock prices, 6 267 charts; design 100 templates with chain-of-thought guidelines to generate temporal QA pairs; develop TMMHybridRAG that unifies dense vectors and temporal knowledge graphs with multi-modal LLM generation.
+- **solutions-main-idea**: Convert every modality into entity-relation-text descriptions enriched with temporal metadata, then perform joint dense + graph retrieval conditioned on explicit time constraints, finally generate answers by grounding reasoning on retrieved raw data.
+- **solutions-main-method**: (1) Pre-processing: LLM summarization of tables/charts/prices into textual entities with temporal properties; (2) Indexing: temporal dense vectors + temporal heterogeneous graph; (3) Retrieval: keyword expansion → dense top-k + graph neighborhood search; (4) Generation: multi-modal LLM reasoning over retrieved entities, relations, and raw data.
+- **solutions-main-result**: TMMHybridRAG achieves EM 9.07 %, F1 23.71, Accuracy 10.42 %, LLM-judge Accuracy 22.65 %, besting all baselines; ablations show temporal and raw-data components are essential; error analysis reveals 46.5 % retrieval failures and 29 % calculation errors as dominant issues.
+- **solutions-main-conclusion**: FinTMMBench provides the first rigorous testbed for temporal-aware multi-modal financial RAG; TMMHybridRAG establishes a strong baseline but highlights substantial room for improvement, especially in retrieval recall and numerical reasoning.
+- **potential-inspiration**: (1) Develop retrieval architectures that natively handle multi-modal alignment without heavy textualization; (2) incorporate external symbolic calculators to reduce arithmetic errors; (3) explore continual learning to adapt models to evolving market terminology; (4) extend benchmark to intraday tick data and alternative data (social media, satellite imagery); (5) integrate causal inference for counterfactual financial reasoning tasks.
+
+---
+
+- **this-no**: 22
+- **no**: 308
+- **title**: Investigating Market Strength Prediction with CNNs on Candlestick Chart Images
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2501.12239](https://arxiv.org/abs/2503.05185)
+- **pdf-url**: [https://arxiv.org/pdf/2501.12239](https://arxiv.org/pdf/2503.05185)
+- **record-time**: July 12, 2025
+- **classification**: N/A
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 21 Jan 2025
+- **article-category**: N/A
+- **abstract**: This paper investigates predicting market strength solely from candlestick chart images to assist investment decisions. The core research problem is developing an effective computer vision-based model using raw candlestick visuals without time-series data. We specifically analyze the impact of incorporating candlestick patterns that were detected by YOLOv8. The study implements two approaches: pure CNN on chart images and a Decomposer architecture detecting patterns. Experiments utilize diverse financial datasets spanning stocks, cryptocurrencies, and forex assets. Key findings demonstrate candlestick patterns do not improve model performance over only image data in our research. The significance is illuminating limitations in candlestick image signals. Performance peaked at approximately 0.7 accuracy, below more complex time-series models. Outcomes reveal challenges in distilling sufficient predictive power from visual shapes alone, motivating the incorporation of other data modalities. This research clarifies how purely image-based models can inform trading while confirming patterns add little value over raw charts. Our content is endeavored to be delineated into distinct sections, each autonomously furnishing a unique contribution while maintaining cohesive linkage. Note that, the examples discussed herein are not limited to the scope, applicability, or knowledge outlined in the paper. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: [Title: Investigating Market Strength Prediction with CNNs on Candlestick Chart Images; Authors: Thanh Nam Duong, Trung Kien Hoang, Quoc Khanh Duong, Quoc Dat Dinh, Duc Hoan Le, Huy Tuan Nguyen, Xuan Bach Nguyen, Quy Ban Tran; Organization: FPT University Hanoi, Vietnam; Date: 2023 (implied by data to 30 Oct 2023); Venue: IEEE conference style paper](https://arxiv.org/abs/2503.05185)
+- **base-topics**: candlestick patterns; convolutional neural networks; market trend strength prediction; computer vision in finance; YOLOv8; image classification; deep learning in trading
+- **base-core-author**: Thanh Nam Duong, Trung Kien Hoang, Quoc Khanh Duong, Quoc Dat Dinh, Duc Hoan Le, Huy Tuan Nguyen, Xuan Bach Nguyen, Quy Ban Tran
+- **base-core-group**: FPT University Hanoi, Vietnam (FPT Innovation Lab)
+- **problems**: The paper investigates whether raw candlestick chart images alone (without time-series data) can predict market strength; it evaluates whether explicitly detecting candlestick patterns via YOLOv8 improves CNN performance; it highlights limitations in deriving predictive power from visual shapes alone.
+- **problems-main-problem**: Can market strength be predicted from candlestick chart images using CNNs without time-series data, and does incorporating detected candlestick patterns improve performance?
+- **problems-focus-problem**: Determining whether candlestick patterns add value over raw chart images for CNN-based market strength prediction.
+- **problems-why-important**: Accurate market strength prediction aids traders and investors in making informed decisions; understanding the utility of visual patterns vs raw images clarifies the role of technical analysis in algorithmic trading; it informs resource allocation for model development.
+- **motivations**: To explore an image-only approach for market prediction; to assess the impact of integrating pattern detection into CNNs; to determine limitations of visual-only models and motivate multi-modal enhancements.
+- **motivations-main-finding**: Candlestick patterns detected by YOLOv8 do not improve CNN performance over raw candlestick images; pure CNNs achieve ~0.7 accuracy, below complex time-series models; visual-only models have limited predictive power.
+- **motivations-main-insight**: Pattern-based features derived from candlestick images do not provide additional discriminative power beyond raw price visuals; temporal context in time-series data is superior for pattern recognition; integrating other data modalities is necessary for better accuracy.
+- **motivations-why-necessary**: Existing reliance on pattern detection may misallocate computational resources; clarifying limitations guides future model design toward hybrid or time-series approaches; highlights gaps in purely vision-based financial forecasting.
+- **solutions**: Two approaches: (1) Pure CNN (VGG16 backbone) on raw candlestick images vs images with YOLOv8-detected patterns; (2) Decomposer architecture (segmenting charts into sub-charts via custom Decomposer, CNN-autoencoder, CNN1D) on raw images.
+- **solutions-main-idea**: Evaluate CNN architectures to extract market strength signals from candlestick images, comparing pattern-inclusive vs pattern-exclusive inputs and a decomposed sub-chart method.
+- **solutions-main-method**: CNNs with VGG16 for feature extraction; YOLOv8 for pattern detection; Two-Stream CNN; Decomposer framework adapted from Deep Candlestick Predictor; datasets spanning stocks, forex, crypto (2017-2023 daily data).
+- **solutions-main-result**: VGG16 without patterns achieves 0.765 (BTC), 0.753 (EUR-USD), 0.701 (AAPL); adding patterns does not improve and sometimes degrades performance; Decomposer yields ~0.5 (random guess); diversity of datasets does not enhance accuracy.
+- **solutions-main-conclusion**: Raw candlestick images suffice for CNN-based market strength prediction; explicit pattern detection adds no value; time-series data remains superior; future work should integrate additional modalities like volume or LSTM.
+- **potential-inspiration**: Combine CNNs with LSTM or attention mechanisms to capture temporal dynamics; explore transfer learning from pre-trained vision models; incorporate trading volume, sentiment, or macro indicators; develop synthetic datasets for rare patterns; investigate adversarial robustness of visual models in finance.
+
+---
+
+- **this-no**: 23
+- **no**: 309
+- **title**: Enhancing Financial VQA in Vision Language Models using Intermediate Structured Representations
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2501.04675](https://arxiv.org/abs/2501.12239)
+- **pdf-url**: [https://arxiv.org/pdf/2501.04675](https://arxiv.org/pdf/2501.12239)
+- **record-time**: July 12, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+LLM-Reasoning-Benchmark
+MultiModal-Evaluation-Benchmark
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 8 Jan 2025
+- **article-category**: N/A
+- **abstract**: Chart interpretation is crucial for visual data analysis, but accurately extracting information from charts poses significant challenges for automated models. This study investigates the fine-tuning of DEPLOT, a modality conversion module that translates the image of a plot or chart to a linearized table, on a custom dataset of 50,000 bar charts. The dataset comprises simple, stacked, and grouped bar charts, targeting the unique structural features of these visualizations. The finetuned DEPLOT model is evaluated against its base version using a test set of 1,000 images and two metrics: Relative Mapping Similarity (RMS), which measures categorical mapping accuracy, and Relative Number Set Similarity (RNSS), which evaluates numerical interpretation accuracy. To further explore the reasoning capabilities of large language models (LLMs), we curate an additional set of 100 bar chart images paired with question answer sets. Our findings demonstrate that providing a structured intermediate table alongside the image significantly enhances LLM reasoning performance compared to direct image queries. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: Title: "Enhancing Financial VQA in Vision Language Models using Intermediate Structured Representations"; Authors: Archita Srivastava, Abhas Kumar, Rajesh Kumar, Prabhakar Srinivasan; Affiliation: Synechron, Bangalore, India; Date: 8 Jan 2025 (arXiv:2501.04675v1 [cs.CL]); Type: Research paper.
+- **base-topics**: Vision-language models, financial chart interpretation, modality conversion, table extraction, structured representations, fine-tuning DEPLOT, question answering, domain-specific adaptation, bar chart analysis.
+- **base-core-author**: Archita Srivastava (Data Scientist), Abhas Kumar (Lead Data Scientist), Rajesh Kumar (Lead Data Scientist), Prabhakar Srinivasan (Director).
+- **base-core-group**: Synechron Innovation Labs, Bangalore, India.
+- **problems**: Automated models struggle with accurate information extraction from diverse and complex financial bar charts; existing hybrid OCR/rule systems are rigid and end-to-end models require massive fine-tuning; domain-specific charts with unique structures and terminology are poorly handled; current systems produce low structural and numerical accuracy.
+- **problems-main-problem**: Accurate extraction and interpretation of categorical and numerical data from domain-specific (financial) bar charts of varying layouts (simple, stacked, grouped).
+- **problems-focus-problem**: Enhancing both categorical mapping accuracy and numerical precision of DEPLOT-based table extraction for financial bar charts through targeted fine-tuning.
+- **problems-why-important**: High-precision chart understanding is critical in finance for reliable decision-making; misaligned or erroneous data can lead to serious analytical and regulatory consequences; robust automated interpretation reduces manual effort and enables scalable querying.
+- **motivations**: Existing DEPLOT model is general-purpose and underperforms on financial charts; leveraging intermediate structured tables can unlock LLMs’ reasoning power; smaller VLMs can outperform larger ones when given clean structured data; tailored datasets can drastically improve accuracy.
+- **motivations-main-finding**: Fine-tuning DEPLOT on 50 k synthetic financial bar charts boosts RNSS from 89.67 % to 98.07 % and RMS F1 from 50.93 % to 91.06 %; supplying the resulting tables to LLMs reduces MAPE by up to 90.9 % and enables smaller models (e.g., LLaMa-11B) to outperform GPT-4o.
+- **motivations-main-insight**: High-quality intermediate structured representations are more impactful than raw visual input for downstream reasoning; domain-specific fine-tuning of a modality-conversion model is a practical and scalable path to accurate chart VQA.
+- **motivations-why-necessary**: Current end-to-end or OCR-based approaches cannot simultaneously achieve high numerical and structural accuracy across diverse chart types; structured representations bridge the modality gap and allow re-use of powerful text-based LLMs without retraining them on vision tasks.
+- **solutions**: Fine-tune DEPLOT on a custom synthetic dataset of 50 k financial bar charts (simple, stacked, grouped); generate intermediate linearized tables; feed these tables to LLMs for question answering instead of raw images.
+- **solutions-main-idea**: Translate chart images into accurate tabular data first, then let LLMs reason over the table; focus fine-tuning on domain-specific vocabulary, value ranges, and structural patterns.
+- **solutions-main-method**: Generate diverse synthetic charts with randomized financial labels, categories, and values using Matplotlib/Seaborn; fine-tune DEPLOT for 10 epochs with AdamW on image-text pairs; evaluate with RNSS and RMS metrics; test downstream QA with multiple LLMs (GPT-4o, Qwen-2/7B-VL, LLaMa-11B).
+- **solutions-main-result**: Fine-tuned DEPLOT achieves 98.07 % RNSS and 91.06 % RMS F1; downstream MAPE drops to as low as 2.06 % (LLaMa-11B) versus 16.07 % with image-only GPT-4o; smaller models consistently outperform larger ones when provided with fine-tuned tables.
+- **solutions-main-conclusion**: Targeted fine-tuning of a modality-conversion model combined with structured intermediate representations delivers state-of-the-art accuracy for financial chart VQA and unlocks efficient querying via general LLMs.
+- **potential-inspiration**: Extend approach to other domains (healthcare, marketing) by swapping label/value vocabularies; explore ensemble or error-correction models to further refine tables; develop multimodal fusion that selectively re-incorporates visual cues; investigate synthetic data augmentation for rare chart types; study robustness to noisy inputs, OCR errors, and adversarial visual perturbations; create interactive dashboards where users query fine-tuned tables in natural language.
+
+---
+
+- **this-no**: 24
+- **no**: 310
+- **title**: FCMR: Robust Evaluation of Financial Cross-Modal Multi-Hop Reasoning
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2412.12567](https://arxiv.org/abs/2501.04675)
+- **pdf-url**: [https://arxiv.org/pdf/2412.12567](https://arxiv.org/pdf/2501.04675)
+- **record-time**: July 12, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+MultiModal-Evaluation-Benchmark
+- **note**: Comments: ACL 2025
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 30 May 2025
+- **article-category**: N/A
+- **abstract**: Real-world decision-making often requires integrating and reasoning over information from multiple modalities. While recent multimodal large language models (MLLMs) have shown promise in such tasks, their ability to perform multi-hop reasoning across diverse sources remains insufficiently evaluated. Existing benchmarks, such as MMQA, face challenges due to (1) data contamination and (2) a lack of complex queries that necessitate operations across more than two modalities, hindering accurate performance assessment. To address this, we present Financial Cross-Modal Multi-Hop Reasoning (FCMR), a benchmark created to analyze the reasoning capabilities of MLLMs by urging them to combine information from textual reports, tables, and charts within the financial domain. FCMR is categorized into three difficulty levels-Easy, Medium, and Hard-facilitating a step-by-step evaluation. In particular, problems at the Hard level require precise cross-modal three-hop reasoning and are designed to prevent the disregard of any modality. Experiments on this new benchmark reveal that even state-of-the-art MLLMs struggle, with the best-performing model (Claude 3.5 Sonnet) achieving only 30.4% accuracy on the most challenging tier. We also conduct analysis to provide insights into the inner workings of the models, including the discovery of a critical bottleneck in the information retrieval phase. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: Title: FCMR: Robust Evaluation of Financial Cross-Modal Multi-Hop Reasoning; Authors: Seunghee Kim†, Changhyeon Kim†, Taeuk Kim∗; Institution: Hanyang University, Seoul, Republic of Korea; Date: 30 May 2025; arXiv ID: 2412.12567v4 [cs.CL]; Dataset URL: https://github.com/HYU-NLP/FCMR
+- **base-topics**: Multimodal reasoning, cross-modal multi-hop reasoning, financial domain evaluation, large language model benchmarking, data contamination mitigation, dataset generation framework
+- **base-core-author**: Seunghee Kim, Changhyeon Kim, Taeuk Kim
+- **base-core-group**: Hanyang University, Seoul, Republic of Korea
+- **problems**: Existing benchmarks (e.g., MMQA) suffer from data contamination via Wikipedia pretraining; only 0.8% of MMQA requires true three-modal three-hop reasoning; most benchmarks limit evaluation to two modalities and simple hops; models can solve questions without using visual clues, undermining evaluation validity
+- **problems-main-problem**: Lack of a rigorous, contamination-free benchmark that forces models to perform genuine cross-modal three-hop reasoning across text, tables, and charts
+- **problems-focus-problem**: Designing and validating FCMR, a benchmark that ensures all three modalities must be processed and that prevents models from bypassing any modality
+- **problems-why-important**: Accurate assessment of MLLM reasoning is crucial for high-stakes finance decisions; current inflated scores mislead progress and mask fundamental weaknesses in information retrieval and reasoning
+- **motivations**: Introduce FCMR with 757 Easy, 728 Medium, 714 Hard questions that demand three-modal integration; create CMRGen framework to generate low-cost, high-quality, domain-adaptable datasets; reveal severe limitations in state-of-the-art models (best Hard accuracy ≈30.4%)
+- **motivations-main-finding**: Even top models (Claude 3.5 Sonnet, GPT-4o) drop to near-random on Hard three-hop tasks; primary failure mode is Information Retrieval rather than Planning or Reasoning; scatter plots and negative-value calculations are especially challenging
+- **motivations-main-insight**: Cross-modal multi-hop reasoning can be decomposed into four stages: Planning → Modality Identification → Information Retrieval → Information Reasoning; Information Retrieval is the critical bottleneck, not final reasoning
+- **motivations-why-necessary**: Prior benchmarks give false confidence; rigorous evaluation is needed to drive real advances in multimodal reasoning for professional domains such as finance, law, medicine
+- **solutions**: Propose CMRGen pipeline: (1) align SEC 10-K reports with WRDS Compustat tables and synthetic charts, (2) generate one- to three-hop statements via templates and LLMs, (3) paraphrase and human-filter for quality; adopt multiple-choice “select-all-true” format with company-based distractors to resist contamination
+- **solutions-main-idea**: Force models to integrate text, table, and chart data by constructing questions whose answers cannot be inferred from any single modality or from prior pretraining knowledge
+- **solutions-main-method**: Automated three-stage generation (Input Data Construction, Statement Generation, Paraphrasing & Filtering) plus human review; contamination check by ablating images and observing accuracy collapse to random
+- **solutions-main-result**: FCMR demonstrates significant drops for all tested MLLMs at Hard level (12–30% accuracy vs 75% on Easy); open-source models <15% on Hard; modality integration + 4-stage prompting + self-refine raises Claude’s Hard accuracy from 32% to 46%
+- **solutions-main-conclusion**: Current MLLMs are far from human-level cross-modal multi-hop reasoning; future work must target Information Retrieval improvements and specialized multimodal architectures; CMRGen is extensible to other domains (material science demonstrated)
+- **potential-inspiration**: Extend CMRGen to law, biology, medicine, electrical engineering; develop retrieval-augmented or tool-calling MLLMs that explicitly ground each hop in the correct modality; investigate targeted training curricula that progressively build three-hop skills; create interactive evaluation where models can request missing modalities
+
+---
+
+- **this-no**: 25
+- **no**: 313
+- **title**: MME-Finance: A Multimodal Finance Benchmark for Expert-level Understanding and Reasoning
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2411.03314](https://arxiv.org/abs/2412.12567)
+- **pdf-url**: [https://arxiv.org/pdf/2411.03314](https://arxiv.org/pdf/2412.12567)
+- **record-time**: July 12, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+MultiModal-Evaluation-Benchmark
+- **note**: contains candle charts
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 5 Nov 2024
+- **article-category**: N/A
+- **abstract**: In recent years, multimodal benchmarks for general domains have guided the rapid development of multimodal models on general tasks. However, the financial field has its peculiarities. It features unique graphical images (e.g., candlestick charts, technical indicator charts) and possesses a wealth of specialized financial knowledge (e.g., futures, turnover rate). Therefore, benchmarks from general fields often fail to measure the performance of multimodal models in the financial domain, and thus cannot effectively guide the rapid development of large financial models. To promote the development of large financial multimodal models, we propose MME-Finance, an bilingual open-ended and practical usage-oriented Visual Question Answering (VQA) benchmark. The characteristics of our benchmark are finance and expertise, which include constructing charts that reflect the actual usage needs of users (e.g., computer screenshots and mobile photography), creating questions according to the preferences in financial domain inquiries, and annotating questions by experts with 10+ years of experience in the financial industry. Additionally, we have developed a custom-designed financial evaluation system in which visual information is first introduced in the multi-modal evaluation process. Extensive experimental evaluations of 19 mainstream MLLMs are conducted to test their perception, reasoning, and cognition capabilities. The results indicate that models performing well on general benchmarks cannot do well on MME-Finance; for instance, the top-performing open-source and closed-source models obtain 65.69 (Qwen2VL-72B) and 63.18 (GPT-4o), respectively. Their performance is particularly poor in categories most relevant to finance, such as candlestick charts and technical indicator charts. In addition, we propose a Chinese version, which helps compare performance of MLLMs under a Chinese context. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: [Title: MME-FINANCE: A MULTIMODAL FINANCE BENCHMARK FOR EXPERT-LEVEL UNDERSTANDING AND REASONING; Type: Preprint under review; Year: 2024; arXiv ID: 2411.03314v1; URL: https://hithink-research.github.io/MME-Finance](https://github.com/HYU-NLP/FCMR)
+- **base-topics**: Multimodal Large Language Models (MLLMs), Financial Vision–Language Benchmark, Visual Question Answering (VQA), Expert-level Financial Reasoning, Evaluation Methodology, Bilingual Benchmark (English & Chinese), Candlestick & Technical Indicator Charts, Open-ended Financial QA
+- **base-core-author**: Ziliang Gan, Yu Lu, Dong Zhang, Haohan Li, Che Liu, Jian Liu, Ji Liu, Haipang Wu, Chaoyou Fu, Zenglin Xu, Rongjunchen Zhang, Yong Dai
+- **base-core-group**: HiThink Research (lead); collaborating institutions: Imperial College London, Beihang University, Nanjing University, Fudan University
+- **problems**: 1) General-domain multimodal benchmarks fail to capture the unique characteristics of finance (jargon, complexity, chart diversity, data density). 2) Absence of any multimodal benchmark specifically for finance. 3) Lack of bilingual (Chinese–English) multimodal financial datasets. 4) Existing MLLMs perform poorly on financial charts (candlestick, technical indicators) and mobile photographs. 5) Difficulty in evaluating open-ended financial questions with visual context.
+- **problems-main-problem**: There is no dedicated multimodal benchmark that can accurately and comprehensively evaluate MLLMs on expert-level financial understanding and reasoning tasks.
+- **problems-focus-problem**: Designing and validating MME-Finance, a bilingual, open-ended VQA benchmark that covers real-world financial charts and usage scenarios, and introducing a visual-aware evaluation protocol that aligns with human expert judgment.
+- **problems-why-important**: Financial decisions require high accuracy and domain expertise; unreliable MLLMs could lead to monetary loss. A rigorous benchmark guides safer deployment and accelerated research for domain-specific multimodal models.
+- **motivations**: 1) Need to bridge the gap between general multimodal benchmarks and finance-specific requirements. 2) Provide granular diagnostics (perception, reasoning, cognition) for MLLMs in finance. 3) Enable fair comparison of open-source vs. proprietary models under both English and Chinese contexts. 4) Highlight critical weaknesses (e.g., mobile photos, hallucination) to steer future improvements.
+- **motivations-main-finding**: Top open-source (Qwen2VL-72B: 65.69 %) and closed-source (GPT-4o: 63.18 %) models still fall far short of expert-level performance, especially on candlestick/technical charts and mobile photographs.
+- **motivations-main-insight**: Current MLLMs possess adequate general visual skills but lack fine-grained spatial awareness, estimation-based numerical reasoning, and domain-specific chart interpretation; evaluation must incorporate visual context to reach human-level consistency.
+- **motivations-why-necessary**: Without these findings, the community would continue optimizing for general benchmarks while remaining blind to critical failures in high-stakes financial applications.
+- **solutions**: Creation of MME-Finance: a bilingual 2,274-sample (1,171 EN + 1,103 CN) open-ended VQA benchmark covering six real-world financial image types; hierarchical task taxonomy (perception → reasoning → cognition); expert annotation pipeline (10+ yr finance experts); and an LLM-based evaluator (GPT-4o) that ingests both textual and visual inputs to score responses on a 0–5 scale.
+- **solutions-main-idea**: Simulate genuine financial usage by collecting computer screenshots, mobile photos, and mobile screenshots; craft questions from OCR to investment advice; and enforce rigorous, visual-aware evaluation to measure true capability.
+- **solutions-main-method**: Data collection via multi-platform scraping + mobile photography; two-stage manual QA generation & review; GPT-4o evaluator fine-tuned with task-specific prompts and few-shot examples; human-consistency validation (Spearman ρ = 0.720, Δ = 0.90).
+- **solutions-main-result**: Released benchmark and evaluation suite; systematic evaluation of 19 MLLMs revealing severe deficits in spatial awareness (best 30.31 %), estimated numerical calculation (best 40.95 %), candlestick charts (best 60.12 %), and mobile photographs (best 58.31 %).
+- **solutions-main-conclusion**: MME-Finance exposes significant limitations in current MLLMs for expert financial tasks and provides a reliable, extensible benchmark to guide future model development and risk-aware deployment.
+- **potential-inspiration**: 1) Extend MME-Finance with multi-turn dialogues and larger sample sizes. 2) Develop specialized encoders for financial chart types (e.g., candlestick transformers). 3) Investigate resolution-robust vision backbones for mobile photography. 4) Explore hybrid evaluation combining LLM judges with symbolic financial engines. 5) Create continual-learning protocols that inject domain knowledge without catastrophic forgetting. 6) Apply benchmark methodology to other specialized domains (legal, scientific).
+
+---
+
+- **this-no**: 26
+- **no**: 314
+- **title**: MMDocBench: Benchmarking Large Vision-Language Models for Fine-Grained Visual Document Understanding
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2410.21311](https://arxiv.org/abs/2411.03314)
+- **pdf-url**: [https://arxiv.org/pdf/2410.21311](https://arxiv.org/pdf/2411.03314)
+- **record-time**: July 12, 2025
+- **classification**: MultiModal-Evaluation-Benchmark
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 25 Oct 2024
+- **article-category**: N/A
+- **abstract**: Large Vision-Language Models (LVLMs) have achieved remarkable performance in many vision-language tasks, yet their capabilities in fine-grained visual understanding remain insufficiently evaluated. Existing benchmarks either contain limited fine-grained evaluation samples that are mixed with other data, or are confined to object-level assessments in natural images. To holistically assess LVLMs' fine-grained visual understanding capabilities, we propose using document images with multi-granularity and multi-modal information to supplement natural images. In this light, we construct MMDocBench, a benchmark with various OCR-free document understanding tasks for the evaluation of fine-grained visual perception and reasoning abilities. MMDocBench defines 15 main tasks with 4,338 QA pairs and 11,353 supporting regions, covering various document images such as research papers, receipts, financial reports, Wikipedia tables, charts, and infographics. Based on MMDocBench, we conduct extensive experiments using 13 open-source and 3 proprietary advanced LVLMs, assessing their strengths and weaknesses across different tasks and document image types. The benchmark, task instructions, and evaluation code will be made publicly available. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: [Title: MMDocBench: Benchmarking Large Vision-Language Models for Fine-Grained Visual Document Understanding; Type: Pre-print arXiv:2410.21311v1 [cs.CV]; Date: 25 Oct 2024; Venue: arXiv; Site: https://MMDocBench.github.io/](https://hithink-research.github.io/MME-Finance)
+- **base-topics**: Fine-grained visual understanding; Large Vision-Language Models (LVLMs); Document understanding; OCR-free tasks; Visual grounding; Benchmark design; Evaluation metrics
+- **base-core-author**: Fengbin Zhu, Ziyang Liu, Xiang Yao NG, Haohui Wu, Wenjie Wang, Fuli Feng, Chao Wang, Huanbo Luan, Tat-Seng Chua
+- **base-core-group**: National University of Singapore (lead), 26Estates Pte Ltd, University of Science and Technology of China
+- **problems**: Existing LVLMs inadequately evaluated for fine-grained visual detail understanding; Current benchmarks lack isolated, fine-grained samples and focus on natural-image object-level tasks; No holistic OCR-free document-image benchmark spanning perception & reasoning
+- **problems-main-problem**: Lack of comprehensive benchmark to assess LVLMs’ fine-grained visual understanding capability on document images
+- **problems-focus-problem**: How to holistically evaluate LVLMs’ fine-grained visual perception and reasoning on document images without OCR dependency
+- **problems-why-important**: Fine-grained understanding is critical for downstream tasks (KIE, forgery detection, VQA); Documents contain multi-granularity information vital in finance, legal, academic domains
+- **motivations**: Propose using document images (multi-granularity, multi-modal) to complement natural images for richer fine-grained evaluation; Provide grounding-aware QA pairs with supporting regions
+- **motivations-main-finding**: Constructed MMDocBench with 15 main tasks (48 sub-tasks), 4,338 QA pairs, 11,353 annotated regions across 2,400 diverse document images; Current LVLMs struggle significantly especially in region prediction (IOU ≤ 11.44%)
+- **motivations-main-insight**: Document images expose unique fine-grained challenges absent in natural-image benchmarks; Region prediction is the major bottleneck even for top closed-source models
+- **motivations-why-necessary**: Existing benchmarks mix fine-grained samples with coarse tasks and lack grounding annotations, impeding targeted progress; Document images offer richer granularity
+- **solutions**: Introduce MMDocBench—OCR-free document understanding benchmark with perception & reasoning tasks; Provide supporting-region annotations for each QA pair
+- **solutions-main-idea**: Use diverse document images (papers, receipts, tables, charts, infographics) to create fine-grained perception (text/table recognition, localization, KIE, forgery detection, QA) and reasoning (arithmetic, logical, spatial, comparison, sorting, counting) tasks
+- **solutions-main-method**: Four-step pipeline: taxonomy design (fine-grained discrimination & diversity), dataset & QA curation, region generation via OCR+manual review, QA & region verification; Evaluation via EM, F1, IOU
+- **solutions-main-result**: Best model GPT-4o achieves 66.40% EM answer prediction but only 2.44% IOU region prediction; Open-source models competitive in region prediction (≤ 11.44%) yet lag in answer accuracy; Localization & forgery detection hardest
+- **solutions-main-conclusion**: MMDocBench reveals significant gaps in fine-grained document understanding, especially grounding; Serves as comprehensive benchmark to guide future LVLM advancement
+- **potential-inspiration**: Develop LVLM architectures with stronger region-level grounding; Create pixel-level or segmentation-based grounding extensions; Explore adversarial or few-shot fine-tuning on MMDocBench; Extend to multilingual or multimodal video documents; Investigate human-in-the-loop region annotation for higher IOU
+
+---
+
+- **this-no**: 27
+- **no**: 315
+- **title**: FAMMA: A Benchmark for Financial Domain Multilingual Multimodal Question Answering
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2410.04526](https://arxiv.org/abs/2410.21311)
+- **pdf-url**: [https://arxiv.org/pdf/2410.04526](https://arxiv.org/pdf/2410.21311)
+- **record-time**: July 13, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+MultiModal-Evaluation-Benchmark
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 15 May 2025
+- **article-category**: N/A
+- **abstract**: In this paper, we introduce FAMMA, an open-source benchmark for \underline{f}in\underline{a}ncial \underline{m}ultilingual \underline{m}ultimodal question \underline{a}nswering (QA). Our benchmark aims to evaluate the abilities of large language models (LLMs) in answering complex reasoning questions that require advanced financial knowledge. The benchmark has two versions: FAMMA-Basic consists of 1,945 questions extracted from university textbooks and exams, along with human-annotated answers and rationales; FAMMA-LivePro consists of 103 novel questions created by human domain experts, with answers and rationales held out from the public for a contamination-free evaluation. These questions cover advanced knowledge of 8 major subfields in finance (e.g., corporate finance, derivatives, and portfolio management). Some are in Chinese or French, while a majority of them are in English. Each question has some non-text data such as charts, diagrams, or tables. Our experiments reveal that FAMMA poses a significant challenge on LLMs, including reasoning models such as GPT-o1 and DeepSeek-R1. Additionally, we curated 1,270 reasoning trajectories of DeepSeek-R1 on the FAMMA-Basic data, and fine-tuned a series of open-source Qwen models using this reasoning data. We found that training a model on these reasoning trajectories can significantly improve its performance on FAMMA-LivePro. We released our leaderboard, data, code, and trained models at this https URL. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: [Paper title: FAMMA: A Benchmark for Financial Multilingual Multimodal Question Answering; Venue: arXiv preprint (NeurIPS submission); Date: 15 May 2025; arXiv ID: 2410.04526v4](https://mmdocbench.github.io/)
+- **base-topics**: Financial reasoning, multilingual multimodal question answering, large language model evaluation, benchmark construction, reasoning trajectories, tool use, retrieval-augmented generation, test-time scaling
+- **base-core-author**: Siqiao Xue, Xiaojing Li, Fan Zhou, Qingyang Dai, Zhixuan Chu, Hongyuan Mei
+- **base-core-group**: Alipay, Zhejiang University, TTIC, Purdue University
+- **problems**: Lack of challenging benchmarks for advanced financial reasoning; LLMs struggle with complex, multilingual, multimodal finance questions; existing benchmarks are text-only, English-only, and only cover elementary finance knowledge
+- **problems-main-problem**: No high-quality benchmark exists to evaluate LLMs on advanced, real-world financial reasoning that requires both deep domain knowledge and sophisticated calculations across languages and modalities
+- **problems-focus-problem**: Constructing and validating FAMMA, a contamination-free benchmark that rigorously tests LLMs on master-level multilingual multimodal finance questions drawn from textbooks, exams, and expert-authored novel problems
+- **problems-why-important**: Accurate financial reasoning is critical for investment decisions, risk management, and regulatory compliance; reliable evaluation is prerequisite for deploying LLMs in high-stakes finance applications
+- **motivations**: Existing finance benchmarks (FiQA, FinQA, ConvFinQA, FinanceBench, FinBen, MMMU finance subset) are too easy, monolingual, text-only, and lack advanced domain reasoning; need for comprehensive evaluation to push frontier of financial AI
+- **motivations-main-finding**: FAMMA is the first multilingual, multimodal finance QA benchmark with 2,048 questions across 8 subfields and 3 languages; GPT-o1 and DeepSeek-R1 drop 25–40 % on unseen LivePro set; Python tool-use lifts arithmetic accuracy markedly; domain-knowledge gaps dominate non-arithmetic errors; reasoning-data finetuning plus budget-forcing yields systematic gains
+- **motivations-main-insight**: Advanced finance reasoning requires both knowledge and computation; tool-use and reasoning traces can partially bridge gaps but deep domain expertise remains bottleneck; multilingual robustness varies widely across models
+- **motivations-why-necessary**: Prior benchmarks give false confidence; rigorous evaluation reveals true frontier gaps and guides next-generation model development for trustworthy financial AI
+- **solutions**: Design and release FAMMA with Basic (1,945 textbook/exam questions) and LivePro (103 expert-authored unseen questions); provide OCR text-only variants; curate 1,273 multilingual reasoning trajectories; evaluate 20+ state-of-the-art LLMs with zero-shot, Program-of-Thoughts prompting, retrieval-augmented generation, and reasoning-data finetuning
+- **solutions-main-idea**: Create a diverse, challenging, and clean dataset that mirrors real-world financial reasoning; leverage tool-use and reasoning distillation to improve model performance; deliver open resources for community advancement
+- **solutions-main-method**: Expert annotation pipeline with CFA-aligned difficulty tiers and subfield tags; two-stage quality control; OCR conversion; trajectory distillation from DeepSeek-R1; LoRA finetuning of Qwen2.5 models; budget-forcing decoding
+- **solutions-main-result**: GPT-o1 achieves 60 % on LivePro vs 88 % on Basic; PoT prompting boosts GPT-o1 arithmetic accuracy from 0 % to 62.5 % on hard questions; finetuned Qwen2.5-32B-Reasoning-BF gains 7 % overall on LivePro; dataset and code fully open-sourced
+- **solutions-main-conclusion**: FAMMA sets a new bar for financial reasoning evaluation; tool-use and reasoning-data training are effective but domain knowledge gaps persist; future work must combine deeper finance expertise with scalable reasoning methods
+- **potential-inspiration**: Expand FAMMA to more languages and modalities (audio, video); integrate real-time market data; explore chain-of-thought distillation at larger scales; develop finance-specific retrieval and tool-use architectures; create interactive tutoring systems for professional certifications; investigate alignment with regulatory and ethical standards
+
+---
+
+- **this-no**: 28
+- **no**: 316
+- **title**: Open-FinLLMs: Open Multimodal Large Language Models for Financial Applications
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2408.11878](https://arxiv.org/abs/2410.04526)
+- **pdf-url**: [https://arxiv.org/pdf/2408.11878](https://arxiv.org/pdf/2410.04526)
+- **record-time**: July 13, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+MultiModal-Evaluation-Benchmark
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 7 Jun 2025
+- **article-category**: N/A
+- **abstract**: Financial LLMs hold promise for advancing financial tasks and domain-specific applications. However, they are limited by scarce corpora, weak multimodal capabilities, and narrow evaluations, making them less suited for real-world application. To address this, we introduce \textit{Open-FinLLMs}, the first open-source multimodal financial LLMs designed to handle diverse tasks across text, tabular, time-series, and chart data, excelling in zero-shot, few-shot, and fine-tuning settings. The suite includes FinLLaMA, pre-trained on a comprehensive 52-billion-token corpus; FinLLaMA-Instruct, fine-tuned with 573K financial instructions; and FinLLaVA, enhanced with 1.43M multimodal tuning pairs for strong cross-modal reasoning. We comprehensively evaluate Open-FinLLMs across 14 financial tasks, 30 datasets, and 4 multimodal tasks in zero-shot, few-shot, and supervised fine-tuning settings, introducing two new multimodal evaluation datasets. Our results show that Open-FinLLMs outperforms afvanced financial and general LLMs such as GPT-4, across financial NLP, decision-making, and multi-modal tasks, highlighting their potential to tackle real-world challenges. To foster innovation and collaboration across academia and industry, we release all codes (this https URL) and models under OSI-approved licenses. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: Title: Open-FinLLMs: Open Multimodal Large Language Models for Financial Applications; arXiv:2408.11878v3 [cs.CL] 7 Jun 2025; Open-source release
+- **base-topics**: Financial large language models (LLMs), multimodal learning, instruction tuning, continual pre-training, financial NLP, financial decision-making, multimodal reasoning, tabular and time-series data, zero-shot/few-shot learning, open-source frameworks
+- **base-core-author**: Jimin Huang, Mengxi Xiao, Dong Li, Zihao Jiang, Yuzhe Yang, Yifei Zhang, Lingfei Qian, Yan Wang, Xueqing Peng, Yang Ren, Ruoyu Xiang, Zhengyu Chen, Xiao Zhang, Yueru He, Weiguang Han, Shunian Chen, Lihang Shen, Daniel Kim, Yangyang Yu, Yupeng Cao, Zhiyang Deng, Haohang Li, Duanyu Feng, Yongfu Dai, VijayaSai Somasundaram, Peng Lu, Guojun Xiong, Zhiwei Liu, Zheheng Luo, Zhiyuan Yao, Ruey-Ling Weng, Meikang Qiu, Kaleb E Smith, Honghai Yu, Yanzhao Lai, Min Peng, Jian-Yun Nie, Jordan W. Suchow, Xiao-Yang Liu, Benyou Wang, Alejandro Lopez-Lira, Qianqian Xie, Sophia Ananiadou, Junichi Tsujii
+- **base-core-group**: The FinAI, Columbia University, The Chinese University of Hong Kong Shenzhen, Wuhan University, Nanjing University, Stevens Institute of Technology, National University of Singapore, University of Florida, University of Montreal, University of Manchester, Harvard University, NVIDIA
+- **problems**: Existing financial LLMs (e.g., BloombergGPT, PIXIU, FinGPT, FinTral) suffer from: 1) limited domain-specific corpora for continual pre-training and instruction tuning; 2) weak multimodal capabilities—unable to handle tabular, time-series, and chart data; 3) narrow evaluations restricted mostly to instruction-tuned NLP tasks, leaving zero/few-shot, multimodal reasoning, and real-world decision-making underexplored
+- **problems-main-problem**: The gap between current financial LLMs’ capabilities and the diverse, multimodal, real-world financial tasks that require understanding text, tabular, time-series, and chart data in zero-shot, few-shot, and fine-tuning settings
+- **problems-focus-problem**: How to build open-source financial LLMs that can robustly handle multimodal financial data and excel across 14 financial tasks and 30 datasets under zero-shot, few-shot, and supervised fine-tuning scenarios
+- **problems-why-important**: Real-world financial decision-making depends on integrating heterogeneous data modalities accurately; bridging this gap enables more reliable, transparent, and accessible AI for finance, democratizing advanced analytics for both academia and industry
+- **motivations**: Open-FinLLMs introduces: 1) FinLLaMA—first 8B model continually pre-trained on 52B-token multimodal financial corpus (text+tabular+time-series); 2) FinLLaMA-Instruct—fine-tuned on 573K high-quality financial instructions; 3) FinLLaVA—multimodal extension tuned on 1.43M image-text pairs including charts and tabular images; 4) comprehensive benchmarks covering 14 tasks and 30 datasets plus 4 new multimodal tasks
+- **motivations-main-finding**: Open-FinLLMs consistently outperforms leading financial and general LLMs (including GPT-4, GPT-4o, Gemini-1.5-pro, BloombergGPT) across sentiment analysis, classification, NER, numeric reasoning, summarization, stock prediction, credit scoring, fraud detection, decision-making, and multimodal chart/table understanding in zero-shot, few-shot, and supervised settings
+- **motivations-main-insight**: Integrating massive multimodal financial corpora with structured instruction tuning yields robust generalization and real-world utility even at moderate model size (8B parameters); open-sourcing models, data, and code accelerates community innovation and reproducible research
+- **motivations-why-necessary**: Financial AI research is hindered by closed-source models and fragmented benchmarks; open, comprehensive, multimodal baselines are critical for transparent evaluation, fair comparison, and rapid advancement of domain-specific AI
+- **solutions**: Three-stage pipeline: 1) continual pre-training of LLaMA3-8B on 52B-token curated multimodal financial corpus (3:1 finance vs general data mix); 2) instruction tuning with 573K diverse financial tasks; 3) multimodal alignment via LLaVA-1.5 framework using 1.43M image-text pairs including charts and tables
+- **solutions-main-idea**: Combine large-scale continual pre-training on diverse financial modalities with targeted instruction tuning and multimodal alignment to capture deep financial knowledge and cross-modal reasoning capabilities
+- **solutions-main-method**: DeepSpeed distributed training on 64×A100 GPUs (pre-training), QLoRA/LoRA parameter-efficient fine-tuning, CLIP visual encoder with learnable MLP projector, two-stage LLaVA-style instruction tuning, rigorous deduplication and quality filtering
+- **solutions-main-result**: FinLLaMA surpasses LLaMA3-8B, LLaMA3.1-8B, BloombergGPT on 19/19 zero-shot and 4/4 few-shot tasks; FinLLaMA-Instruct beats GPT-4 on 3/6 financial tasks; FinLLaVA exceeds GPT-4o & Gemini-1.5-pro on tabular understanding (TableBench 72.4 vs 66.7/58.2) and leads all open 7B/13B multimodal models
+- **solutions-main-conclusion**: Open-FinLLMs establish new open-source state-of-the-art for financial AI, demonstrating that comprehensive multimodal pre-training and instruction tuning enable strong generalization across diverse real-world financial tasks even with moderate model size
+- **potential-inspiration**: 1) Extend multilingual support for global finance; 2) explore larger parameter regimes or ultra-lightweight models for edge deployment; 3) broaden to auditing, risk management, regulatory compliance tasks; 4) integrate additional modalities (audio transcripts, ESG reports, satellite imagery); 5) develop privacy-preserving federated fine-tuning for sensitive financial data; 6) create interactive financial agents with memory and planning capabilities
+
+---
+
+- **this-no**: 29
+- **no**: 317
+- **title**: CharXiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2406.18521](https://arxiv.org/abs/2408.11878)
+- **pdf-url**: [https://arxiv.org/pdf/2406.18521](https://arxiv.org/pdf/2408.11878)
+- **record-time**: July 13, 2025
+- **classification**: MultiModal-Evaluation-Benchmark
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 26 Jun 2024
+- **article-category**: N/A
+- **abstract**: Chart understanding plays a pivotal role when applying Multimodal Large Language Models (MLLMs) to real-world tasks such as analyzing scientific papers or financial reports. However, existing datasets often focus on oversimplified and homogeneous charts with template-based questions, leading to an over-optimistic measure of progress. We demonstrate that although open-source models can appear to outperform strong proprietary models on these benchmarks, a simple stress test with slightly different charts or questions can deteriorate performance by up to 34.5%. In this work, we propose CharXiv, a comprehensive evaluation suite involving 2,323 natural, challenging, and diverse charts from arXiv papers. CharXiv includes two types of questions: 1) descriptive questions about examining basic chart elements and 2) reasoning questions that require synthesizing information across complex visual elements in the chart. To ensure quality, all charts and questions are handpicked, curated, and verified by human experts. Our results reveal a substantial, previously underestimated gap between the reasoning skills of the strongest proprietary model (i.e., GPT-4o), which achieves 47.1% accuracy, and the strongest open-source model (i.e., InternVL Chat V1.5), which achieves 29.2%. All models lag far behind human performance of 80.5%, underscoring weaknesses in the chart understanding capabilities of existing MLLMs. We hope CharXiv facilitates future research on MLLM chart understanding by providing a more realistic and faithful measure of progress. Project page and leaderboard: this https URL
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: Title: CharXiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs; Authors: Zirui Wang, Mengzhou Xia, Luxi He, Howard Chen, Yitao Liu, Richard Zhu, Kaiqu Liang, Xindi Wu, Haotian Liu, Sadhika Malladi, Alexis Chevalier, Sanjeev Arora, Danqi Chen; Institution: Princeton Language and Intelligence (PLI), Princeton University; ArXiv ID: 2406.18521v1; Date: 26 Jun 2024
+- **base-topics**: Multimodal Large Language Models (MLLMs), chart understanding, evaluation benchmarks, visual reasoning, data diversity, robustness analysis
+- **base-core-author**: Zirui Wang, Mengzhou Xia, Luxi He, Howard Chen, Yitao Liu, Richard Zhu, Kaiqu Liang, Xindi Wu, Haotian Liu, Sadhika Malladi, Alexis Chevalier, Sanjeev Arora, Danqi Chen
+- **base-core-group**: Princeton Language and Intelligence (PLI), Princeton University
+- **problems**: Existing chart-understanding benchmarks (e.g., FigureQA, DVQA, ChartQA) oversimplify charts, use template-based questions, lack visual diversity, and lead to over-optimistic performance estimates; open-source MLLMs appear to outperform proprietary models on these benchmarks but fail under simple stress tests with modified questions or charts
+- **problems-main-problem**: The lack of a realistic, diverse, and challenging benchmark for evaluating chart understanding in MLLMs, causing inflated performance claims and unreliable progress measurement
+- **problems-focus-problem**: How to create a benchmark that accurately reflects the chart understanding capabilities of MLLMs across natural, complex, and diverse real-world charts
+- **problems-why-important**: Accurate evaluation is crucial for guiding model development, identifying weaknesses, and ensuring MLLMs can reliably interpret charts in scientific papers, financial reports, and other real-world applications
+- **motivations**: Introduce CharXiv, a new benchmark of 2,323 real-world charts from arXiv papers with human-curated descriptive and reasoning questions; demonstrate that existing benchmarks overestimate model capabilities; reveal significant gaps between open-source and proprietary models and between models and human performance
+- **motivations-main-finding**: GPT-4o achieves 47.1% accuracy on reasoning questions vs. human 80.5%; strongest open-source model (InternVL Chat V1.5) only 29.2%; open-source models drop up to 34.5% under minor perturbations; descriptive accuracy is also much lower than human (92.1%)
+- **motivations-main-insight**: Descriptive chart understanding is a prerequisite for reasoning; compositional and subplot-heavy charts are especially hard; models struggle to identify unanswerable questions; domain-specific patterns affect performance
+- **motivations-why-necessary**: Prior benchmarks mislead researchers and practitioners by masking weaknesses; CharXiv provides a faithful, fine-grained measure of progress and guides future model improvements
+- **solutions**: Construct CharXiv by curating real charts from arXiv 2020-2023 across 8 subjects; design two question types—descriptive (basic element extraction) and reasoning (complex synthesis); use human annotators to craft and validate all QAs; release validation set with answers and hold out test set for fair evaluation
+- **solutions-main-idea**: Replace synthetic benchmarks with real, diverse charts and human-written questions to reveal true model capabilities and limitations
+- **solutions-main-method**: Four-step pipeline: SigLIP-based chart candidate selection, human expert chart curation, human annotation of descriptive and reasoning questions, GPT-4o-based automated grading with human verification
+- **solutions-main-result**: Comprehensive evaluation of 13 open-source and 11 proprietary MLLMs on CharXiv; detailed gap analysis by question type, chart complexity, subject domain, and perturbation sensitivity
+- **solutions-main-conclusion**: Existing MLLMs still fall far short of human performance on realistic chart understanding; CharXiv enables trustworthy evaluation and highlights directions for future research
+- **potential-inspiration**: Extend CharXiv to include charts from additional domains (medical, legal, industrial); develop training curricula that emphasize compositional visual reasoning; investigate multimodal chain-of-thought techniques robust to chart perturbations; explore interactive or conversational chart QA settings; create dynamic benchmarks that evolve with real-world chart styles
+
+---
+
+- **this-no**: 30
+- **no**: 331
+- **title**: Thresholded ConvNet Ensembles: Neural Networks for Technical Forecasting
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/1807.03192](https://arxiv.org/abs/2406.18521)
+- **pdf-url**: [https://arxiv.org/pdf/1807.03192](https://arxiv.org/pdf/2406.18521)
+- **record-time**: July 13, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 11 Jul 2018
+- **article-category**: N/A
+- **abstract**: Much of modern practice in financial forecasting relies on technicals, an umbrella term for several heuristics applying visual pattern recognition to price charts. Despite its ubiquity in financial media, the reliability of its signals remains a contentious and highly subjective form of 'domain knowledge'. We investigate the predictive value of patterns in financial time series, applying machine learning and signal processing techniques to 22 years of US equity data. By reframing technical analysis as a poorly specified, arbitrarily preset feature-extractive layer in a deep neural network, we show that better convolutional filters can be learned directly from the data, and provide visual representations of the features being identified. We find that an ensemble of shallow, thresholded CNNs optimised over different resolutions achieves state-of-the-art performance on this domain, outperforming technical methods while retaining some of their interpretability. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: Title: Thresholded ConvNet Ensembles: Neural Networks for Technical Forecasting; Conference: KDD 2018; Date: 11 Jul 2018; Type: peer-reviewed conference paper
+- **base-topics**: Technical analysis; candlestick pattern recognition; convolutional neural networks; ensemble learning; thresholded prediction; financial time-series forecasting; interpretable deep learning
+- **base-core-author**: Sid Ghoshal; Stephen Roberts
+- **base-core-group**: Oxford-Man Institute of Quantitative Finance, Department of Engineering Science, University of Oxford
+- **problems**: The reliability of visual technical-analysis patterns (candlesticks) in finance is contentious and poorly validated; existing chartist patterns are arbitrarily preset and lack rigorous statistical support; traditional technical indicators underperform relative to their claims; there is a need for interpretable yet accurate forecasting models for US equity data.
+- **problems-main-problem**: Determining whether classical candlestick chart patterns have genuine predictive value for next-day US equity returns, and if not, how to replace them with data-driven, interpretable forecasting models.
+- **problems-focus-problem**: Assessing the statistical significance of 22 years of S&P 500 candlestick patterns and designing an interpretable deep-learning architecture that outperforms these patterns while retaining visual explainability.
+- **problems-why-important**: Reliable technical forecasting can improve trading profitability and risk management; debunking ineffective heuristics prevents misallocation of capital; interpretable ML models satisfy regulatory and practitioner demands for transparency in algorithmic trading.
+- **motivations**: Demonstrate that traditional candlestick patterns have little actionable predictive power; show that shallow, thresholded CNN ensembles can learn superior, interpretable filters directly from price data; provide a rigorous statistical framework for evaluating pattern-based forecasting in finance.
+- **motivations-main-finding**: Candlestick patterns rarely outperform random guessing; only six single-day patterns show significant distributional shifts, yet often in the opposite direction to chartist doctrine; an ensemble of thresholded 1-, 2-, and 3-day CNNs achieves 57.5 % accuracy on high-confidence samples, materially outperforming classical techniques and other ML baselines.
+- **motivations-main-insight**: Technical analysis can be reframed as a poorly specified feature-extraction layer within a deep network; learning convolutional filters end-to-end yields both higher accuracy and interpretable templates that resemble—but outperform—classical patterns; confidence thresholding and ensembling are crucial for translating model outputs into profitable, low-turnover trading decisions.
+- **motivations-why-necessary**: Prior literature lacks large-scale, rigorous statistical validation of candlestick efficacy; practitioners continue to rely on visually appealing but empirically weak patterns; demonstrating superior, data-driven alternatives bridges the gap between academic rigour and industry practice.
+- **solutions**: Replace hand-crafted candlestick templates with trainable convolutional filters; stack multiple shallow CNNs optimised at different resolutions; apply softmax-thresholding to retain only high-confidence predictions; form a heterogeneous ensemble to blend multi-scale information.
+- **solutions-main-idea**: Treat candlestick patterns as noisy, fixed kernels and learn optimal kernels directly from 22 years of S&P 500 open-high-low-close data; enforce sparsity via confidence thresholds to mimic high-conviction human traders; aggregate complementary models to exploit patterns across 1-, 2-, and 3-day horizons.
+- **solutions-main-method**: Design 1-D CNNs with 8 filters of lengths 4, 8, 12 (days) followed by two dense layers; train on rolling 20-day windows; apply dropout for regularisation; threshold softmax probabilities at α tuned to retain the top 1 % highest-confidence predictions; average ensemble member probabilities for final decision.
+- **solutions-main-result**: TCNN ensemble delivers 57.5 % accuracy on the top-centile samples, translating to 48.2× profit over 11 years without friction and 13.0× at 0.25 % transaction costs; Kolmogorov-Smirnov and ROC tests confirm all CNN variants significantly outperform random classification; learned filters visualise as interpretable candlestick-like motifs.
+- **solutions-main-conclusion**: Classical candlestick patterns are statistically unreliable; shallow, thresholded CNN ensembles provide a robust, interpretable alternative; predictive information in raw price history is bounded, yet exploitable with careful modelling and execution; convolutional architectures surpass recurrent and other ML baselines on this task.
+- **potential-inspiration**: Extend framework to intraday or multi-asset data and higher-frequency patterns; incorporate volume and order-book features for richer filters; explore meta-learning to adapt thresholds dynamically to regime shifts; investigate hybrid architectures combining CNN filters with attention or transformer layers for longer-horizon forecasts; develop formal interpretability metrics for learned candlestick motifs to aid regulatory acceptance.
+
+---
+
+- **this-no**: 31
+- **no**: 332
+- **title**: ElliottAgents: A Natural Language-Driven Multi-Agent System for Stock Market Analysis and Prediction
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2507.03435](https://arxiv.org/abs/1807.03192)
+- **pdf-url**: [https://arxiv.org/pdf/2507.03435](https://arxiv.org/pdf/1807.03192)
+- **record-time**: July 13, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+LLM-Reasoning-Framework
+- **note**: This paper presents ElliottAgents, a multi-agent system leveraging natural language processing (NLP) and large language models (LLMs) to analyze complex stock market data......
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 4 Jul 2025
+- **article-category**: N/A
+- **abstract**: This paper presents ElliottAgents, a multi-agent system leveraging natural language processing (NLP) and large language models (LLMs) to analyze complex stock market data. The system combines AI-driven analysis with the Elliott Wave Principle to generate human-comprehensible predictions and explanations. A key feature is the natural language dialogue between agents, enabling collaborative analysis refinement. The LLM-enhanced architecture facilitates advanced language understanding, reasoning, and autonomous decision-making. Experiments demonstrate the system's effectiveness in pattern recognition and generating natural language descriptions of market trends. ElliottAgents contributes to NLP applications in specialized domains, showcasing how AI-driven dialogue systems can enhance collaborative analysis in data-intensive fields. This research bridges the gap between complex financial data and human understanding, addressing the need for interpretable and adaptive prediction systems in finance. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: arXiv:2507.03435v1 [cs.CE] 4 Jul 2025, ElliottAgents: A Natural Language-Driven Multi-Agent System for Stock Market Analysis and Prediction, accepted at the 38th Pacific Asia Conference on Language, Information and Computation, Tokyo, Japan
+- **base-topics**: Natural language processing, large language models, multi-agent systems, Elliott Wave Principle, stock market analysis, pattern recognition, interpretable AI in finance
+- **base-core-author**: Jarosław A. Chudziak, Michał Wawer
+- **base-core-group**: Warsaw University of Technology, Institute of Computer Science and Institute of Control and Computation Engineering, Poland
+- **problems**: Traditional AI approaches struggle with the complexity and rapid changes of stock market data; existing systems are black-box, non-interpretable, and hard to adapt; Elliott Wave Principle (EWP) analysis is usually manual and subjective; lack of collaborative, human-comprehensible, and real-time multi-asset analysis tools
+- **problems-main-problem**: How to integrate natural language processing and multi-agent architectures to produce reliable and human-comprehensible stock market analyses and predictions
+- **problems-focus-problem**: Bridging the gap between complex financial data and human understanding by enabling collaborative, interpretable, and adaptive AI-driven market forecasting
+- **problems-why-important**: Financial decisions require transparency and trust; human traders need understandable rationales; improved prediction and explanation can reduce risk and increase profitability; interpretability is increasingly demanded by regulators and users
+- **motivations**: Combine the structured Elliott Wave Principle with state-of-the-art NLP and LLM-driven multi-agent systems; create a dialogue-based, collaborative refinement process among specialized agents; deliver actionable, natural-language investment strategies
+- **motivations-main-finding**: The proposed system achieves higher pattern-recognition accuracy and produces clear, human-readable explanations; integration of DRL-based backtesting further boosts predictive reliability; the multi-agent dialogue successfully mimics expert human collaboration
+- **motivations-main-insight**: Natural-language inter-agent communication enables dynamic knowledge refinement and error correction; coupling symbolic technical-analysis rules (EWP) with neural LLMs yields both accuracy and interpretability; hierarchical task decomposition plus dynamic scaling make real-time multi-asset analysis feasible
+- **motivations-why-necessary**: Current AI finance tools are opaque and static; traders need systems that explain the “why” behind signals and adapt to new data; regulatory and ethical pressures demand explainable AI; collaborative multi-agent approaches can handle market complexity better than monolithic models
+- **solutions**: ElliottAgents: a LLM-powered multi-agent system where specialized agents (Data Engineer, Elliott Waves Analyst, Backtester, Technical Analysis Expert, Investment Advisor, Reports Writer) communicate in natural language to analyse market data via the Elliott Wave Principle and generate investment recommendations
+- **solutions-main-idea**: Fuse symbolic wave-theory rules with neural language understanding, let agents debate and refine their outputs conversationally, and validate patterns via deep-reinforcement-learning backtests to produce transparent, actionable trading plans
+- **solutions-main-method**: Retrieval-Augmented Generation for factual grounding; transformer-based LLMs for dialogue and reasoning; hierarchical multi-agent orchestration; DRL backtesting on 10-year historical data; Fibonacci-based target and risk-level computation; dynamic context and memory for continual adaptation
+- **solutions-main-result**: Demonstrated on NYSE data: identified impulse, ABC-correction, extension, and ending-diagonal patterns; achieved up to 88.89 % directional accuracy with DRL backtesting; generated theoretical profits of 4.4 % to 17.4 % within days; produced concise natural-language reports with buy/sell levels and contingency plans
+- **solutions-main-conclusion**: Integrating NLP, LLMs, and multi-agent collaboration with the Elliott Wave Principle yields interpretable, accurate, and practically useful stock market forecasting systems; the approach is extensible to other technical-analysis methods and financial instruments
+- **potential-inspiration**: Extend to other pattern-recognition theories (e.g., harmonic patterns, Wyckoff, candlestick formations); integrate sentiment analysis and macro-economic news via LLMs; apply to crypto, forex, or commodities; develop voice-based conversational trading assistants; create real-time collaborative platforms where human experts and AI agents co-analyze markets; explore federated learning for privacy-preserving multi-user models
+
+---
+
+- **this-no**: 32
+- **no**: 333
+- **title**: Designing Adaptive Algorithms Based on Reinforcement Learning for Dynamic Optimization of Sliding Window Size in Multi-Dimensional Data Streams
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2507.06901](https://arxiv.org/abs/2507.03435)
+- **pdf-url**: [https://arxiv.org/pdf/2507.06901](https://arxiv.org/pdf/2507.03435)
+- **record-time**: July 14, 2025
+- **classification**: N/A
+- **note**: ......This paper proposes a novel reinforcement learning (RL)-based approach to dynamically optimize sliding window sizes for multi-dimensional data streams. By formulating window size selection as an RL problem, we enable an agent to learn an adaptive policy based on stream characteristics, such as variance, correlations, and temporal trends. Our method, RL-Window, leverages a Dueling Deep Q-Network (DQN) with prioritized experience replay to handle non-stationarity and high-dimensionality.......
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 9 Jul 2025
+- **article-category**: N/A
+- **abstract**: Multi-dimensional data streams, prevalent in applications like IoT, financial markets, and real-time analytics, pose significant challenges due to their high velocity, unbounded nature, and complex inter-dimensional dependencies. Sliding window techniques are critical for processing such streams, but fixed-size windows struggle to adapt to dynamic changes like concept drift or bursty patterns. This paper proposes a novel reinforcement learning (RL)-based approach to dynamically optimize sliding window sizes for multi-dimensional data streams. By formulating window size selection as an RL problem, we enable an agent to learn an adaptive policy based on stream characteristics, such as variance, correlations, and temporal trends. Our method, RL-Window, leverages a Dueling Deep Q-Network (DQN) with prioritized experience replay to handle non-stationarity and high-dimensionality. Evaluations on benchmark datasets (UCI HAR, PAMAP2, Yahoo! Finance Stream) demonstrate that RL-Window outperforms state-of-the-art methods like ADWIN and CNN-Adaptive in classification accuracy, drift robustness, and computational efficiency. Additional qualitative analyses, extended metrics (e.g., energy efficiency, latency), and a comprehensive dataset characterization further highlight its adaptability and stability, making it suitable for real-time applications. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: Designing Adaptive Algorithms Based on Reinforcement Learning for Dynamic Optimization of Sliding Window Size in Multi-Dimensional Data Streams, arXiv:2507.06901v1, 10 Jul 2025
+- **base-topics**: Reinforcement learning; adaptive sliding window; multi-dimensional data streams; concept drift; deep Q-networks; edge computing; real-time analytics
+- **base-core-author**: Abolfazl Zarghani, Sadegh Abdedi
+- **base-core-group**: Ferdowsi University of Mashhad, University of Tehran
+- **problems**: Fixed-size sliding windows cannot adapt to concept drift, bursty patterns, or high-dimensional correlations in IoT, financial, and real-time analytics streams, leading to accuracy loss, latency, and resource inefficiency
+- **problems-main-problem**: How to dynamically optimize sliding window sizes for multi-dimensional data streams under non-stationary conditions
+- **problems-focus-problem**: Designing an RL agent that learns to select window size w_t at each step t to maximize downstream task performance while balancing accuracy, stability, and computational cost
+- **problems-why-important**: Real-time applications (IoT, smart cities, finance) demand low-latency, energy-efficient, and accurate processing; poor window sizing causes outdated context or insufficient data, degrading decisions on resource-constrained edge devices
+- **motivations**: Gap: existing adaptive methods (ADWIN, CNN-based) are single-dimensional, heuristic, or supervised; RL’s potential for multi-dimensional adaptive windowing is unexplored
+- **motivations-main-finding**: RL-Window with Dueling-DQN + prioritized replay outperforms ADWIN, CNN-Adaptive, Stream-X RL, SMAUG-Inspired by 2.9–3.3 % accuracy, halves drift-robustness loss (-3.2 % vs -6 %), selects 12–22 % smaller windows, and keeps latency <3 ms
+- **motivations-main-insight**: Rich state (variance, correlations, rate-of-change, entropy, drift signals) plus composite reward that penalizes large windows and instability enables RL to learn policies that anticipate drift and balance accuracy-efficiency
+- **motivations-why-necessary**: Prior methods ignore multi-dimensional correlations, require labeled data, or lack energy/latency awareness; RL-Window fills these gaps for real-time, resource-constrained deployments
+- **solutions**: Formulate window size selection as an RL problem; train a Dueling-DQN agent with noisy networks & prioritized replay; use transformer downstream classifier; evaluate on UCI HAR, PAMAP2, Yahoo! Finance
+- **solutions-main-idea**: An RL agent observes high-level stream statistics, selects a discrete window size, receives reward based on classification accuracy minus cost, and learns an adaptive policy without labels
+- **solutions-main-method**: Dueling Deep Q-Network with prioritized experience replay, noisy networks for exploration, double-DQN, adaptive learning rate, periodic retraining; state vector engineered from variance, correlations, entropy, drift indicators; composite reward balances accuracy, latency, stability
+- **solutions-main-result**: 90–92 % classification accuracy across datasets, best drift robustness (-3.2 % to -4.1 % drop), average window 78–84 vs 88–100 baselines, energy 1.1–1.4 mJ, latency 2.5–3.1 ms
+- **solutions-main-conclusion**: RL-Window successfully learns adaptive window sizing for multi-dimensional streams, outperforming statistical and deep baselines in accuracy, stability, and drift handling while meeting real-time constraints
+- **potential-inspiration**: Extend to continuous window sizes via DDPG; multi-agent RL for per-dimension windows; meta-learning for cross-domain transfer; model compression for ultra-low-power devices; real-time visualization tools for interpretability
+
+---
+
+- **this-no**: 33
+- **no**: 334
+- **title**: Decentralised Multi-Manager Fund Framework
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2507.00978](https://arxiv.org/abs/2507.06901)
+- **pdf-url**: [https://arxiv.org/pdf/2507.00978](https://arxiv.org/pdf/2507.06901)
+- **record-time**: July 14, 2025
+- **classification**: N/A
+- **note**: We introduce a decentralised, algorithmic framework for permissionless, multi-strategy capital allocation via tokenised, automated vaults...... The resulting structure is a self-regulating asset management ecosystem capable of decentralised, cooperative optimisation across traditional and digital financial domains......
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 1 Jul 2025
+- **article-category**: N/A
+- **abstract**: We introduce a decentralised, algorithmic framework for permissionless, multi-strategy capital allocation via tokenised, automated vaults. The system is designed to function analogously to a multi-strategy asset management company, but implemented entirely on-chain through a modular architecture comprising four interacting layers. The first, the capitalisation layer, composed of vaults that facilitate multi-asset deposits, tokenises investor participation, and specifies high level risk limits and admissible venues for deployment. The second, the strategy layer, enables the submission of strategies by human developers or autonomous agents, creating a decentralised marketplace governed by a validation mechanism incorporating adversarial and gamified elements. The third, the execution layer, operationalises strategy deployment using the host blockchain network's services. The fourth layer, the validated allocation layer, assesses and allocates capital among validated strategies, dynamically rebalancing toward those exhibiting superior risk-adjusted performance. In the framework, each admitted strategy acts as a manager for the "fund", encapsulated in a smart contract vault that issues transferable V-Tokens, conveying fractional ownership of the real-time portfolio operated by the vault. The system is designed to be open to participation by both human and AI agents, who collectively perform the roles of capital allocators, strategy developers, and validated allocators. The resulting structure is a self-regulating asset management ecosystem capable of decentralised, cooperative optimisation across traditional and digital financial domains. This framework is facilitated by a host chain network, which offers native automation and data oracle services enabling vault entities to autonomously operate on-chain, paving the way for being self sufficient in dynamic allocation of capital. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: arXiv:2507.00978v1 [q-fin.GN], "Decentralised Multi-Manager Fund Framework", lead authors Arman Abgaryan, Utkarsh Sharma, Joshua Tobkin, January 2025, DRAFT.
+- **base-topics**: Decentralised finance (DeFi), multi-strategy asset management, on-chain vaults, tokenised fund shares, AI/human strategy marketplace, algorithmic capital allocation, smart-contract automation, cross-chain execution, risk-adjusted performance, self-regulating ecosystems.
+- **base-core-author**: Arman Abgaryan*, Utkarsh Sharma*, Joshua Tobkin (*lead co-authors and designers).
+- **base-core-group**: Supra DeFi Research; Department of Engineering Science, University of Oxford.
+- **problems**: Traditional capital management is centralised, single-strategy, opaque, and rigid; limited strategy discovery; fragmented governance and ownership; manual or unreliable execution; absence of trust-minimised, dynamic, multi-strategy allocation on-chain.
+- **problems-main-problem**: Centralised, opaque, and inflexible fund structures that restrict strategy diversity, adaptability, and trust-minimised execution in both traditional and digital finance.
+- **problems-focus-problem**: Designing a permissionless, modular, and automated on-chain framework that continuously discovers, validates, and dynamically allocates capital among multiple competing strategies (human or AI) while minimising trust and maximising transparency.
+- **problems-why-important**: Existing structures suffer from custodial risk, high barriers to entry, limited innovation, and poor adaptability to heterogeneous market conditions; solving this unlocks global, scalable, and transparent capital allocation that can span both traditional and DeFi markets.
+- **motivations**: Replicate the “multi-manager pod shop” model entirely on-chain; combine open strategy marketplace, adversarial validation, tokenised ownership, and autonomous execution; enable AI agents and humans to co-manage funds under programmable risk constraints.
+- **motivations-main-finding**: A four-layer modular architecture—capitalisation, strategy, execution, and validated allocation—can create a self-regulating, self-sustaining asset-management ecosystem that tokenises investor ownership (V-Tokens) and continuously rebalances capital toward superior risk-adjusted strategies.
+- **motivations-main-insight**: By embedding strict execution rules, gamified adversarial validation, and algorithmic rebalancing inside smart-contract vaults, the framework removes discretionary control, aligns incentives among all participants, and allows seamless cross-chain capital mobility without custodians.
+- **motivations-why-necessary**: Traditional and existing DeFi vaults lack dynamic strategy switching, transparent governance, and permissionless innovation; these contributions are necessary to evolve capital management into an open, competitive, and trustless marketplace capable of global scale.
+- **solutions**: Deploy fully on-chain vaults that accept multi-asset deposits, mint fungible V-Tokens, whitelist strategies via adversarial games (e.g., OpenAlpha), and use algorithmic allocators to rebalance capital across strategies according to real-time risk-adjusted performance and pre-programmed constraints.
+- **solutions-main-idea**: Replace central fund managers with a decentralised network of audited smart-contract strategies overseen by programmable vaults that autonomously discover, validate, and optimally allocate capital among competing managers.
+- **solutions-main-method**: Modular smart-contract architecture (Venue Registry, Strategy Registry, Share Tokenisation, Governance, Accounting, Rebalance Engine) integrated with host-chain automation, price oracles, cross-chain bridges, and community-driven validation markets to enforce rules and execute rebalancing.
+- **solutions-main-result**: A product suite of parametrised strategy factories (spot, linear/non-linear derivatives, active arbitrage, thematic initiatives) that can be instantiated with minimal audit overhead, providing transparent, real-time NAV tracking, liquid V-Token ownership, and continuous capital reallocation toward outperforming strategies.
+- **solutions-main-conclusion**: The proposed framework successfully decentralises multi-manager hedge-fund logic, achieving trust-minimised, transparent, and adaptive capital allocation that can operate across traditional and digital markets, governed entirely by smart contracts and community consensus.
+- **potential-inspiration**: Explore AI-only strategy leagues, privacy-preserving validation games, quadratic funding vaults for public goods, ESG/impact scoring integration, cross-protocol insurance pools, and hyper-scalable sharded vaults for micro-strategies.
+
+---
+
+- **this-no**: 34
+- **no**: 335
+- **title**: Improved LLM Agents for Financial Document Question Answering
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2506.08726](https://arxiv.org/abs/2507.00978)
+- **pdf-url**: [https://arxiv.org/pdf/2506.08726](https://arxiv.org/pdf/2507.00978)
+- **record-time**: July 14, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+LLM-Reasoning-Framework
+- **note**: ......this paper examines the effectiveness of the traditional critic agent when oracle labels are not available, and show, through experiments, that this critic agent's performance deteriorates in this scenario. With this in mind, we present an improved critic agent, along with the calculator agent which outperforms the previous state-of-the-art approach (program-of-thought) and is safer......
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 10 Jun 2025
+- **article-category**: N/A
+- **abstract**: Large language models (LLMs) have shown impressive capabilities on numerous natural language processing tasks. However, LLMs still struggle with numerical question answering for financial documents that include tabular and textual data. Recent works have showed the effectiveness of critic agents (i.e., self-correction) for this task given oracle labels. Building upon this framework, this paper examines the effectiveness of the traditional critic agent when oracle labels are not available, and show, through experiments, that this critic agent's performance deteriorates in this scenario. With this in mind, we present an improved critic agent, along with the calculator agent which outperforms the previous state-of-the-art approach (program-of-thought) and is safer. Furthermore, we investigate how our agents interact with each other, and how this interaction affects their performance. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: Title: Improved LLM Agents for Financial Document Question Answering; Year: 2025; Venue: arXiv preprint arXiv:2506.08726v1 [cs.CL]; Date: 10 Jun 2025; Keywords: LLM, financial documents, numerical reasoning, tabular and textual data, critic agent, calculator agent, multi-agent framework
+- **base-topics**: Large language model numerical reasoning; Multi-agent collaboration; Financial question answering; Tabular and textual data fusion; Self-correction without oracle labels; Safe code execution alternatives
+- **base-core-author**: Nelvin Tan, Zian Seng, Liang Zhang, Yu-Ching Shih, Dong Yang, Amol Salunkhe
+- **base-core-group**: American Express
+- **problems**: LLMs struggle with numerical QA on financial documents containing mixed tabular & textual data; Traditional critic agents degrade when oracle labels are unavailable; Program-of-Thought (PoT) execution poses security risks; Need for safer yet accurate numerical reasoning
+- **problems-main-problem**: Large language models exhibit poor and unsafe numerical reasoning on financial documents that combine tables and text
+- **problems-focus-problem**: How to design LLM agents that can (1) accurately answer numerical questions over mixed tabular and textual financial data without oracle labels, and (2) do so more safely than PoT
+- **problems-why-important**: Financial decisions demand high accuracy; tabular layouts differ semantically from plain text; executing LLM-generated code (PoT) can introduce security vulnerabilities; improving LLMs without costly fine-tuning saves resources
+- **motivations**: Demonstrate that prior critic-agent gains relied on oracle labels; Provide a label-free improved critic leveraging confidence; Introduce a calculator agent that is safer than PoT yet more accurate; Validate on two standard financial QA datasets
+- **motivations-main-finding**: Critic agent does NOT outperform CoT when oracle labels are withheld; Improved critic agent (confidence-based) and calculator agent both raise accuracy; Calculator agent surpasses PoT on average while avoiding unsafe code execution
+- **motivations-main-insight**: Intrinsic self-correction only helps when the model can reliably gauge its own confidence; Decomposing reasoning into critique and calculation steps yields safer and more robust numerical QA; Few-shot extraction of simple arithmetic is sufficient to correct CoT errors
+- **motivations-why-necessary**: Prior claims of critic superiority were inflated by oracle usage; Safe deployment in finance requires minimizing arbitrary code execution; Demonstrates a practical path to stronger tabular-textual reasoning without retraining
+- **solutions**: Multi-agent framework with analyst, improved critic, and calculator agents; Confidence-guided answer revision; Arithmetic extraction and Python evaluation restricted to safe operations
+- **solutions-main-idea**: Replace oracle-dependent critique with confidence-aware self-reflection, and replace full Python code generation with lightweight arithmetic extraction plus sandboxed calculation
+- **solutions-main-method**: Analyst agent generates CoT; improved critic agent decides to keep or revise based on self-reported confidence; calculator agent extracts equations from CoT and evaluates them using a restricted Python interpreter; iterative refinement across agents
+- **solutions-main-result**: On TATQA & FinQA, CoT+cal exceeds PoT (state-of-the-art) by ~2–3 pp with weaker LLM and ties or surpasses with stronger LLM; CoT+i-critic+cal yields best average accuracy (82.7 %); Experiments confirm critic alone harms performance without oracle labels
+- **solutions-main-conclusion**: Critic agents require oracle guidance to help; calculator agent offers a safer, generally superior alternative to PoT; confidence-based revision plus arithmetic verification provides a practical, training-free boost to LLM numerical reasoning in finance
+- **potential-inspiration**: Extend confidence calibration to other structured data (spreadsheets, databases); generalize calculator agent to symbolic math or SQL generation with sandboxing; integrate retrieval-augmented generation to supply missing context; explore ensemble of specialized agents for broader business analytics; adapt framework to regulatory reporting where safety and explainability are paramount
+
+---
+
+- **this-no**: 35
+- **no**: 336
+- **title**: FinRobot: Generative Business Process AI Agents for Enterprise Resource Planning in Finance
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2506.01423](https://arxiv.org/abs/2506.08726)
+- **pdf-url**: [https://arxiv.org/pdf/2506.01423](https://arxiv.org/pdf/2506.08726)
+- **record-time**: July 14, 2025
+- **classification**: LLM-Reasoning-Framework
+LLM-Reasoning-Planning
+- **note**: ......In this paper, we present the first AI-native, agent-based framework for ERP systems, introducing a novel architecture of Generative Business Process AI Agents (GBPAs) that bring autonomy, reasoning, and dynamic optimization to enterprise workflows......
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 2 Jun 2025
+- **article-category**: N/A
+- **abstract**: Enterprise Resource Planning (ERP) systems serve as the digital backbone of modern financial institutions, yet they continue to rely on static, rule-based workflows that limit adaptability, scalability, and intelligence. As business operations grow more complex and data-rich, conventional ERP platforms struggle to integrate structured and unstructured data in real time and to accommodate dynamic, cross-functional workflows.
+In this paper, we present the first AI-native, agent-based framework for ERP systems, introducing a novel architecture of Generative Business Process AI Agents (GBPAs) that bring autonomy, reasoning, and dynamic optimization to enterprise workflows. The proposed system integrates generative AI with business process modeling and multi-agent orchestration, enabling end-to-end automation of complex tasks such as budget planning, financial reporting, and wire transfer processing. Unlike traditional workflow engines, GBPAs interpret user intent, synthesize workflows in real time, and coordinate specialized sub-agents for modular task execution. We validate the framework through case studies in bank wire transfers and employee reimbursements, two representative financial workflows with distinct complexity and data modalities. Results show that GBPAs achieve up to 40% reduction in processing time, 94% drop in error rate, and improved regulatory compliance by enabling parallelism, risk control insertion, and semantic reasoning. These findings highlight the potential of GBPAs to bridge the gap between generative AI capabilities and enterprise-grade automation, laying the groundwork for the next generation of intelligent ERP systems. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: The paper titled "FinRobot: Generative Business Process AI Agents for Enterprise Resource Planning in Finance" was published on arXiv on June 2, 2025, with authors Hongyang Yang, Likun Lin, Yang She, Xinyu Liao, Jiaoyang Wang, Runjia Zhang, Yuquan Mo, and Christina Dan Wang from AI4Finance Foundation, Columbia University, and New York University Shanghai.
+- **base-topics**: The paper discusses the integration of generative AI with enterprise resource planning (ERP) systems in finance, focusing on the development of an AI-native, agent-based framework for automating complex financial workflows such as budget planning, financial reporting, and wire transfer processing.
+- **base-core-author**: Hongyang Yang, Likun Lin, Yang She, Xinyu Liao, Jiaoyang Wang, Runjia Zhang, Yuquan Mo, Christina Dan Wang
+- **base-core-group**: AI4Finance Foundation, Columbia University, New York University Shanghai
+- **problems**: Traditional ERP systems rely on static, rule-based workflows that limit adaptability, scalability, and intelligence. They struggle to integrate structured and unstructured data in real time and cannot accommodate dynamic, cross-functional workflows.
+- **problems-main-problem**: The main problem is the inability of traditional ERP systems to adapt to the increasing complexity, data heterogeneity, and real-time decision-making demands of modern financial operations due to their static, rule-based workflows.
+- **problems-focus-problem**: The key problem is the lack of flexibility and intelligence in current ERP systems, which leads to inefficiencies in handling complex financial tasks such as wire transfers and employee reimbursements.
+- **problems-why-important**: This problem is important because it affects the agility, cross-functional consistency, and operational responsiveness of financial institutions, leading to increased operational costs and reduced accuracy and compliance in critical tasks.
+- **motivations**: The paper introduces a novel architecture of Generative Business Process AI Agents (GBPAs) that integrate generative AI with business process modeling and multi-agent orchestration to enable end-to-end automation of complex tasks.
+- **motivations-main-finding**: The main findings are that GBPAs achieve up to a 40% reduction in processing time, a 94% drop in error rate, and improved regulatory compliance by enabling parallelism, risk control insertion, and semantic reasoning.
+- **motivations-main-insight**: The key insight is that integrating large language models (LLMs) with ERP systems through an agent-based framework can significantly enhance the adaptability and intelligence of enterprise workflows.
+- **motivations-why-necessary**: These contributions are necessary to bridge the gap between generative AI capabilities and enterprise-grade automation, laying the groundwork for the next generation of intelligent ERP systems.
+- **solutions**: The proposed solution is an AI-native, agent-based framework for ERP systems that includes a layered architecture with data modeling, business modeling, LLM integration, Chain-of-Actions (CoA) execution engine, and execution and deployment layers.
+- **solutions-main-idea**: The main idea is to use GBPAs to dynamically interpret user intent, decompose goals into executable plans, and coordinate specialized sub-agents for modular task execution in real time.
+- **solutions-main-method**: The primary method involves integrating generative AI with business process modeling and multi-agent orchestration, leveraging LLMs for semantic reasoning and task generation.
+- **solutions-main-result**: The main results show that GBPAs reduce processing time by up to 40%, cut error rates by 94%, and improve efficiency through intelligent parallelization while meeting regulatory and operational requirements.
+- **solutions-main-conclusion**: The key conclusion is that GBPAs offer a scalable and intelligent solution for transforming traditional ERP systems into adaptive, dynamic, and efficient workflows through agent-based orchestration and semantic process modeling.
+- **potential-inspiration**: Potential inspirations include exploring the application of GBPAs in other industries beyond finance, further enhancing the integration of AI with ERP systems for more complex tasks, and developing more sophisticated agent-based architectures to handle real-time decision-making and dynamic workflows.
+
+---
+
+- **this-no**: 36
+- **no**: 337
+- **title**: Structuring the Unstructured: A Multi-Agent System for Extracting and Querying Financial KPIs and Guidance
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2505.19197](https://arxiv.org/abs/2506.01423)
+- **pdf-url**: [https://arxiv.org/pdf/2505.19197](https://arxiv.org/pdf/2506.01423)
+- **record-time**: July 14, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 26 Jun 2025
+- **article-category**: N/A
+- **abstract**: Extracting structured and quantitative insights from unstructured financial filings is essential in investment research, yet remains time-consuming and resource-intensive. Conventional approaches in practice rely heavily on labor-intensive manual processes, limiting scalability and delaying the research workflow. In this paper, we propose an efficient and scalable method for accurately extracting quantitative insights from unstructured financial documents, leveraging a multi-agent system composed of large language models. Our proposed multi-agent system consists of two specialized agents: the \emph{Extraction Agent} and the \emph{Text-to-SQL Agent}. The \textit{Extraction Agent} automatically identifies key performance indicators from unstructured financial text, standardizes their formats, and verifies their accuracy. On the other hand, the \textit{Text-to-SQL Agent} generates executable SQL statements from natural language queries, allowing users to access structured data accurately without requiring familiarity with the database schema. Through experiments, we demonstrate that our proposed system effectively transforms unstructured text into structured data accurately and enables precise retrieval of key information. First, we demonstrate that our system achieves approximately 95\% accuracy in transforming financial filings into structured data, matching the performance level typically attained by human annotators. Second, in a human evaluation of the retrieval task -- where natural language queries are used to search information from structured data -- 91\% of the responses were rated as correct by human evaluators. In both evaluations, our system generalizes well across financial document types, consistently delivering reliable performance. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: Title: Structuring the Unstructured: A Multi-Agent System for Extracting and Querying Financial KPIs and Guidance; Authors: Chanyeol Choi, Alejandro Lopez-Lira, Yongjae Lee, Jihoon Kwon, Minjae Kim, Juneha Hwang, Minsoo Ha, Chaewoon Kim, Jaeseon Ha, Suyeol Yun, Jin Kim; Conference: SIGIR FinIR’25; Date: July 17, 2025; Location: Padua, Italy
+- **base-topics**: Financial Information Extraction, Multi-Agent Systems, Text-to-SQL, Financial Analytics
+- **base-core-author**: Chanyeol Choi, Alejandro Lopez-Lira, Yongjae Lee, Jihoon Kwon, Minjae Kim, Juneha Hwang, Minsoo Ha, Chaewoon Kim, Jaeseon Ha, Suyeol Yun, Jin Kim
+- **base-core-group**: LinqAlpha (New York, NY, USA), University of Florida (Gainesville, FL, USA), UNIST (Ulsan, Republic of Korea)
+- **problems**: Extracting structured and quantitative insights from unstructured financial filings is time-consuming and resource-intensive. Traditional manual processes are slow, error-prone, and lack standardization. Existing LLM-based methods often misinterpret numeric guidance, extract incorrect values, or omit critical metrics due to layout sensitivity and difficulty in distinguishing factual signals from narratives.
+- **problems-main-problem**: The main problem is the inefficiency and inaccuracy of extracting and retrieving structured financial insights from unstructured financial documents, which limits scalability and delays research workflows.
+- **problems-focus-problem**: The key problem is the unreliability of LLMs when used in isolation for financial document analysis, leading to errors in extracting key performance indicators (KPIs) and generating executable SQL queries.
+- **problems-why-important**: The problem is important because accurate and timely extraction of financial KPIs is crucial for informed decision-making in investment research. Manual processes are impractical given the increasing volume of financial documents, and existing automated methods are insufficiently reliable.
+- **motivations**: The paper proposes a multi-agent system to address the limitations of existing methods by leveraging large language models (LLMs) in a collaborative framework to improve accuracy, reduce hallucinations, and enhance reliability in financial document analysis.
+- **motivations-main-finding**: The proposed multi-agent system achieves approximately 95% accuracy in transforming financial filings into structured data and 91% accuracy in retrieving information using natural language queries.
+- **motivations-main-insight**: The key insight is that decomposing the workflow into specialized agents (Extraction Agent and Text-to-SQL Agent) allows for targeted evaluation, modular tuning, and integration of feedback loops, enabling iterative refinement and robust error handling.
+- **motivations-why-necessary**: These contributions are necessary because they address the shortcomings of existing LLM-based methods, such as misinterpretation of numeric values and lack of domain grounding, thereby providing a more reliable and scalable solution for financial information extraction and retrieval.
+- **solutions**: The proposed solution is a multi-agent system consisting of an Extraction Agent that identifies, standardizes, and verifies KPIs from unstructured financial text, and a Text-to-SQL Agent that translates natural language queries into executable SQL statements.
+- **solutions-main-idea**: The main idea is to use a multi-agent framework where specialized agents collaborate to validate, cross-check, and refine each other’s outputs, improving accuracy and reliability in financial document analysis.
+- **solutions-main-method**: The primary method involves using domain-tuned prompts and logic in the Extraction Agent to parse and validate KPIs, and a schema-aware model in the Text-to-SQL Agent to translate queries into executable SQL.
+- **solutions-main-result**: The system demonstrates significant improvements in accuracy, controllability, and scalability over traditional and monolithic LLM baselines, achieving high-fidelity structuring and precise, trustworthy retrieval of financial data.
+- **solutions-main-conclusion**: The modular design of the multi-agent system enables robust, interpretable financial querying and reduces manual effort, making it a scalable and trustworthy foundation for deploying generative AI in financial research workflows.
+- **potential-inspiration**: Potential inspirations include expanding support to multilingual filings, integrating richer temporal logic, enabling cross-document reasoning over longer time horizons, and exploring the application of similar multi-agent frameworks in other domains with complex document structures.
+
+---
+
+- **this-no**: 37
+- **no**: 338
+- **title**: InvestAlign: Overcoming Data Scarcity in Aligning Large Language Models with Investor Decision-Making Processes under Herd Behavior
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2507.06528](https://arxiv.org/abs/2505.19197)
+- **pdf-url**: [https://arxiv.org/pdf/2507.06528](https://arxiv.org/pdf/2505.19197)
+- **record-time**: July 15, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+LLM-Reasoning-Framework
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 9 Jul 2025
+- **article-category**: N/A
+- **abstract**: Aligning Large Language Models (LLMs) with investor decision-making processes under herd behavior is a critical challenge in behavioral finance, which grapples with a fundamental limitation: the scarcity of real-user data needed for Supervised Fine-Tuning (SFT). While SFT can bridge the gap between LLM outputs and human behavioral patterns, its reliance on massive authentic data imposes substantial collection costs and privacy risks. We propose InvestAlign, a novel framework that constructs high-quality SFT datasets by leveraging theoretical solutions to similar and simple optimal investment problems rather than complex scenarios. Our theoretical analysis demonstrates that training LLMs with InvestAlign-generated data achieves faster parameter convergence than using real-user data, suggesting superior learning efficiency. Furthermore, we develop InvestAgent, an LLM agent fine-tuned with InvestAlign, which demonstrates significantly closer alignment to real-user data than pre-SFT models in both simple and complex investment problems. This highlights our proposed InvestAlign as a promising approach with the potential to address complex optimal investment problems and align LLMs with investor decision-making processes under herd behavior. Our code is publicly available at this https URL. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: Title: InvestAlign: Overcoming Data Scarcity in Aligning Large Language Models with Investor Decision-Making Processes under Herd Behavior
+- **base-topics**: Behavioral finance, large language models (LLMs), supervised fine-tuning (SFT), investor decision-making, herd behavior, optimal investment problems
+- **base-core-author**: Huisheng Wang, Zhuoshi Pan, Hangjing Zhang, Mingxiao Liu, Hanqing Gao, H. Vicky Zhao
+- **base-core-group**: Department of Automation, Tsinghua University, Beijing, China
+- **problems**: Aligning large language models with investor decision-making processes under herd behavior, particularly addressing the scarcity of real-user data needed for supervised fine-tuning (SFT)
+- **problems-main-problem**: The fundamental limitation of data scarcity for SFT, which imposes substantial collection costs and privacy risks
+- **problems-focus-problem**: Aligning LLMs with investor decision-making processes under herd behavior using limited real-user data
+- **problems-why-important**: Real-user data is essential for supervised fine-tuning to bridge the gap between LLM outputs and human behavioral patterns, but it is costly and risky to collect
+- **motivations**: Proposing a novel framework (InvestAlign) to construct high-quality SFT datasets using theoretical solutions to similar and simple optimal investment problems instead of complex scenarios
+- **motivations-main-finding**: Training LLMs with InvestAlign-generated data achieves faster parameter convergence than using real-user data, demonstrating superior learning efficiency
+- **motivations-main-insight**: Theoretical solutions of simple problems can be leveraged to generate training data that aligns well with real-user investment decisions, reducing the need for large-scale real-user data
+- **motivations-why-necessary**: Current methods relying on real-user data for SFT are limited by data scarcity and privacy concerns, necessitating alternative approaches to align LLMs with investor decision-making processes
+- **solutions**: InvestAlign framework, InvestAgent (LLM agent fine-tuned with InvestAlign), and the use of theoretical solutions to construct SFT datasets
+- **solutions-main-idea**: Construct SFT datasets using theoretical solutions of simple optimal investment problems to fine-tune LLMs for alignment with investor decision-making processes under herd behavior
+- **solutions-main-method**: Leveraging theoretical solutions of simple problems to generate training data, followed by supervised fine-tuning of LLMs using the constructed datasets
+- **solutions-main-result**: InvestAgents demonstrate significantly closer alignment to real-user data than pre-SFT models in both simple and complex investment problems
+- **solutions-main-conclusion**: InvestAlign is a promising approach to address complex optimal investment problems and align LLMs with investor decision-making processes under herd behavior
+- **potential-inspiration**: Extending InvestAlign to other behavioral biases (e.g., overconfidence, loss aversion), incorporating reinforcement learning from human feedback (RLHF) to complement SFT, and exploring the application of InvestAlign to more complex investment scenarios
+
+---
+
+- **this-no**: 38
+- **no**: 339
+- **title**: RAS-Eval: A Comprehensive Benchmark for Security Evaluation of LLM Agents in Real-World Environments
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2506.15253](https://arxiv.org/abs/2507.06528)
+- **pdf-url**: [https://arxiv.org/pdf/2506.15253](https://arxiv.org/pdf/2507.06528)
+- **record-time**: July 15, 2025
+- **classification**: N/A
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 18 Jun 2025
+- **article-category**: N/A
+- **abstract**: The rapid deployment of Large language model (LLM) agents in critical domains like healthcare and finance necessitates robust security frameworks. To address the absence of standardized evaluation benchmarks for these agents in dynamic environments, we introduce RAS-Eval, a comprehensive security benchmark supporting both simulated and real-world tool execution. RAS-Eval comprises 80 test cases and 3,802 attack tasks mapped to 11 Common Weakness Enumeration (CWE) categories, with tools implemented in JSON, LangGraph, and Model Context Protocol (MCP) formats. We evaluate 6 state-of-the-art LLMs across diverse scenarios, revealing significant vulnerabilities: attacks reduced agent task completion rates (TCR) by 36.78% on average and achieved an 85.65% success rate in academic settings. Notably, scaling laws held for security capabilities, with larger models outperforming smaller counterparts. Our findings expose critical risks in real-world agent deployments and provide a foundational framework for future security research. Code and data are available at this https URL. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: The paper titled "RAS-EVAL: A COMPREHENSIVE BENCHMARK FOR SECURITY EVALUATION OF LLM AGENTS IN REAL-WORLD ENVIRONMENTS" was published on arXiv on June 18, 2025, with the identifier arXiv:2506.15253v1 [cs.CR].
+- **base-topics**: Security evaluation, Large Language Model (LLM) agents, benchmarking, real-world environments, simulated environments, Common Weakness Enumeration (CWE) categories, tool execution, attack tasks, vulnerability analysis.
+- **base-core-author**: Yuchuan Fu, Xiaohan Yuan, Dongxia Wang
+- **base-core-group**: Zhejiang University, Hangzhou, China
+- **problems**: Existing benchmarks for evaluating LLM agent security primarily operate in simulated environments and lack support for real-world tool execution, leading to limitations in environmental authenticity, attack coverage, and framework support.
+- **problems-main-problem**: The absence of a standardized security benchmark for LLM agents in dynamic real-world environments that can comprehensively evaluate their security vulnerabilities.
+- **problems-focus-problem**: The inability of current benchmarks to effectively simulate real-world security challenges faced by LLM agents, such as insecure permission authentication and data transmission vulnerabilities.
+- **problems-why-important**: Addressing these limitations is crucial for ensuring the robustness and trustworthiness of LLM agents deployed in critical domains like healthcare and finance, where security vulnerabilities can have significant consequences.
+- **motivations**: The need for a comprehensive security benchmark that supports both simulated and real-world tool execution to accurately assess the security capabilities of LLM agents.
+- **motivations-main-finding**: The introduction of RAS-Eval, a benchmark that includes 80 test cases and 3,802 attack tasks mapped to 11 CWE categories, supporting JSON, LangGraph, and MCP formats.
+- **motivations-main-insight**: RAS-Eval effectively exposes critical vulnerabilities in LLM agents, with attacks reducing task completion rates by 36.78% on average and achieving an 85.65% success rate in academic settings.
+- **motivations-why-necessary**: To provide a foundational framework for future security research and development of robust mitigation strategies, ensuring the trustworthiness of LLM agents in real-world deployments.
+- **solutions**: Construction of RAS-Eval, a comprehensive benchmark supporting real-world tool execution with JSON/LangGraph/MCP compatibility, covering 11 CWE categories, 7 scenarios, and 3,802 attacks.
+- **solutions-main-idea**: To create a benchmark that can evaluate LLM agents in both simulated and real-world environments, covering a wide range of security vulnerabilities and failure modes.
+- **solutions-main-method**: Development of a multi-format toolkit with real/simulated execution modes, automated evaluation pipelines, and a novel failure mode taxonomy for granular vulnerability analysis.
+- **solutions-main-result**: Empirical validation showing that larger models outperform smaller counterparts in terms of security capabilities, with significant vulnerabilities exposed through attack tasks.
+- **solutions-main-conclusion**: RAS-Eval provides a robust framework for security evaluation of LLM agents, highlighting critical risks and offering a foundation for future research and development of more secure LLM agents.
+- **potential-inspiration**: Further research into advanced security mechanisms for LLM agents, development of more sophisticated attack and defense strategies, and exploration of additional real-world scenarios and tools to enhance benchmark coverage.
+
+---
+
+- **this-no**: 39
+- **no**: 517
+- **title**: Qwen2.5-VL Technical Report
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2308.12966](https://arxiv.org/abs/2506.15253)
+- **pdf-url**: [https://arxiv.org/pdf/2308.12966](https://arxiv.org/pdf/2506.15253)
+- **record-time**: July 15, 2025
+- **classification**: MultiModal-Evaluation-Benchmark
+- **note**: VLM
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 3 Oct 2023
+- **article-category**: N/A
+- **abstract**: In this work, we introduce the Qwen-VL series, a set of large-scale vision-language models (LVLMs) designed to perceive and understand both texts and images. Starting from the Qwen-LM as a foundation, we endow it with visual capacity by the meticulously designed (i) visual receptor, (ii) input-output interface, (iii) 3-stage training pipeline, and (iv) multilingual multimodal cleaned corpus. Beyond the conventional image description and question-answering, we implement the grounding and text-reading ability of Qwen-VLs by aligning image-caption-box tuples. The resulting models, including Qwen-VL and Qwen-VL-Chat, set new records for generalist models under similar model scales on a broad range of visual-centric benchmarks (e.g., image captioning, question answering, visual grounding) and different settings (e.g., zero-shot, few-shot). Moreover, on real-world dialog benchmarks, our instruction-tuned Qwen-VL-Chat also demonstrates superiority compared to existing vision-language chatbots. Code, demo and models are available at this https URL. 
+- **github-url**: [https://github.com/QwenLM/Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL)
+- **huggingface-url**: [https://huggingface.co/collections/Qwen/qwen25-vl-6795ffac22b334a837c0f9a5](https://huggingface.co/collections/Qwen/qwen25-vl-6795ffac22b334a837c0f9a5)
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: The paper introduces the Qwen-VL series, a set of large-scale vision-language models (LVLMs) designed to perceive and understand both texts and images. It builds on the Qwen-7B language model and enhances it with visual capabilities through a meticulously designed visual receptor, input-output interface, 3-stage training pipeline, and multilingual multimodal cleaned corpus.
+- **base-topics**: Vision-language models, multimodal learning, image understanding, text comprehension, fine-grained visual understanding, multilingual models, few-shot learning, instruction tuning
+- **base-core-author**: Jinze Bai, Shuai Bai, Shusheng Yang, Shijie Wang, Sinan Tan, Peng Wang, Junyang Lin, Chang Zhou, Jingren Zhou
+- **base-core-group**: Alibaba Group
+- **problems**: The paper addresses the limitations of existing large language models (LLMs) that lack the ability to handle visual modalities (e.g., images) and the inadequate training and optimization of current open-source LVLMs, which lag behind proprietary models. It also highlights the lack of fine-grained visual understanding in most open-source LVLMs.
+- **problems-main-problem**: The main problem is the inability of traditional LLMs to effectively perceive and understand visual inputs, limiting their application scope in real-world scenarios that require multimodal comprehension.
+- **problems-focus-problem**: The key problem is the lack of fine-grained visual understanding and grounding capabilities in existing LVLMs, which hinders their ability to perform tasks like object localization and text reading within images.
+- **problems-why-important**: This problem is important because real-world visual scenarios are complex and require fine-grained visual understanding to assist people effectively and precisely. Enhancing visual comprehension can significantly expand the application scope of LLMs.
+- **motivations**: The paper aims to enhance LLMs with visual capabilities through a new visual receptor, input-output interface, and a 3-stage training pipeline to achieve state-of-the-art performance in vision-language tasks.
+- **motivations-main-finding**: The main findings include achieving top-tier accuracy on various vision-centric benchmarks (e.g., image captioning, question answering, visual grounding) and demonstrating superior performance in multi-image, multilingual, and fine-grained visual understanding tasks compared to existing models.
+- **motivations-main-insight**: The key insight is that integrating high-resolution visual inputs, fine-grained corpus, and a well-designed training pipeline can significantly improve the visual understanding capabilities of LVLMs, enabling them to handle complex real-world visual tasks.
+- **motivations-why-necessary**: These contributions are necessary to bridge the gap between proprietary and open-source LVLMs, enhance the models' ability to handle real-world visual scenarios, and support multilingual and multi-image conversations.
+- **solutions**: The solutions proposed include a new visual receptor with a language-aligned visual encoder and position-aware adapter, a concise input-output interface, and a 3-stage training pipeline involving pre-training, multi-task pre-training, and supervised fine-tuning.
+- **solutions-main-idea**: The main idea is to enhance the Qwen-7B LLM with visual capabilities through a carefully designed architecture and training process that focuses on fine-grained visual understanding and multilingual support.
+- **solutions-main-method**: The primary method involves using a Vision Transformer (ViT) as the visual encoder, a position-aware vision-language adapter, and a 3-stage training pipeline with a large multilingual multimodal corpus.
+- **solutions-main-result**: The main results show that Qwen-VL and Qwen-VL-Chat achieve state-of-the-art performance on various vision-language benchmarks, including image captioning, visual question answering, text-oriented VQA, and referring expression comprehension.
+- **solutions-main-conclusion**: The key conclusion is that the proposed Qwen-VL models significantly outperform existing LVLMs in terms of visual understanding, fine-grained tasks, and multilingual capabilities, setting new records on multiple benchmarks.
+- **potential-inspiration**: Potential inspirations include integrating more modalities (e.g., speech, video) into the model, scaling up the model size and training data for handling more complex multimodal relationships, and enhancing multimodal generation capabilities for high-fidelity image and speech synthesis.
+
+---
+
+- **this-no**: 40
+- **no**: 518
+- **title**: Qwen-Agent
+- **citation**: N/A
+- **paper-page-url**: [https://github.com/QwenLM/Qwen-Agent](https://arxiv.org/abs/2308.12966)
+- **pdf-url**: N/A
+- **record-time**: N/A
+- **classification**: LLM-Reasoning-Framework
+LLM-Reasoning-Planning
+- **note**: Agent
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: N/A
+- **article-category**: N/A
+- **abstract**: Qwen-Agent is a framework for developing LLM applications based on the instruction following, tool usage, planning, and memory capabilities of Qwen. It also comes with example applications such as Browser Assistant, Code Interpreter, and Custom Assistant. Now Qwen-Agent plays as the backend of Qwen Chat.
+- **github-url**: [https://github.com/QwenLM/Qwen-Agent](https://github.com/QwenLM/Qwen2.5-VL)
+- **huggingface-url**: [https://huggingface.co/Qwen](https://huggingface.co/collections/Qwen/qwen25-vl-6795ffac22b334a837c0f9a5)
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: N/A
+- **base-topics**: N/A
+- **base-core-author**: N/A
+- **base-core-group**: N/A
+- **problems**: N/A
+- **problems-main-problem**: N/A
+- **problems-focus-problem**: N/A
+- **problems-why-important**: N/A
+- **motivations**: N/A
+- **motivations-main-finding**: N/A
+- **motivations-main-insight**: N/A
+- **motivations-why-necessary**: N/A
+- **solutions**: N/A
+- **solutions-main-idea**: N/A
+- **solutions-main-method**: N/A
+- **solutions-main-result**: N/A
+- **solutions-main-conclusion**: N/A
+- **potential-inspiration**: N/A
+
+---
+
+- **this-no**: 41
+- **no**: 519
+- **title**: Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2506.05176](https://github.com/QwenLM/Qwen-Agent)
+- **pdf-url**: [https://arxiv.org/pdf/2506.05176](https://arxiv.org/pdf/2506.05176)
+- **record-time**: July 15, 2025
+- **classification**: N/A
+- **note**: Embedding
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 11 Jun 2025
+- **article-category**: N/A
+- **abstract**: In this work, we introduce the Qwen3 Embedding series, a significant advancement over its predecessor, the GTE-Qwen series, in text embedding and reranking capabilities, built upon the Qwen3 foundation models. Leveraging the Qwen3 LLMs' robust capabilities in multilingual text understanding and generation, our innovative multi-stage training pipeline combines large-scale unsupervised pre-training with supervised fine-tuning on high-quality datasets. Effective model merging strategies further ensure the robustness and adaptability of the Qwen3 Embedding series. During the training process, the Qwen3 LLMs serve not only as backbone models but also play a crucial role in synthesizing high-quality, rich, and diverse training data across multiple domains and languages, thus enhancing the training pipeline. The Qwen3 Embedding series offers a spectrum of model sizes (0.6B, 4B, 8B) for both embedding and reranking tasks, addressing diverse deployment scenarios where users can optimize for either efficiency or effectiveness. Empirical evaluations demonstrate that the Qwen3 Embedding series achieves state-of-the-art results across diverse benchmarks. Notably, it excels on the multilingual evaluation benchmark MTEB for text embedding, as well as in various retrieval tasks, including code retrieval, cross-lingual retrieval and multilingual retrieval. To facilitate reproducibility and promote community-driven research and development, the Qwen3 Embedding models are publicly available under the Apache 2.0 license. 
+- **github-url**: [https://github.com/QwenLM/Qwen3-Embedding](https://github.com/QwenLM/Qwen-Agent)
+- **huggingface-url**: [https://huggingface.co/collections/Qwen/qwen3-embedding-6841b2055b99c44d9a4c371f](https://huggingface.co/Qwen)
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: Technical Report titled "Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models" by Yanzhao Zhang, Mingxin Li, Dingkun Long, Xin Zhang, Huan Lin, Baosong Yang, Pengjun Xie, An Yang, Dayiheng Liu, Junyang Lin, Fei Huang, and Jingren Zhou from Tongyi Lab, Alibaba Group.
+- **base-topics**: Text embedding, reranking, large language models (LLMs), multilingual text understanding, multi-stage training pipeline, synthetic data generation, model merging, benchmark evaluation
+- **base-core-author**: Yanzhao Zhang, Mingxin Li, Dingkun Long, Xin Zhang, Huan Lin, Baosong Yang, Pengjun Xie, An Yang, Dayiheng Liu, Junyang Lin, Fei Huang, Jingren Zhou
+- **base-core-group**: Tongyi Lab, Alibaba Group
+- **problems**: The challenges of training high-quality text embedding and reranking models that perform well in scalability, contextual understanding, and alignment with specific downstream tasks.
+- **problems-main-problem**: Developing text embedding and reranking models that can effectively capture semantic relationships and prioritize relevant results in diverse multilingual scenarios.
+- **problems-focus-problem**: Enhancing the performance of text embedding and reranking models using large language models (LLMs) while ensuring robustness and adaptability across different tasks and languages.
+- **problems-why-important**: High-quality text embeddings and effective reranking mechanisms are crucial for various natural language processing and information retrieval applications, including web search, question answering, and recommendation systems.
+- **motivations**: Leveraging the capabilities of the Qwen3 foundation models to improve text embedding and reranking through a multi-stage training pipeline that combines large-scale unsupervised pre-training with supervised fine-tuning and model merging.
+- **motivations-main-finding**: The Qwen3 Embedding series achieves state-of-the-art results across diverse benchmarks, including multilingual evaluation and various retrieval tasks.
+- **motivations-main-insight**: The integration of large-scale synthetic data generation and model merging strategies significantly enhances the robustness and generalization of the models.
+- **motivations-why-necessary**: Previous approaches faced limitations in scalability and adaptability. The innovations are necessary to address the growing demands of multilingual and multi-task applications.
+- **solutions**: A multi-stage training pipeline involving large-scale synthetic data generation, supervised fine-tuning on high-quality datasets, and model merging to enhance robustness.
+- **solutions-main-idea**: Utilizing the Qwen3 foundation models' capabilities in multilingual text understanding and generation to synthesize high-quality training data and improve model performance.
+- **solutions-main-method**: Multi-stage training with synthetic data-driven weak supervision, high-quality supervised fine-tuning, and model merging using spherical linear interpolation (slerp).
+- **solutions-main-result**: Qwen3 Embedding models achieve state-of-the-art performance on benchmarks like MTEB, CMTEB, and various retrieval tasks, outperforming leading proprietary models.
+- **solutions-main-conclusion**: The Qwen3 Embedding series effectively advances text embedding and reranking capabilities through its innovative training pipeline and model architecture.
+- **potential-inspiration**: Further exploration of synthetic data generation techniques, model merging strategies, and the application of LLMs in other NLP tasks. Investigating the performance of the models in real-world applications and extending the approach to other languages and domains.
+
+---
+
+- **this-no**: 42
+- **no**: 522
+- **title**: Seed1.5-VL Technical Report
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2505.07062](https://arxiv.org/abs/2506.05176)
+- **pdf-url**: [https://arxiv.org/pdf/2505.07062](https://arxiv.org/pdf/2506.05176)
+- **record-time**: July 16, 2025
+- **classification**: MultiModal-Evaluation-Benchmark
+LLM-Reasoning-Benchmark
+LLM-Reasoning-Framework
+- **note**: VLM
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 11 May 2025
+- **article-category**: N/A
+- **abstract**: We present Seed1.5-VL, a vision-language foundation model designed to advance general-purpose multimodal understanding and reasoning. Seed1.5-VL is composed with a 532M-parameter vision encoder and a Mixture-of-Experts (MoE) LLM of 20B active parameters. Despite its relatively compact architecture, it delivers strong performance across a wide spectrum of public VLM benchmarks and internal evaluation suites, achieving the state-of-the-art performance on 38 out of 60 public benchmarks. Moreover, in agent-centric tasks such as GUI control and gameplay, Seed1.5-VL outperforms leading multimodal systems, including OpenAI CUA and Claude 3.7. Beyond visual and video understanding, it also demonstrates strong reasoning abilities, making it particularly effective for multimodal reasoning challenges such as visual puzzles. We believe these capabilities will empower broader applications across diverse tasks. In this report, we mainly provide a comprehensive review of our experiences in building Seed1.5-VL across model design, data construction, and training at various stages, hoping that this report can inspire further research. Seed1.5-VL is now accessible at this https URL (Volcano Engine Model ID: doubao-1-5-thinking-vision-pro-250428) 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: [https://seed.bytedance.com/](https://seed.bytedance.com/)
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: The paper titled "Seed1.5-VL Technical Report" presents a vision-language foundation model named Seed1.5-VL, developed by ByteDance. It aims to advance general-purpose multimodal understanding and reasoning. The model consists of a 532M-parameter vision encoder and a 20B active parameter Mixture-of-Experts (MoE) LLM.
+- **base-topics**: Vision-language models, multimodal understanding, general-purpose AI, pre-training, post-training, video understanding, agent-centric tasks, reasoning abilities, model architecture, data construction, training infrastructure, evaluation.
+- **base-core-author**: The authors are listed in alphabetical order by their first names. The core contributors include Dong Guo, Faming Wu, Feida Zhu, Fuxing Leng, Guang Shi, Haobin Chen, Haoqi Fan, Jian Wang, Jianyu Jiang, Jiawei Wang, Jingji Chen, Jingjia Huang, Kang Lei, Liping Yuan, Lishu Luo, Pengfei Liu, Qinghao Ye, Rui Qian, Shen Yan, Shixiong Zhao, Shuai Peng, Shuangye Li, Sihang Yuan, Sijin Wu, Tianheng Cheng, Weiwei Liu, Wenqian Wang, Xianhan Zeng, Xiao Liu, Xiaobo Qin, Xiaohan Ding, Xiaojun Xiao, Xiaoying Zhang, Xuanwei Zhang, Xuehan Xiong, Yanghua Peng, Yangrui Chen, Yanwei Li, Yanxu Hu, Yi Lin, Yiyuan Hu, Yiyuan Zhang, Youbin Wu, Yu Li, Yudong Liu, Yue Ling, Yujia Qin, Zanbo Wang, Zhiwu He.
+- **base-core-group**: ByteDance
+- **problems**: Current vision-language models (VLMs) lack human-level generality, particularly in tasks requiring 3D spatial understanding, object counting, imaginative visual inference, and interactive game play. They also face challenges due to the scarcity of high-quality vision-language annotations and the complexity of training and inference with heterogeneous multimodal data.
+- **problems-main-problem**: The main problem discussed is the limitation of current VLMs in achieving human-level generality and their inability to effectively handle complex multimodal tasks.
+- **problems-focus-problem**: The key problem the paper focuses on is advancing general-purpose multimodal understanding and reasoning by developing a more efficient and capable vision-language model.
+- **problems-why-important**: This problem is important because it hinders the development of AI systems that can perceive, reason, and act in open-ended virtual and physical environments. Addressing this limitation can significantly enhance the capabilities of AI in various real-world applications.
+- **motivations**: The paper aims to address the limitations of current VLMs by developing a more efficient and capable model through innovations in model architecture, data construction, and training infrastructure.
+- **motivations-main-finding**: The main findings include the development of Seed1.5-VL, which achieves state-of-the-art performance on 38 out of 60 public benchmarks and demonstrates strong capabilities in agent-centric tasks, visual reasoning, and video understanding.
+- **motivations-main-insight**: The key insight is that a compact and efficient architecture combined with comprehensive pre-training and post-training strategies can significantly enhance the performance of VLMs.
+- **motivations-why-necessary**: These contributions are necessary to bridge the gap between current VLMs and human-level generality, making AI systems more capable and versatile in handling diverse multimodal tasks.
+- **solutions**: The solutions proposed include the development of Seed1.5-VL with a 532M-parameter vision encoder and a 20B active parameter MoE LLM, comprehensive pre-training on diverse data, and post-training with human feedback and verifiable rewards.
+- **solutions-main-idea**: The main idea is to create a vision-language model that can effectively handle a wide range of multimodal tasks by leveraging a combination of pre-training and post-training techniques.
+- **solutions-main-method**: The primary method involves pre-training the model on trillions of multimodal tokens and fine-tuning it through supervised fine-tuning and reinforcement learning.
+- **solutions-main-result**: The main results show that Seed1.5-VL achieves state-of-the-art performance on multiple benchmarks and demonstrates strong capabilities in various multimodal tasks.
+- **solutions-main-conclusion**: The key conclusion is that Seed1.5-VL's architecture and training methodology significantly enhance its performance in multimodal understanding and reasoning, making it a powerful tool for general-purpose AI applications.
+- **potential-inspiration**: Potential inspirations include further exploration of model scaling, incorporating image generation capabilities for visual reasoning, and developing more robust tool-use mechanisms to enhance reasoning abilities. Additionally, addressing limitations in 3D spatial reasoning and reducing hallucination could be areas for future research.
+
+---
+
+- **this-no**: 43
+- **no**: 523
+- **title**: Seed-Thinking-v1.5: Advancing Superb Reasoning Models with Reinforcement Learning
+- **citation**: N/A
+- **paper-page-url**: [https://github.com/ByteDance-Seed/Seed-Thinking-v1.5/blob/main/seed-thinking-v1.5.pdf](https://arxiv.org/abs/2505.07062)
+- **pdf-url**: [https://github.com/ByteDance-Seed/Seed-Thinking-v1.5/blob/main/seed-thinking-v1.5.pdf](https://arxiv.org/pdf/2505.07062)
+- **record-time**: N/A
+- **classification**: LLM-Reasoning-Framework
+- **note**: N/A
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: April 10, 2025
+- **article-category**: N/A
+- **abstract**: In this work, we introduce the Qwen3 Embedding series, a significant advancement over its predecessor, the GTE-Qwen series, in text embedding and reranking capabilities, built upon the Qwen3 foundation models. Leveraging the Qwen3 LLMs' robust capabilities in multilingual text understanding and generation, our innovative multi-stage training pipeline combines large-scale unsupervised pre-training with supervised fine-tuning on high-quality datasets. Effective model merging strategies further ensure the robustness and adaptability of the Qwen3 Embedding series. During the training process, the Qwen3 LLMs serve not only as backbone models but also play a crucial role in synthesizing high-quality, rich, and diverse training data across multiple domains and languages, thus enhancing the training pipeline. The Qwen3 Embedding series offers a spectrum of model sizes (0.6B, 4B, 8B) for both embedding and reranking tasks, addressing diverse deployment scenarios where users can optimize for either efficiency or effectiveness. Empirical evaluations demonstrate that the Qwen3 Embedding series achieves state-of-the-art results across diverse benchmarks. Notably, it excels on the multilingual evaluation benchmark MTEB for text embedding, as well as in various retrieval tasks, including code retrieval, cross-lingual retrieval and multilingual retrieval. To facilitate reproducibility and promote community-driven research and development, the Qwen3 Embedding models are publicly available under the Apache 2.0 license. 
+- **github-url**: [https://github.com/ByteDance-Seed/Seed-Thinking-v1.5](https://github.com/ByteDance-Seed/Seed-Thinking-v1.5)
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: N/A
+- **base-topics**: N/A
+- **base-core-author**: N/A
+- **base-core-group**: N/A
+- **problems**: N/A
+- **problems-main-problem**: N/A
+- **problems-focus-problem**: N/A
+- **problems-why-important**: N/A
+- **motivations**: N/A
+- **motivations-main-finding**: N/A
+- **motivations-main-insight**: N/A
+- **motivations-why-necessary**: N/A
+- **solutions**: N/A
+- **solutions-main-idea**: N/A
+- **solutions-main-method**: N/A
+- **solutions-main-result**: N/A
+- **solutions-main-conclusion**: N/A
+- **potential-inspiration**: N/A
+
+---
+
+- **this-no**: 44
+- **no**: 526
+- **title**: ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2406.12793](https://github.com/ByteDance-Seed/Seed-Thinking-v1.5/blob/main/seed-thinking-v1.5.pdf)
+- **pdf-url**: [https://arxiv.org/pdf/2406.12793](https://github.com/ByteDance-Seed/Seed-Thinking-v1.5/blob/main/seed-thinking-v1.5.pdf)
+- **record-time**: July 16, 2025
+- **classification**: LLM-Reasoning-Benchmark
+LLM-Reasoning-Framework
+LLM-Reasoning-Planning
+- **note**: VLM
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 30 Jul 2024
+- **article-category**: N/A
+- **abstract**: We introduce ChatGLM, an evolving family of large language models that we have been developing over time. This report primarily focuses on the GLM-4 language series, which includes GLM-4, GLM-4-Air, and GLM-4-9B. They represent our most capable models that are trained with all the insights and lessons gained from the preceding three generations of ChatGLM. To date, the GLM-4 models are pre-trained on ten trillions of tokens mostly in Chinese and English, along with a small set of corpus from 24 languages, and aligned primarily for Chinese and English usage. The high-quality alignment is achieved via a multi-stage post-training process, which involves supervised fine-tuning and learning from human feedback. Evaluations show that GLM-4 1) closely rivals or outperforms GPT-4 in terms of general metrics such as MMLU, GSM8K, MATH, BBH, GPQA, and HumanEval, 2) gets close to GPT-4-Turbo in instruction following as measured by IFEval, 3) matches GPT-4 Turbo (128K) and Claude 3 for long context tasks, and 4) outperforms GPT-4 in Chinese alignments as measured by AlignBench. The GLM-4 All Tools model is further aligned to understand user intent and autonomously decide when and which tool(s) touse -- including web browser, Python interpreter, text-to-image model, and user-defined functions -- to effectively complete complex tasks. In practical applications, it matches and even surpasses GPT-4 All Tools in tasks like accessing online information via web browsing and solving math problems using Python interpreter. Over the course, we have open-sourced a series of models, including ChatGLM-6B (three generations), GLM-4-9B (128K, 1M), GLM-4V-9B, WebGLM, and CodeGeeX, attracting over 10 million downloads on Hugging face in the year 2023 alone. The open models can be accessed through this https URL and this https URL. 
+- **github-url**: [https://github.com/THUDM/GLM-4](https://github.com/ByteDance-Seed/Seed-Thinking-v1.5)
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: The paper introduces the ChatGLM family of large language models, focusing on the GLM-4 series, which includes GLM-4, GLM-4-Air, and GLM-4-9B. These models are developed by Zhipu AI and Tsinghua University.
+- **base-topics**: Large language models, pre-training, alignment, multi-stage post-training, Chinese and English language capabilities, long context handling, agent abilities, safety evaluation.
+- **base-core-author**: Aohan Zeng, Bin Xu, Bowen Wang, Chenhui Zhang, Da Yin, Dan Zhang, Diego ROJAS, Guanyu Feng, Hanlin Zhao, Hanyu Lai, Hao Yu, Hongning Wang, Jiadai Sun, Jiajie Zhang, Jiale Cheng, Jiayi Gui, Jie Tang, Jing Zhang, Jingyu Sun, Juanzi Li, Lei Zhao, Lindong Wu, Lucen Zhong, Mingdao Liu, Minlie Huang, Peng Zhang, Qinkai Zheng, Rui Lu, Shuaiqi Duan, Shudan Zhang, Shulin Cao, Shuxun Yang, Weng Lam Tam, Wenyi Zhao, Xiao Liu, Xiao Xia, Xiaohan Zhang, Xiaotao Gu, Xin Lv, Xinghan Liu, Xinyi Liu, Xinyue Yang, Xixuan Song, Xunkai Zhang, Yifan An, Yifan Xu, Yilin Niu, Yuantao Yang, Yueyan Li, Yushi Bai, Yuxiao Dong, Zehan Qi, Zhaoyu Wang, Zhen Yang, Zhengxiao Du, Zhenyu Hou, Zihan Wang.
+- **base-core-group**: Zhipu AI, Tsinghua University
+- **problems**: The paper addresses the challenges in developing large language models that can effectively handle Chinese and English, align with human preferences, understand user intent, and autonomously use external tools to complete complex tasks.
+- **problems-main-problem**: Developing large language models that can match or surpass state-of-the-art models like GPT-4 in terms of general performance, instruction following, long context handling, and alignment, especially for Chinese and English languages.
+- **problems-focus-problem**: The key problem is to create models that can autonomously understand user intent and use external tools such as web browsers, Python interpreters, and text-to-image models to complete complex tasks.
+- **problems-why-important**: Effective large language models are crucial for advancing natural language processing, improving human-computer interaction, and enabling more intelligent agents. Aligning models with human preferences and ensuring safety are essential for real-world applications.
+- **motivations**: The paper aims to improve the capabilities of large language models through better pre-training techniques, multi-stage post-training processes, and alignment with human feedback.
+- **motivations-main-finding**: The GLM-4 models achieve performance comparable to GPT-4 and Claude 3 Opus in various benchmarks, especially in Chinese alignment and long context tasks.
+- **motivations-main-insight**: The use of multi-stage post-training, including supervised fine-tuning and reinforcement learning from human feedback, significantly improves model alignment and performance.
+- **motivations-why-necessary**: These contributions are necessary to bridge the gap between current large language models and human-level performance, particularly in handling complex tasks and ensuring safety.
+- **solutions**: The paper proposes the GLM-4 models, which are pre-trained on a large corpus of Chinese and English texts and aligned through supervised fine-tuning and reinforcement learning.
+- **solutions-main-idea**: The main idea is to develop models that can understand user intent and autonomously decide when and which tools to use to complete complex tasks.
+- **solutions-main-method**: The primary method involves multi-stage post-training, including supervised fine-tuning, reinforcement learning from human feedback, and long context alignment.
+- **solutions-main-result**: GLM-4 models achieve strong performance in academic benchmarks, instruction following, long context tasks, and Chinese alignment, surpassing GPT-4 in some areas.
+- **solutions-main-conclusion**: The GLM-4 models demonstrate significant advancements in understanding and executing complex tasks, particularly in Chinese and English, and are among the best in terms of safety and performance.
+- **potential-inspiration**: Further research could explore more efficient pre-training techniques, better alignment methods, and the integration of additional tools to enhance model capabilities. Additionally, exploring the application of these models in other languages and domains could be a potential direction.
+
+---
+
+- **this-no**: 45
+- **no**: 527
+- **title**: KIMI-VL TECHNICAL REPORT
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2504.07491](https://arxiv.org/abs/2406.12793)
+- **pdf-url**: [https://arxiv.org/pdf/2504.07491](https://arxiv.org/pdf/2406.12793)
+- **record-time**: July 16, 2025
+- **classification**: MultiModal-Evaluation-Benchmark
+LLM-Reasoning-Benchmark
+LLM-Reasoning-Framework
+LLM-Reasoning-Planning
+- **note**: VLM
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 23 Jun 2025
+- **article-category**: N/A
+- **abstract**: We present Kimi-VL, an efficient open-source Mixture-of-Experts (MoE) vision-language model (VLM) that offers advanced multimodal reasoning, long-context understanding, and strong agent capabilities - all while activating only 2.8B parameters in its language decoder (Kimi-VL-A3B). Kimi-VL demonstrates strong performance across challenging domains: as a general-purpose VLM, Kimi-VL excels in multi-turn agent tasks (e.g., OSWorld), matching flagship models. Furthermore, it exhibits remarkable capabilities across diverse challenging vision language tasks, including college-level image and video comprehension, OCR, mathematical reasoning, and multi-image understanding. In comparative evaluations, it effectively competes with cutting-edge efficient VLMs such as GPT-4o-mini, Qwen2.5-VL-7B, and Gemma-3-12B-IT, while surpassing GPT-4o in several key domains. Kimi-VL also advances in processing long contexts and perceiving clearly. With a 128K extended context window, Kimi-VL can process diverse long inputs, achieving impressive scores of 64.5 on LongVideoBench and 35.1 on MMLongBench-Doc. Its native-resolution vision encoder, MoonViT, further allows it to see and understand ultra-high-resolution visual inputs, achieving 83.2 on InfoVQA and 34.5 on ScreenSpot-Pro, while maintaining lower computational cost for common tasks. Building upon Kimi-VL, we introduce an advanced long-thinking variant: Kimi-VL-Thinking-2506. Developed through long chain-of-thought (CoT) supervised fine-tuning (SFT) and reinforcement learning (RL), the latest model exhibits strong long-horizon reasoning capabilities (64.0 on MMMU, 46.3 on MMMU-Pro, 56.9 on MathVision, 80.1 on MathVista, 65.2 on VideoMMMU) while obtaining robust general abilities. Code and models are publicly accessible at this https URL. 
+- **github-url**: [https://github.com/MoonshotAI/Kimi-VL](https://github.com/THUDM/GLM-4)
+- **huggingface-url**: [https://huggingface.co/collections/moonshotai/kimi-vl-a3b-67f67b6ac91d3b03d382dd85
+https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking-2506](https://huggingface.co/collections/moonshotai/kimi-vl-a3b-67f67b6ac91d3b03d382dd85
+https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking-2506)
+- **other-url**: [https://huggingface.co/spaces/moonshotai/Kimi-VL-A3B-Thinking/
+https://huggingface.co/blog/moonshotai/kimi-vl-a3b-thinking-2506](https://huggingface.co/spaces/moonshotai/Kimi-VL-A3B-Thinking/
+https://huggingface.co/blog/moonshotai/kimi-vl-a3b-thinking-2506)
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: The paper titled "Kimi-VL Technical Report" is authored by the Kimi Team and published on arXiv on June 23, 2025. It presents Kimi-VL, an efficient open-source Mixture-of-Experts (MoE) vision-language model (VLM) that excels in multimodal reasoning, long-context understanding, and agent capabilities.
+- **base-topics**: Vision-language models, multimodal reasoning, long-context understanding, agent capabilities, efficient model architectures, pre-training and fine-tuning, multimodal benchmarks
+- **base-core-author**: Kimi Team
+- **base-core-group**: Moonshot AI
+- **problems**: The paper addresses the limitations of existing open-source vision-language models, including scalability, computational efficiency, and advanced reasoning capabilities.
+- **problems-main-problem**: Existing open-source vision-language models lack efficient architectures and advanced reasoning abilities, especially in handling long contexts and high-resolution visual inputs.
+- **problems-focus-problem**: Developing an open-source vision-language model that integrates structural innovation, stable capabilities, and enhanced reasoning through long-thinking while maintaining computational efficiency.
+- **problems-why-important**: Efficient and capable vision-language models are crucial for real-world applications involving multimodal interactions, long-context understanding, and high-resolution visual tasks, such as agent-based tasks, document understanding, and complex reasoning.
+- **motivations**: The paper introduces Kimi-VL, an efficient MoE-based vision-language model that leverages a native-resolution vision encoder and long-context capabilities to address the limitations of existing models.
+- **motivations-main-finding**: Kimi-VL demonstrates strong performance in multimodal reasoning, long-context understanding, and agent tasks, outperforming several state-of-the-art models while using significantly fewer parameters.
+- **motivations-main-insight**: The combination of a native-resolution vision encoder (MoonViT), an MoE language model, and long-context capabilities enables efficient and effective multimodal reasoning and understanding.
+- **motivations-why-necessary**: These contributions are necessary to bridge the gap between state-of-the-art models and open-source models, making advanced multimodal capabilities accessible to a broader community while maintaining computational efficiency.
+- **solutions**: The paper proposes Kimi-VL, which includes a native-resolution vision encoder (MoonViT), an MoE language model, and long-context capabilities. It also introduces Kimi-VL-Thinking, an enhanced variant with long-chain-of-thought reasoning.
+- **solutions-main-idea**: Integrate a native-resolution vision encoder with an MoE language model and extend the context window to 128K tokens to enable efficient multimodal reasoning and long-context understanding.
+- **solutions-main-method**: The model is pre-trained on a diverse multimodal corpus and fine-tuned with long-chain-of-thought supervision and reinforcement learning to enhance reasoning capabilities.
+- **solutions-main-result**: Kimi-VL achieves state-of-the-art results on several benchmarks, including MathVision, MathVista, MMMU, and long-context tasks, while maintaining computational efficiency.
+- **solutions-main-conclusion**: Kimi-VL sets a new standard for efficient and capable multimodal models, demonstrating strong performance across diverse tasks and domains.
+- **potential-inspiration**: Future work could explore scaling up the model size, expanding pre-training data, and enhancing post-training algorithms to further improve performance and address more complex scenarios. Additionally, the model's architecture and training methods could inspire the development of more efficient and capable multimodal models for specific domains or applications.
+
+---
+
+- **this-no**: 46
+- **no**: 528
+- **title**: Gemma
+- **citation**: N/A
+- **paper-page-url**: [https://gemma-llm.readthedocs.io/en/latest/index.html
+https://goo.gle/gemma2report
+https://goo.gle/GemmaReport](https://arxiv.org/abs/2504.07491)
+- **pdf-url**: [https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf](https://arxiv.org/pdf/2504.07491)
+- **record-time**: July 16, 2025
+- **classification**: N/A
+- **note**: VLM
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 2025-03-12 00:00:00
+- **article-category**: N/A
+- **abstract**: Gemma is a family of open-weights Large Language Model (LLM) by Google DeepMind, based on Gemini research and technology.
+- **github-url**: [https://github.com/google-deepmind/gemma/issues](https://github.com/MoonshotAI/Kimi-VL)
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: The paper is titled "Gemma 3 Technical Report" and was published on 2025-03-12 by the Gemma Team from Google DeepMind.
+- **base-topics**: Multimodal models, vision understanding, multilinguality, long context, knowledge distillation, quantization aware training, instruction-tuning, and responsible AI deployment.
+- **base-core-author**: Aishwarya Kamath, Johan Ferret, Shreya Pathak, Nino Vieillard, Ramona Merhej, Sarah Perrin, Tatiana Matejovicova, Alexandre Ramé, Morgane Rivière, Louis Rouillard, Thomas Mesnard, Geoffrey Cideron, Jean-bastien Grill, Sabela Ramos, Edouard Yvinec, Michelle Casbon, Etienne Pot, Ivo Penchev, Gaël Liu, Francesco Visin, Kathleen Kenealy, Lucas Beyer, Xiaohai Zhai, Anton Tsitsulin, Robert Busa-Fekete, Alex Feng, Noveen Sachdeva, Benjamin Coleman, Yi Gao, Basil Mustafa, Iain Barr, Emilio Parisotto, David Tian, Matan Eyal, Colin Cherry, Jan-Thorsten Peter, Danila Sinopalnikov, Surya Bhupatiraju, Rishabh Agarwal, Mehran Kazemi, Dan Malkin, Ravin Kumar, David Vilar, Idan Brusilovsky, Jiaming Luo, Andreas Steiner.
+- **base-core-group**: Google DeepMind
+- **problems**: The paper addresses the limitations of previous versions of the Gemma models, including the lack of multimodality, limited context length, and insufficient multilingual capabilities.
+- **problems-main-problem**: The main problem is the need to enhance the capabilities of lightweight open models to handle multimodal inputs (text and images), support longer context lengths, and improve performance across multiple languages.
+- **problems-focus-problem**: The key problem is integrating vision understanding and long context capabilities into the Gemma models while maintaining or surpassing the performance of prior versions.
+- **problems-why-important**: These capabilities are important for making the models more versatile and applicable to a wider range of real-world tasks, including visual question answering, document understanding, and multilingual applications.
+- **motivations**: The motivations include improving the model's ability to handle multimodal inputs, supporting longer context lengths, and enhancing multilingual capabilities.
+- **motivations-main-finding**: The main findings are that the new architecture and training techniques significantly improve the model's performance in vision understanding, long context handling, and multilingual tasks compared to previous versions.
+- **motivations-main-insight**: The key insight is that increasing the ratio of local to global attention layers and using a tailored vision encoder can significantly reduce memory usage and improve performance.
+- **motivations-why-necessary**: These contributions are necessary to make the models more practical for deployment on standard consumer hardware and to expand their applicability to a broader range of tasks.
+- **solutions**: The solutions proposed include a new model architecture with increased local/global attention layer interleaving, a vision encoder based on SigLIP, and an improved pre-training and post-training approach.
+- **solutions-main-idea**: The main idea is to enhance the model's capabilities by integrating vision understanding, supporting longer context lengths, and improving multilingual performance while maintaining efficiency.
+- **solutions-main-method**: The primary methods used include knowledge distillation, quantization aware training, and a novel post-training approach that focuses on improving mathematics, reasoning, and chat abilities.
+- **solutions-main-result**: The main results show that Gemma 3 models outperform their predecessors in various benchmarks, including vision understanding, long context tasks, and multilingual evaluations.
+- **solutions-main-conclusion**: The key conclusion is that Gemma 3 models offer significant improvements in multimodality, long context handling, and multilingual capabilities, making them more versatile and powerful than previous versions.
+- **potential-inspiration**: Potential inspirations include further exploration of multimodal capabilities, optimization of model architectures for even longer context lengths, and the development of more efficient training techniques for large language models.
+
+---
+
+- **this-no**: 47
+- **no**: 529
+- **title**: DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2412.10302](https://gemma-llm.readthedocs.io/en/latest/index.html)
+- **pdf-url**: [https://arxiv.org/pdf/2412.10302](https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf)
+- **record-time**: July 16, 2025
+- **classification**: MultiModal-Evaluation-Benchmark
+- **note**: VLM
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 13 Dec 2024
+- **article-category**: N/A
+- **abstract**: We present DeepSeek-VL2, an advanced series of large Mixture-of-Experts (MoE) Vision-Language Models that significantly improves upon its predecessor, DeepSeek-VL, through two key major upgrades. For the vision component, we incorporate a dynamic tiling vision encoding strategy designed for processing high-resolution images with different aspect ratios. For the language component, we leverage DeepSeekMoE models with the Multi-head Latent Attention mechanism, which compresses Key-Value cache into latent vectors, to enable efficient inference and high throughput. Trained on an improved vision-language dataset, DeepSeek-VL2 demonstrates superior capabilities across various tasks, including but not limited to visual question answering, optical character recognition, document/table/chart understanding, and visual grounding. Our model series is composed of three variants: DeepSeek-VL2-Tiny, DeepSeek-VL2-Small and DeepSeek-VL2, with 1.0B, 2.8B and 4.5B activated parameters respectively. DeepSeek-VL2 achieves competitive or state-of-the-art performance with similar or fewer activated parameters compared to existing open-source dense and MoE-based models. Codes and pre-trained models are publicly accessible at this https URL. 
+- **github-url**: [https://github.com/deepseek-ai/DeepSeek-VL2](https://github.com/google-deepmind/gemma/issues)
+- **huggingface-url**: [DeepSeek-VL2
+https://huggingface.co/deepseek-ai/deepseek-vl2
+
+DeepSeek-VL2-small
+https://huggingface.co/deepseek-ai/deepseek-vl2-small
+
+DeepSeek-VL2-tiny
+https://huggingface.co/deepseek-ai/deepseek-vl2-tiny](DeepSeek-VL2
+https://huggingface.co/deepseek-ai/deepseek-vl2
+
+DeepSeek-VL2-small
+https://huggingface.co/deepseek-ai/deepseek-vl2-small
+
+DeepSeek-VL2-tiny
+https://huggingface.co/deepseek-ai/deepseek-vl2-tiny)
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: The paper presents DeepSeek-VL2, an advanced series of large Mixture-of-Experts (MoE) Vision-Language Models that significantly improve upon its predecessor, DeepSeek-VL. It introduces key upgrades in vision encoding and language model architecture, achieving superior performance in tasks such as visual question answering, optical character recognition, document/table/chart understanding, and visual grounding. The models are available in three variants with 1.0B, 2.8B, and 4.5B activated parameters.
+- **base-topics**: Vision-Language Models, Multimodal Understanding, Mixture-of-Experts, High-Resolution Image Processing, Efficient Inference, Visual Question Answering, Optical Character Recognition, Document/Table/Chart Understanding, Visual Grounding
+- **base-core-author**: Zhiyu Wu, Xiaokang Chen, Zizheng Pan, Xingchao Liu, Wen Liu
+- **base-core-group**: DeepSeek-AI
+- **problems**: The paper addresses limitations in previous Vision-Language Models, such as fixed-resolution image processing, inefficient inference, and insufficient performance in high-resolution tasks like visual grounding and detailed feature extraction.
+- **problems-main-problem**: Inefficient processing of high-resolution images with varying aspect ratios and limitations in language model inference efficiency.
+- **problems-focus-problem**: Enhancing multimodal understanding by improving visual encoding for high-resolution images and optimizing language model architecture for efficient inference.
+- **problems-why-important**: Efficient processing of high-resolution images and text is crucial for real-world applications requiring detailed visual understanding and fast inference, such as document analysis, visual grounding, and complex visual reasoning.
+- **motivations**: The paper introduces a dynamic tiling vision encoding strategy for efficient high-resolution image processing and employs the Multi-head Latent Attention mechanism in the language model to compress Key-Value cache into latent vectors, enabling faster inference.
+- **motivations-main-finding**: DeepSeek-VL2 achieves competitive or state-of-the-art performance with fewer activated parameters compared to existing models, demonstrating significant improvements in multimodal tasks.
+- **motivations-main-insight**: Dynamic tiling and Multi-head Latent Attention mechanisms allow for efficient processing of high-resolution images and faster inference, balancing performance and computational efficiency.
+- **motivations-why-necessary**: These innovations are necessary to handle complex multimodal tasks that require detailed visual understanding and efficient processing, making the model more practical for real-world applications.
+- **solutions**: The paper proposes a dynamic tiling vision encoding strategy and a DeepSeekMoE language model with Multi-head Latent Attention. It also enhances the vision-language dataset for better generalization and performance.
+- **solutions-main-idea**: Efficiently process high-resolution images using dynamic tiling and optimize language model inference through Multi-head Latent Attention.
+- **solutions-main-method**: Dynamic tiling vision encoding, Multi-head Latent Attention mechanism, and enhanced vision-language dataset construction.
+- **solutions-main-result**: DeepSeek-VL2 achieves superior performance in various multimodal tasks, including visual question answering, OCR, document understanding, and visual grounding, with competitive or state-of-the-art results.
+- **solutions-main-conclusion**: The proposed dynamic tiling strategy and optimized language model architecture significantly enhance multimodal understanding while maintaining efficiency, making DeepSeek-VL2 a powerful tool for vision-language tasks.
+- **potential-inspiration**: Future work could explore further optimization of multimodal models for real-time applications, expanding the model's capabilities to handle more diverse and complex multimodal tasks, and improving robustness for unseen objects or challenging image conditions.
+
+---
+
+- **this-no**: 48
+- **no**: 530
+- **title**: InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2504.10479
+https://huggingface.co/papers/2504.10479](https://arxiv.org/abs/2412.10302)
+- **pdf-url**: [https://arxiv.org/pdf/2504.10479](https://arxiv.org/pdf/2412.10302)
+- **record-time**: July 17, 2025
+- **classification**: MultiModal-Evaluation-Benchmark
+- **note**: VLM
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 19 Apr 2025
+- **article-category**: N/A
+- **abstract**: We introduce InternVL3, a significant advancement in the InternVL series featuring a native multimodal pre-training paradigm. Rather than adapting a text-only large language model (LLM) into a multimodal large language model (MLLM) that supports visual inputs, InternVL3 jointly acquires multimodal and linguistic capabilities from both diverse multimodal data and pure-text corpora during a single pre-training stage. This unified training paradigm effectively addresses the complexities and alignment challenges commonly encountered in conventional post-hoc training pipelines for MLLMs. To further improve performance and scalability, InternVL3 incorporates variable visual position encoding (V2PE) to support extended multimodal contexts, employs advanced post-training techniques such as supervised fine-tuning (SFT) and mixed preference optimization (MPO), and adopts test-time scaling strategies alongside an optimized training infrastructure. Extensive empirical evaluations demonstrate that InternVL3 delivers superior performance across a wide range of multi-modal tasks. In particular, InternVL3-78B achieves a score of 72.2 on the MMMU benchmark, setting a new state-of-the-art among open-source MLLMs. Its capabilities remain highly competitive with leading proprietary models, including ChatGPT-4o, Claude 3.5 Sonnet, and Gemini 2.5 Pro, while also maintaining strong pure-language proficiency. In pursuit of open-science principles, we will publicly release both the training data and model weights to foster further research and development in next-generation MLLMs. 
+- **github-url**: [https://github.com/OpenGVLab/InternVL](https://github.com/deepseek-ai/DeepSeek-VL2)
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: The paper titled "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models" introduces InternVL3, a significant advancement in the InternVL series, featuring a native multimodal pre-training paradigm.
+- **base-topics**: Multimodal large language models (MLLMs), pre-training, multimodal reasoning, language capabilities, open-source models.
+- **base-core-author**: Jinguo Zhu, Weiyun Wang, Zhe Chen, Zhaoyang Liu, Shenglong Ye, Lixin Gu, Hao Tian, Yuchen Duan, Weijie Su, Jie Shao, Zhangwei Gao, Erfei Cui, Xuehui Wang, Yue Cao, Yangzhou Liu, Xingguang Wei, Hongjie Zhang, Haomin Wang, Weiye Xu, Hao Li, Jiahao Wang, Nianchen Deng, Songze Li, Yinan He, Tan Jiang, Jiapeng Luo, Yi Wang, Conghui He, Botian Shi, Xingcheng Zhang, Wenqi Shao, Junjun He, Yingtong Xiong, Wenwen Qu, Peng Sun, Penglong Jiao, Han Lv, Lijun Wu, Kaipeng Zhang, Huipeng Deng, Jiaye Ge, Kai Chen, Limin Wang, Min Dou, Lewei Lu, Xizhou Zhu, Tong Lu, Dahua Lin, Yu Qiao, Jifeng Dai, Wenhai Wang.
+- **base-core-group**: Shanghai AI Laboratory, SenseTime Research, Tsinghua University, Nanjing University, Fudan University, The Chinese University of Hong Kong, Shanghai Jiao Tong University.
+- **problems**: Conventional post-hoc training pipelines for MLLMs introduce alignment challenges and require resource-intensive strategies to integrate additional modalities such as vision.
+- **problems-main-problem**: The main problem is the inefficiency and complexity of adapting text-only large language models (LLMs) into multimodal large language models (MLLMs) through multi-stage pipelines.
+- **problems-focus-problem**: The key problem is the difficulty in aligning and integrating visual and textual modalities in MLLMs using traditional post-hoc training methods.
+- **problems-why-important**: This problem is important because it limits the performance and scalability of MLLMs, making it challenging to achieve robust multimodal understanding and reasoning.
+- **motivations**: The motivation is to develop a more efficient and integrated training paradigm for MLLMs that can jointly acquire multimodal and linguistic capabilities during a single pre-training stage.
+- **motivations-main-finding**: The main finding is that InternVL3, with its native multimodal pre-training approach, significantly outperforms previous models and sets a new state-of-the-art among open-source MLLMs.
+- **motivations-main-insight**: The key insight is that joint optimization of multimodal and linguistic capabilities during pre-training enhances the model's ability to handle vision-language tasks without additional alignment procedures.
+- **motivations-why-necessary**: These contributions are necessary to address the inefficiencies and complexities in traditional MLLM training pipelines and to bridge the gap between open-source and proprietary models in terms of performance.
+- **solutions**: InternVL3 employs a native multimodal pre-training strategy, variable visual position encoding (V2PE), advanced post-training techniques such as supervised fine-tuning (SFT) and mixed preference optimization (MPO), and optimized training infrastructure.
+- **solutions-main-idea**: The main idea is to jointly train the model on both text-only and multimodal data from the beginning, avoiding the need for subsequent adaptation.
+- **solutions-main-method**: The primary method involves a unified training approach that integrates multimodal data with large-scale textual corpora, supported by innovations like V2PE and advanced post-training techniques.
+- **solutions-main-result**: InternVL3 achieves superior performance across a wide range of multimodal tasks, with InternVL3-78B scoring 72.2 on the MMMU benchmark, setting a new state-of-the-art among open-source MLLMs.
+- **solutions-main-conclusion**: The key conclusion is that InternVL3's native multimodal pre-training paradigm effectively addresses the challenges of multimodal alignment and significantly enhances the model's capabilities in multimodal understanding and reasoning.
+- **potential-inspiration**: Future work could explore further refinements in training data curation, additional model optimizations, and the application of InternVL3's techniques to other modalities or tasks.
+
+---
+
+- **this-no**: 49
+- **no**: 531
+- **title**: InternViT-6B-448px-V2_5
+- **citation**: N/A
+- **paper-page-url**: [https://internvl.readthedocs.io/en/latest/](https://arxiv.org/abs/2504.10479)
+- **pdf-url**: N/A
+- **record-time**: N/A
+- **classification**: MultiModal-Evaluation-Benchmark
+- **note**: ViT
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: N/A
+- **article-category**: N/A
+- **abstract**: InternVL Family: Closing the Gap to Commercial Multimodal Models with Open-Source Suites —— A Pioneering Open-Source Alternative to GPT-4o. 
+- **github-url**: [https://github.com/OpenGVLab/InternVL
+https://github.com/OpenGVLab/InternVL-MMDetSeg](https://github.com/OpenGVLab/InternVL)
+- **huggingface-url**: [https://huggingface.co/OpenGVLab/InternViT-6B-448px-V2_5](https://huggingface.co/OpenGVLab/InternViT-6B-448px-V2_5)
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: N/A
+- **base-topics**: N/A
+- **base-core-author**: N/A
+- **base-core-group**: N/A
+- **problems**: N/A
+- **problems-main-problem**: N/A
+- **problems-focus-problem**: N/A
+- **problems-why-important**: N/A
+- **motivations**: N/A
+- **motivations-main-finding**: N/A
+- **motivations-main-insight**: N/A
+- **motivations-why-necessary**: N/A
+- **solutions**: N/A
+- **solutions-main-idea**: N/A
+- **solutions-main-method**: N/A
+- **solutions-main-result**: N/A
+- **solutions-main-conclusion**: N/A
+- **potential-inspiration**: N/A
+
+---
+
+- **this-no**: 50
+- **no**: 532
+- **title**: ViT-Adapter
+Vision Transformer Adapter for Dense Predictions
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2205.08534](https://internvl.readthedocs.io/en/latest/)
+- **pdf-url**: [https://arxiv.org/pdf/2205.08534](https://arxiv.org/pdf/2205.08534)
+- **record-time**: July 17, 2025
+- **classification**: N/A
+- **note**: ViT, ViT-Adapter
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 13 Feb 2023
+- **article-category**: N/A
+- **abstract**: This work investigates a simple yet powerful dense prediction task adapter for Vision Transformer (ViT). Unlike recently advanced variants that incorporate vision-specific inductive biases into their architectures, the plain ViT suffers inferior performance on dense predictions due to weak prior assumptions. To address this issue, we propose the ViT-Adapter, which allows plain ViT to achieve comparable performance to vision-specific transformers. Specifically, the backbone in our framework is a plain ViT that can learn powerful representations from large-scale multi-modal data. When transferring to downstream tasks, a pre-training-free adapter is used to introduce the image-related inductive biases into the model, making it suitable for these tasks. We verify ViT-Adapter on multiple dense prediction tasks, including object detection, instance segmentation, and semantic segmentation. Notably, without using extra detection data, our ViT-Adapter-L yields state-of-the-art 60.9 box AP and 53.0 mask AP on COCO test-dev. We hope that the ViT-Adapter could serve as an alternative for vision-specific transformers and facilitate future research. The code and models will be released at this https URL. 
+- **github-url**: [https://github.com/czczup/ViT-Adapter](https://github.com/OpenGVLab/InternVL)
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: The paper titled "Vision Transformer Adapter for Dense Predictions" was published at ICLR 2023. It investigates a dense prediction task adapter for Vision Transformer (ViT) to improve its performance on tasks like object detection and segmentation.
+- **base-topics**: Vision Transformers, Dense Predictions, Object Detection, Instance Segmentation, Semantic Segmentation, Multi-modal Pre-training
+- **base-core-author**: Zhe Chen, Yuchen Duan, Wenhai Wang, Junjun He, Tong Lu, Jifeng Dai, Yu Qiao
+- **base-core-group**: Nanjing University, Shanghai AI Laboratory, Tsinghua University
+- **problems**: The paper addresses the inferior performance of plain Vision Transformers (ViT) on dense prediction tasks due to weak prior assumptions and lack of local spatial information.
+- **problems-main-problem**: Plain ViT suffers from slower convergence and lower performance on dense prediction tasks compared to vision-specific transformers.
+- **problems-focus-problem**: How to bridge the performance gap between plain ViT and vision-specific transformers for dense prediction tasks without modifying ViT's architecture.
+- **problems-why-important**: Plain ViT has advantages in multi-modal pre-training but lacks image-related inductive biases needed for dense prediction tasks.
+- **motivations**: The paper proposes a pre-training-free adapter (ViT-Adapter) to inject image-related inductive biases into plain ViT, making it suitable for dense prediction tasks.
+- **motivations-main-finding**: The ViT-Adapter significantly improves the performance of plain ViT on dense prediction tasks and benefits from multi-modal pre-training.
+- **motivations-main-insight**: Introducing spatial priors and multi-scale features into ViT can enhance its performance on dense prediction tasks without altering its original architecture.
+- **motivations-why-necessary**: The contributions are necessary to leverage the flexibility and multi-modal pre-training advantages of plain ViT while improving its performance on vision tasks.
+- **solutions**: The paper proposes the ViT-Adapter, which includes a spatial prior module, spatial feature injector, and multi-scale feature extractor to adapt plain ViT for dense prediction tasks.
+- **solutions-main-idea**: Injecting image-related inductive biases and reconstructing multi-scale features to enhance ViT's performance on dense prediction tasks.
+- **solutions-main-method**: Using cross-attention mechanisms to integrate spatial priors and multi-scale features into the ViT architecture.
+- **solutions-main-result**: The ViT-Adapter achieves state-of-the-art performance on COCO test-dev for object detection and significant gains on ADE20K for semantic segmentation.
+- **solutions-main-conclusion**: The ViT-Adapter effectively bridges the performance gap between plain ViT and vision-specific transformers, making ViT a viable alternative for dense prediction tasks.
+- **potential-inspiration**: Further exploration of advanced pre-training techniques for ViT, integration of ViT-Adapter with other vision tasks, and development of more efficient adapters for multi-modal applications.
+
+---
+
+- **this-no**: 51
+- **no**: 533
+- **title**: OpenAI CLIP
+Learning Transferable Visual Models From Natural Language Supervision
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2103.00020](https://arxiv.org/abs/2205.08534)
+- **pdf-url**: [https://arxiv.org/pdf/2103.00020](https://arxiv.org/pdf/2205.08534)
+- **record-time**: July 17, 2025
+- **classification**: N/A
+- **note**: ViT, OPenAI CLIP
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 26 Feb 2021
+- **article-category**: N/A
+- **abstract**: State-of-the-art computer vision systems are trained to predict a fixed set of predetermined object categories. This restricted form of supervision limits their generality and usability since additional labeled data is needed to specify any other visual concept. Learning directly from raw text about images is a promising alternative which leverages a much broader source of supervision. We demonstrate that the simple pre-training task of predicting which caption goes with which image is an efficient and scalable way to learn SOTA image representations from scratch on a dataset of 400 million (image, text) pairs collected from the internet. After pre-training, natural language is used to reference learned visual concepts (or describe new ones) enabling zero-shot transfer of the model to downstream tasks. We study the performance of this approach by benchmarking on over 30 different existing computer vision datasets, spanning tasks such as OCR, action recognition in videos, geo-localization, and many types of fine-grained object classification. The model transfers non-trivially to most tasks and is often competitive with a fully supervised baseline without the need for any dataset specific training. For instance, we match the accuracy of the original ResNet-50 on ImageNet zero-shot without needing to use any of the 1.28 million training examples it was trained on. We release our code and pre-trained model weights at this https URL. 
+- **github-url**: [https://github.com/openai/CLIP](https://github.com/czczup/ViT-Adapter)
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: Title: Learning Transferable Visual Models From Natural Language Supervision; Authors: Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever; Published: 2021
+- **base-topics**: Computer Vision, Natural Language Processing, Transfer Learning, Representation Learning, Zero-Shot Learning
+- **base-core-author**: Alec Radford, Jong Wook Kim
+- **base-core-group**: OpenAI
+- **problems**: Limited generalizability and usability of state-of-the-art computer vision systems due to restricted supervision; Need for additional labeled data to specify other visual concepts; Lack of scalable pre-training methods that leverage natural language supervision for image representation learning
+- **problems-main-problem**: Limited generalizability and usability of computer vision systems due to restricted supervision
+- **problems-focus-problem**: Scalable pre-training methods that leverage natural language supervision for image representation learning
+- **problems-why-important**: Current computer vision systems require additional labeled data for each new task, which is impractical. Natural language supervision can provide a broader source of training data, improving generalizability and reducing the need for task-specific labeled data.
+- **motivations**: Leveraging natural language supervision to learn transferable visual models; Demonstrating the effectiveness of predicting which caption goes with which image as a pre-training task; Achieving zero-shot transfer to downstream tasks using natural language references
+- **motivations-main-finding**: The simple pre-training task of predicting which caption goes with which image is an efficient and scalable way to learn state-of-the-art image representations from scratch using a large dataset of (image, text) pairs collected from the internet.
+- **motivations-main-insight**: Natural language supervision can provide a much broader and more scalable source of training data compared to traditional supervised learning methods, enabling models to learn a wider set of visual concepts and transfer to various downstream tasks without additional training.
+- **motivations-why-necessary**: Traditional computer vision systems are limited by the need for large amounts of labeled data for each new task. Natural language supervision can provide a more scalable and generalizable alternative, making it easier to apply models to new tasks and datasets without extensive retraining.
+- **solutions**: Pre-training a model on a large dataset of (image, text) pairs using a contrastive learning objective to predict which text is paired with which image; Using natural language to reference learned visual concepts for zero-shot transfer to downstream tasks
+- **solutions-main-idea**: Use natural language supervision to learn transferable visual models by predicting which caption goes with which image during pre-training, and then leveraging natural language to transfer the model to downstream tasks without additional training.
+- **solutions-main-method**: Contrastive learning objective with a large dataset of (image, text) pairs; Joint training of image and text encoders to maximize cosine similarity of correct (image, text) pairs and minimize similarity of incorrect pairs
+- **solutions-main-result**: Achieved state-of-the-art zero-shot transfer performance on multiple datasets, including ImageNet, with a model trained from scratch. Matched the accuracy of ResNet-50 on ImageNet zero-shot without using any of its training examples.
+- **solutions-main-conclusion**: Natural language supervision is an effective and scalable way to learn transferable visual models. The proposed method (CLIP) demonstrates strong zero-shot transfer capabilities across a variety of tasks and datasets, outperforming prior methods and suggesting a promising direction for future research.
+- **potential-inspiration**: Further exploration of different architectures and pre-training objectives for leveraging natural language supervision; Combining natural language supervision with other forms of self-supervision or semi-supervised learning; Investigating the robustness and generalizability of models trained with natural language supervision on more complex and diverse datasets; Developing methods to improve the efficiency and scalability of pre-training with natural language supervision; Exploring the potential of natural language supervision for other modalities (e.g., video, audio) and tasks (e.g., multi-modal learning, few-shot learning).
+
+---
+
+- **this-no**: 52
+- **no**: 534
+- **title**: OpenCLIP
+Reproducible scaling laws for contrastive language-image learning
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2212.07143](https://arxiv.org/abs/2103.00020)
+- **pdf-url**: [https://arxiv.org/pdf/2212.07143](https://arxiv.org/pdf/2103.00020)
+- **record-time**: July 17, 2025
+- **classification**: N/A
+- **note**: ViT
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 13 Jul 2024
+- **article-category**: N/A
+- **abstract**: Mehdi Cherti, Romain Beaumont, Ross Wightman, Mitchell Wortsman, Gabriel Ilharco, Cade Gordon, Christoph Schuhmann, Ludwig Schmidt, Jenia Jitsev
+
+    Scaling up neural networks has led to remarkable performance across a wide range of tasks. Moreover, performance often follows reliable scaling laws as a function of training set size, model size, and compute, which offers valuable guidance as large-scale experiments are becoming increasingly expensive. However, previous work on scaling laws has primarily used private data \& models or focused on uni-modal language or vision learning. To address these limitations, we investigate scaling laws for contrastive language-image pre-training (CLIP) with the public LAION dataset and the open-source OpenCLIP repository. Our large-scale experiments involve models trained on up to two billion image-text pairs and identify power law scaling for multiple downstream tasks including zero-shot classification, retrieval, linear probing, and end-to-end fine-tuning. We find that the training distribution plays a key role in scaling laws as the OpenAI and OpenCLIP models exhibit different scaling behavior despite identical model architectures and similar training recipes. We open-source our evaluation workflow and all models, including the largest public CLIP models, to ensure reproducibility and make scaling laws research more accessible. Source code and instructions to reproduce this study will be available at this https URL 
+- **github-url**: [https://github.com/mlfoundations/open_clip?tab=readme-ov-file](https://github.com/openai/CLIP)
+- **huggingface-url**: [https://huggingface.co/models?library=open_clip](https://huggingface.co/models?library=open_clip)
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: The paper titled "Reproducible scaling laws for contrastive language-image learning" investigates the scaling laws for contrastive language-image pre-training (CLIP) using the public LAION dataset and the open-source OpenCLIP repository.
+- **base-topics**: Contrastive language-image learning, scaling laws, neural networks, multi-modal learning, reproducibility
+- **base-core-author**: Mehdi Cherti, Romain Beaumont, Ross Wightman, Mitchell Wortsman, Gabriel Ilharco, Cade Gordon, Christoph Schuhmann, Ludwig Schmidt, Jenia Jitsev
+- **base-core-group**: LAION, UC Berkeley, HuggingFace, University of Washington, Juelich Supercomputing Center
+- **problems**: Previous work on scaling laws has primarily used private data & models or focused on uni-modal language or vision learning. There is a lack of systematic investigation for scaling trends in contrastive language-image learning.
+- **problems-main-problem**: The main problem is the limited understanding of how scaling (model size, data size, and compute) affects the performance of contrastive language-image models.
+- **problems-focus-problem**: The key problem is to derive scaling laws for contrastive language-image pre-training (CLIP) using public datasets and open-source tools.
+- **problems-why-important**: This problem is important because it helps in predicting model performance at larger scales, optimizing pre-training regimes, and making scaling laws research more accessible.
+- **motivations**: The paper aims to provide a systematic study of scaling laws for contrastive language-image learning, ensuring reproducibility and accessibility.
+- **motivations-main-finding**: The study identifies power law scaling for multiple downstream tasks, including zero-shot classification, retrieval, linear probing, and fine-tuning.
+- **motivations-main-insight**: The training distribution plays a key role in scaling laws, as different pre-training datasets (OpenAI vs. LAION) exhibit different scaling behaviors.
+- **motivations-why-necessary**: These contributions are necessary to improve the generalization capabilities of image-text models and to guide future research on scaling multi-modal models.
+- **solutions**: The paper uses the LAION dataset and OpenCLIP repository to train models at various scales and evaluates them on multiple downstream tasks.
+- **solutions-main-idea**: The main idea is to systematically vary model size, data size, and the number of samples seen during pre-training to derive scaling laws.
+- **solutions-main-method**: The primary method involves large-scale experiments with models trained on up to two billion image-text pairs, using power law fitting to analyze performance trends.
+- **solutions-main-result**: The main results show consistent improvements in performance with increased scale, with different scaling coefficients for zero-shot classification and retrieval tasks.
+- **solutions-main-conclusion**: The key conclusion is that scaling laws can guide the design of pre-training datasets and models, highlighting the importance of the training distribution.
+- **potential-inspiration**: Future work could focus on exploring the effects of different pre-training datasets, developing more efficient training techniques, and extending the study to other multi-modal tasks.
+
+---
+
+- **this-no**: 53
+- **no**: 535
+- **title**: Data Filtering Networks
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2309.17425](https://arxiv.org/abs/2212.07143)
+- **pdf-url**: [https://arxiv.org/pdf/2309.17425](https://arxiv.org/pdf/2212.07143)
+- **record-time**: July 17, 2025
+- **classification**: N/A
+- **note**: ViT, DFN
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 6 Nov 2023
+- **article-category**: N/A
+- **abstract**: Large training sets have become a cornerstone of machine learning and are the foundation for recent advances in language modeling and multimodal learning. While data curation for pre-training is often still ad-hoc, one common paradigm is to first collect a massive pool of data from the Web and then filter this candidate pool down to an actual training set via various heuristics. In this work, we study the problem of learning a data filtering network (DFN) for this second step of filtering a large uncurated dataset. Our key finding is that the quality of a network for filtering is distinct from its performance on downstream tasks: for instance, a model that performs well on ImageNet can yield worse training sets than a model with low ImageNet accuracy that is trained on a small amount of high-quality data. Based on our insights, we construct new data filtering networks that induce state-of-the-art image-text datasets. Specifically, our best performing dataset DFN-5B enables us to train state-of-the-art CLIP models for their compute budgets: among other improvements on a variety of tasks, a ViT-H trained on our dataset achieves 84.4% zero-shot transfer accuracy on ImageNet, out-performing models trained on other datasets such as LAION-2B, DataComp-1B, or OpenAI's WIT. In order to facilitate further research in dataset design, we also release a new 2 billion example dataset DFN-2B and show that high performance data filtering networks can be trained from scratch using only publicly available data. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: The paper titled "Data Filtering Networks" was authored by Alex Fang, Albin Madappally Jose, Amit Jain, Ludwig Schmidt, Alexander Toshev, and Vaishaal Shankar from Apple and the University of Washington. It was published on arXiv on November 6, 2023.
+- **base-topics**: Machine learning, data curation, data filtering networks (DFNs), image-text datasets, CLIP models, zero-shot learning, dataset construction, and multimodal learning.
+- **base-core-author**: Alex Fang
+- **base-core-group**: Apple, University of Washington
+- **problems**: The paper addresses the challenges in constructing high-quality datasets for pre-training large machine learning models, particularly in the context of image-text pairs. It highlights the inefficiencies and limitations of existing heuristic-based data filtering methods.
+- **problems-main-problem**: The main problem discussed is how to effectively filter large uncurated datasets to create high-quality training datasets for machine learning models, especially in the context of image-text pairs for CLIP models.
+- **problems-focus-problem**: The key problem the paper focuses on is the development of a data filtering network (DFN) that can efficiently and effectively filter large-scale uncurated datasets to produce high-quality training datasets.
+- **problems-why-important**: This problem is important because the quality of the training dataset significantly impacts the performance of machine learning models. High-quality datasets can lead to better model accuracy, robustness, and generalization, while reducing computational costs.
+- **motivations**: The paper innovates by proposing a new approach to dataset construction using neural networks specifically designed for data filtering, which can be trained and improved using standard machine learning techniques.
+- **motivations-main-finding**: The main finding is that the quality of a network for filtering data is distinct from its performance on downstream tasks. A model trained on a small amount of high-quality data can produce better training sets than a model with high performance on a specific task like ImageNet.
+- **motivations-main-insight**: The key insight is that high-quality data for training the filtering network is crucial, and even a small contrastive image-text model trained on high-quality data can induce state-of-the-art datasets.
+- **motivations-why-necessary**: These contributions are necessary because existing methods for dataset construction rely heavily on heuristic filtering techniques, which are not scalable or as effective. The proposed DFN approach provides a more systematic and efficient way to create high-quality datasets.
+- **solutions**: The paper proposes the use of Data Filtering Networks (DFNs) to filter large uncurated datasets. These DFNs are trained on high-quality data and can be fine-tuned to improve filtering performance.
+- **solutions-main-idea**: The main idea is to use neural networks designed as DFNs to filter data, leveraging the alignment between image and text pairs to create high-quality datasets.
+- **solutions-main-method**: The primary method involves training a CLIP model on high-quality data, fine-tuning it on additional datasets, and using it to filter large-scale uncurated datasets to produce high-quality training datasets.
+- **solutions-main-result**: The main results include the creation of state-of-the-art image-text datasets (DFN-2B and DFN-5B) that outperform existing datasets like LAION-2B, DataComp-1B, and OpenAI’s WIT in terms of zero-shot transfer accuracy on ImageNet and other tasks.
+- **solutions-main-conclusion**: The key conclusion is that DFNs can be efficiently trained from scratch using publicly available data and can produce high-quality datasets that lead to better model performance and efficiency.
+- **potential-inspiration**: Potential inspirations include exploring the application of DFNs in other modalities (e.g., speech, text, video), optimizing DFNs for specific tasks or domains, and further investigating the relationship between dataset quality and model performance. Additionally, the idea of using DFNs could inspire new methods for dataset augmentation and transfer learning.
+
+---
+
+- **this-no**: 54
+- **no**: 536
+- **title**: Sigmoid Loss for Language Image Pre-Training
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2303.15343](https://arxiv.org/abs/2309.17425)
+- **pdf-url**: [https://arxiv.org/pdf/2303.15343](https://arxiv.org/pdf/2309.17425)
+- **record-time**: July 17, 2025
+- **classification**: N/A
+- **note**: ViT, SigLIP
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 27 Sep 2023
+- **article-category**: N/A
+- **abstract**: We propose a simple pairwise Sigmoid loss for Language-Image Pre-training (SigLIP). Unlike standard contrastive learning with softmax normalization, the sigmoid loss operates solely on image-text pairs and does not require a global view of the pairwise similarities for normalization. The sigmoid loss simultaneously allows further scaling up the batch size, while also performing better at smaller batch sizes. Combined with Locked-image Tuning, with only four TPUv4 chips, we train a SigLiT model that achieves 84.5% ImageNet zero-shot accuracy in two days. The disentanglement of the batch size from the loss further allows us to study the impact of examples vs pairs and negative to positive ratio. Finally, we push the batch size to the extreme, up to one million, and find that the benefits of growing batch size quickly diminish, with a more reasonable batch size of 32k being sufficient. We release our models at this https URL and hope our research motivates further explorations in improving the quality and efficiency of language-image pre-training. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: The paper titled "Sigmoid Loss for Language-Image Pre-Training" was authored by Xiaohua Zhai, Basil Mustafa, Alexander Kolesnikov, and Lucas Beyer from Google DeepMind, Zürich, Switzerland.
+- **base-topics**: Language-image pre-training, contrastive learning, sigmoid loss, softmax loss, batch size scaling, zero-shot learning, multilingual pre-training
+- **base-core-author**: Xiaohua Zhai, Basil Mustafa, Alexander Kolesnikov, Lucas Beyer
+- **base-core-group**: Google DeepMind, Zürich, Switzerland
+- **problems**: The paper addresses the limitations of standard contrastive learning methods using softmax normalization, particularly the computational inefficiencies and the requirement for global pairwise similarity normalization.
+- **problems-main-problem**: The inefficiency and complexity of softmax-based contrastive learning methods in scaling up batch sizes and the challenges in training large language-image models with limited resources.
+- **problems-focus-problem**: Developing a more efficient and scalable loss function for language-image pre-training that can operate without global normalization and allow for larger batch sizes.
+- **problems-why-important**: Efficient and scalable pre-training is crucial for improving the quality and efficiency of language-image models, especially with limited computational resources.
+- **motivations**: The paper proposes a simpler pairwise sigmoid loss function for language-image pre-training (SigLIP) that operates solely on image-text pairs without requiring global normalization, making it more memory-efficient and scalable.
+- **motivations-main-finding**: The sigmoid loss function allows for larger batch sizes, performs better at smaller batch sizes, and achieves competitive results with fewer computational resources compared to softmax-based methods.
+- **motivations-main-insight**: The sigmoid loss function decouples the batch size from the loss definition, enabling more efficient distributed training and better performance with limited resources.
+- **motivations-why-necessary**: The proposed sigmoid loss function addresses the computational bottlenecks and inefficiencies of softmax-based methods, making language-image pre-training more accessible and scalable.
+- **solutions**: The paper introduces the sigmoid loss function for language-image pre-training, which simplifies the loss computation and allows for larger batch sizes without additional computational overhead.
+- **solutions-main-idea**: Use a sigmoid loss function that operates on individual image-text pairs independently, eliminating the need for global normalization across the batch.
+- **solutions-main-method**: Implement the sigmoid loss function in language-image pre-training models (SigLIP and SigLiT) and demonstrate its effectiveness through experiments on various datasets and batch sizes.
+- **solutions-main-result**: Achieved 84.5% ImageNet zero-shot accuracy with SigLiT using only four TPUv4 chips in two days and demonstrated that a batch size of 32k is sufficient for optimal performance.
+- **solutions-main-conclusion**: The sigmoid loss function is more memory-efficient, scalable, and effective for language-image pre-training, especially with limited computational resources.
+- **potential-inspiration**: Further exploration of efficient pre-training methods, investigation of other loss functions for contrastive learning, and development of more scalable and resource-efficient language-image models.
+
+---
+
+- **this-no**: 55
+- **no**: 537
+- **title**: Ovis: Structural Embedding Alignment for Multimodal Large Language Model
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2405.20797](https://arxiv.org/abs/2303.15343)
+- **pdf-url**: [https://arxiv.org/pdf/2405.20797](https://arxiv.org/pdf/2303.15343)
+- **record-time**: July 18, 2025
+- **classification**: MultiModal-Evaluation-Benchmark
+- **note**: VLM
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 17 Jun 2024
+- **article-category**: N/A
+- **abstract**: Current Multimodal Large Language Models (MLLMs) typically integrate a pre-trained LLM with another pre-trained vision transformer through a connector, such as an MLP, endowing the LLM with visual capabilities. However, the misalignment between two embedding strategies in MLLMs -- the structural textual embeddings based on an embedding look-up table and the continuous embeddings generated directly by the vision encoder -- makes challenges for a more seamless fusion of visual and textual information. We propose Ovis, a novel MLLM architecture designed to structurally align visual and textual embeddings. Ovis integrates an additional learnable visual embedding table into the visual encoder's process. To capture rich visual semantics, each image patch indexes the visual embedding table multiple times, resulting in a final visual embedding that is a probabilistic combination of the indexed embeddings. This structural approach mirrors the method used for generating textual embeddings. Empirical evaluations on various multimodal benchmarks show that Ovis outperforms open-source MLLMs of similar parameter scales and even surpasses the proprietary model Qwen-VL-Plus overall. These results highlight the potential of Ovis' structured visual representation for advancing MLLM architectural design and promoting more effective multimodal learning. Code, datasets, and models are available at this https URL. 
+- **github-url**: [https://github.com/AIDC-AI/Ovis](https://github.com/AIDC-AI/Ovis)
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: Title: Ovis: Structural Embedding Alignment for Multimodal Large Language Model. Authors: Shiyin Lu, Yang Li, Qing-Guo Chen, Zhao Xu, Weihua Luo, Kaifu Zhang, Han-Jia Ye. Affiliations: AI Business, Alibaba Group; School of Artificial Intelligence, Nanjing University; National Key Laboratory for Novel Software Technology, Nanjing University.
+- **base-topics**: Multimodal Large Language Models (MLLMs), Visual Embedding Alignment, Structured Embeddings, Vision-Language Tasks
+- **base-core-author**: Shiyin Lu, Yang Li, Han-Jia Ye
+- **base-core-group**: AI Business, Alibaba Group; School of Artificial Intelligence, Nanjing University
+- **problems**: Misalignment between visual and textual embeddings in current MLLMs due to different tokenization and embedding strategies.
+- **problems-main-problem**: Inability of MLLMs to seamlessly fuse visual and textual information due to misaligned embeddings.
+- **problems-focus-problem**: How to align visual embeddings with textual embeddings in MLLMs.
+- **problems-why-important**: Misalignment limits the performance of MLLMs in vision-language tasks and hinders effective multimodal learning.
+- **motivations**: Structural alignment of visual and textual embeddings to improve multimodal fusion.
+- **motivations-main-finding**: Ovis outperforms open-source MLLMs and even surpasses high-resource proprietary models in various benchmarks.
+- **motivations-main-insight**: Aligning visual embeddings with a structured approach similar to textual embeddings enhances multimodal learning.
+- **motivations-why-necessary**: To achieve more effective and seamless integration of visual and textual information in MLLMs.
+- **solutions**: Introduction of a learnable visual embedding table and probabilistic visual tokens to align visual embeddings with textual embeddings.
+- **solutions-main-idea**: Use a visual embedding table and probabilistic tokens to generate structured visual embeddings.
+- **solutions-main-method**: Three-stage training process with joint textual generation loss to optimize visual embedding table and probabilistic tokens.
+- **solutions-main-result**: Ovis achieves superior performance in multimodal benchmarks compared to existing MLLMs.
+- **solutions-main-conclusion**: Structural alignment of visual embeddings significantly improves the performance of MLLMs.
+- **potential-inspiration**: Exploring high-resolution image handling and multi-image input processing for Ovis; further research on reducing hallucination and improving robustness in multimodal models.
+
+---
+
+- **this-no**: 56
+- **no**: 538
+- **title**: MiniCPM-o 2.6 technical report
+- **citation**: N/A
+- **paper-page-url**: [https://openbmb.notion.site/MiniCPM-o-2-6-A-GPT-4o-Level-MLLM-for-Vision-Speech-and-Multimodal-Live-Streaming-on-Your-Phone-185ede1b7a558042b5d5e45e6b237da9](https://arxiv.org/abs/2405.20797)
+- **pdf-url**: N/A
+- **record-time**: N/A
+- **classification**: MultiModal-Evaluation-Benchmark
+- **note**: VLM
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: N/A
+- **article-category**: N/A
+- **abstract**: MiniCPM-o is the latest series of end-side multimodal LLMs (MLLMs) ungraded from MiniCPM-V. The models can now take images, video, text, and audio as inputs and provide high-quality text and speech outputs in an end-to-end fashion. Since February 2024, we have released 6 versions of the model, aiming to achieve strong performance and efficient deployment. The most notable models in the series currently include:
+
+    MiniCPM-o 2.6: 🔥🔥🔥 The latest and most capable model in the MiniCPM-o series. With a total of 8B parameters, this end-to-end model achieves comparable performance to GPT-4o-202405 in vision, speech, and multimodal live streaming, making it one of the most versatile and performant models in the open-source community. For the new voice mode, MiniCPM-o 2.6 supports bilingual real-time speech conversation with configurable voices, and also allows for fun capabilities such as emotion/speed/style control, end-to-end voice cloning, role play, etc. It also advances MiniCPM-V 2.6's visual capabilities such strong OCR capability, trustworthy behavior, multilingual support, and video understanding. Due to its superior token density, MiniCPM-o 2.6 can for the first time support multimodal live streaming on end-side devices such as iPad.
+
+    MiniCPM-V 2.6: The most capable model in the MiniCPM-V series. With a total of 8B parameters, the model surpasses GPT-4V in single-image, multi-image and video understanding. It outperforms GPT-4o mini, Gemini 1.5 Pro and Claude 3.5 Sonnet in single image understanding, and can for the first time support real-time video understanding on iPad.
+
+- **github-url**: [https://github.com/OpenBMB/MiniCPM-o](https://github.com/AIDC-AI/Ovis)
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: N/A
+- **base-topics**: N/A
+- **base-core-author**: N/A
+- **base-core-group**: N/A
+- **problems**: N/A
+- **problems-main-problem**: N/A
+- **problems-focus-problem**: N/A
+- **problems-why-important**: N/A
+- **motivations**: N/A
+- **motivations-main-finding**: N/A
+- **motivations-main-insight**: N/A
+- **motivations-why-necessary**: N/A
+- **solutions**: N/A
+- **solutions-main-idea**: N/A
+- **solutions-main-method**: N/A
+- **solutions-main-result**: N/A
+- **solutions-main-conclusion**: N/A
+- **potential-inspiration**: N/A
+
+---
+
+- **this-no**: 57
+- **no**: 539
+- **title**: VILA
+NVILA: Efficient Frontier Visual Language Models
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2412.04468 ](https://openbmb.notion.site/MiniCPM-o-2-6-A-GPT-4o-Level-MLLM-for-Vision-Speech-and-Multimodal-Live-Streaming-on-Your-Phone-185ede1b7a558042b5d5e45e6b237da9)
+- **pdf-url**: [https://arxiv.org/pdf/2412.04468](https://arxiv.org/pdf/2412.04468)
+- **record-time**: July 18, 2025
+- **classification**: N/A
+- **note**: VLM
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 5 Mar 2025
+- **article-category**: N/A
+- **abstract**: Visual language models (VLMs) have made significant advances in accuracy in recent years. However, their efficiency has received much less attention. This paper introduces NVILA, a family of open VLMs designed to optimize both efficiency and accuracy. Building on top of VILA, we improve its model architecture by first scaling up the spatial and temporal resolutions, and then compressing visual tokens. This "scale-then-compress" approach enables NVILA to efficiently process high-resolution images and long videos. We also conduct a systematic investigation to enhance the efficiency of NVILA throughout its entire lifecycle, from training and fine-tuning to deployment. NVILA matches or surpasses the accuracy of many leading open and proprietary VLMs across a wide range of image and video benchmarks. At the same time, it reduces training costs by 4.5X, fine-tuning memory usage by 3.4X, pre-filling latency by 1.6-2.2X, and decoding latency by 1.2-2.8X. We will soon make our code and models available to facilitate reproducibility. 
+- **github-url**: [https://github.com/NVlabs/VILA](https://github.com/OpenBMB/MiniCPM-o)
+- **huggingface-url**: [https://huggingface.co/collections/Efficient-Large-Model/nvila-674f8163543890b35a91b428](https://huggingface.co/collections/Efficient-Large-Model/nvila-674f8163543890b35a91b428)
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: The paper titled "NVILA: Efficient Frontier Visual Language Models" was published on 2025-03-06. It introduces NVILA, a family of open visual language models (VLMs) designed to optimize both efficiency and accuracy.
+- **base-topics**: Visual language models, efficiency optimization, high-resolution image processing, long video understanding, model architecture, training efficiency, deployment efficiency.
+- **base-core-author**: Zhijian Liu, Ligeng Zhu, Baifeng Shi, Zhuoyang Zhang, Yuming Lou, Shang Yang, Haocheng Xi, Shiyi Cao, Yuxian Gu, Dacheng Li, Xiuyu Li, Yunhao Fang, Yukang Chen, Cheng-Yu Hsieh, De-An Huang, An-Chieh Cheng, Vishwesh Nath, Andriy Myronenko, Jinyi Hu, Sifei Liu, Ranjay Krishna, Daguang Xu, Xiaolong Wang, Yao Lu.
+- **base-core-group**: NVIDIA, MIT, UC Berkeley, UC San Diego, University of Washington, Tsinghua University.
+- **problems**: The paper addresses the inefficiency of existing visual language models (VLMs) in terms of training costs, fine-tuning memory requirements, and deployment resource constraints.
+- **problems-main-problem**: The main problem is the high computational cost and inefficiency of current VLMs, which limits their accessibility and practical deployment.
+- **problems-focus-problem**: The key problem is how to improve the efficiency of VLMs without compromising their accuracy, especially when processing high-resolution images and long videos.
+- **problems-why-important**: This problem is important because it creates significant barriers for researchers and developers, especially those with limited computational resources, and hampers the widespread adoption of VLMs in real-world applications.
+- **motivations**: The paper aims to develop VLMs that are both highly accurate and resource-efficient by optimizing model architecture, training, fine-tuning, and deployment processes.
+- **motivations-main-finding**: The main finding is that the "scale-then-compress" approach can significantly enhance the efficiency of VLMs while maintaining or even improving their accuracy across various benchmarks.
+- **motivations-main-insight**: The key insight is that scaling up spatial and temporal resolutions followed by token compression can effectively balance accuracy and efficiency, making VLMs more practical for diverse applications.
+- **motivations-why-necessary**: These contributions are necessary to bridge the gap between the high accuracy of state-of-the-art VLMs and their prohibitive computational costs, enabling broader research and deployment in fields like robotics, medical imaging, and autonomous driving.
+- **solutions**: The paper proposes NVILA, which includes scaling up spatial and temporal resolutions, compressing visual tokens, and optimizing training, fine-tuning, and deployment processes.
+- **solutions-main-idea**: The main idea is to first scale up the resolutions to capture more details and then compress the visual tokens to reduce computational load, while also optimizing the entire lifecycle of the model.
+- **solutions-main-method**: The primary methods include Dynamic-S2 for multi-scale high-resolution feature extraction, spatial and temporal token compression, dataset pruning using DeltaLoss, FP8 training for acceleration, and specialized inference engine with quantization.
+- **solutions-main-result**: NVILA achieves 1.9-5.1× lower training costs, 1.6-2.2× faster pre-filling latency, and 1.2-2.8× faster decoding latency compared to existing models, while matching or surpassing their accuracy on various benchmarks.
+- **solutions-main-conclusion**: NVILA demonstrates that it is possible to achieve high accuracy in VLMs with significantly improved efficiency, opening up new possibilities for applications in robotics, medical imaging, and other resource-constrained environments.
+- **potential-inspiration**: Further research could explore more advanced token compression techniques, adaptive resolution scaling, and integration with other modalities like audio. Additionally, the "scale-then-compress" paradigm could inspire similar approaches in other large language models and multimodal systems.
+
+---
+
+- **this-no**: 58
+- **no**: 540
+- **title**: Llama-3.2-Vision
+- **citation**: N/A
+- **paper-page-url**: N/A
+- **pdf-url**: N/A
+- **record-time**: N/A
+- **classification**: N/A
+- **note**: VLM
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: N/A
+- **article-category**: N/A
+- **abstract**: N/A
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: N/A
+- **base-topics**: N/A
+- **base-core-author**: N/A
+- **base-core-group**: N/A
+- **problems**: N/A
+- **problems-main-problem**: N/A
+- **problems-focus-problem**: N/A
+- **problems-why-important**: N/A
+- **motivations**: N/A
+- **motivations-main-finding**: N/A
+- **motivations-main-insight**: N/A
+- **motivations-why-necessary**: N/A
+- **solutions**: N/A
+- **solutions-main-idea**: N/A
+- **solutions-main-method**: N/A
+- **solutions-main-result**: N/A
+- **solutions-main-conclusion**: N/A
+- **potential-inspiration**: N/A
+
+---
+
+- **this-no**: 59
+- **no**: 541
+- **title**: Phi-3.5-Vision
+- **citation**: N/A
+- **paper-page-url**: N/A
+- **pdf-url**: N/A
+- **record-time**: N/A
+- **classification**: N/A
+- **note**: VLM
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: N/A
+- **article-category**: N/A
+- **abstract**: N/A
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: N/A
+- **base-topics**: N/A
+- **base-core-author**: N/A
+- **base-core-group**: N/A
+- **problems**: N/A
+- **problems-main-problem**: N/A
+- **problems-focus-problem**: N/A
+- **problems-why-important**: N/A
+- **motivations**: N/A
+- **motivations-main-finding**: N/A
+- **motivations-main-insight**: N/A
+- **motivations-why-necessary**: N/A
+- **solutions**: N/A
+- **solutions-main-idea**: N/A
+- **solutions-main-method**: N/A
+- **solutions-main-result**: N/A
+- **solutions-main-conclusion**: N/A
+- **potential-inspiration**: N/A
+
+---
+
+- **this-no**: 60
+- **no**: 542
+- **title**: Molmo
+- **citation**: N/A
+- **paper-page-url**: N/A
+- **pdf-url**: N/A
+- **record-time**: N/A
+- **classification**: N/A
+- **note**: VLM
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: N/A
+- **article-category**: N/A
+- **abstract**: N/A
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: N/A
+- **base-topics**: N/A
+- **base-core-author**: N/A
+- **base-core-group**: N/A
+- **problems**: N/A
+- **problems-main-problem**: N/A
+- **problems-focus-problem**: N/A
+- **problems-why-important**: N/A
+- **motivations**: N/A
+- **motivations-main-finding**: N/A
+- **motivations-main-insight**: N/A
+- **motivations-why-necessary**: N/A
+- **solutions**: N/A
+- **solutions-main-idea**: N/A
+- **solutions-main-method**: N/A
+- **solutions-main-result**: N/A
+- **solutions-main-conclusion**: N/A
+- **potential-inspiration**: N/A
+
+---
+
+- **this-no**: 61
+- **no**: 543
+- **title**: Cambrian-1
+- **citation**: N/A
+- **paper-page-url**: N/A
+- **pdf-url**: N/A
+- **record-time**: N/A
+- **classification**: N/A
+- **note**: VLM
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: N/A
+- **article-category**: N/A
+- **abstract**: N/A
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: N/A
+- **base-topics**: N/A
+- **base-core-author**: N/A
+- **base-core-group**: N/A
+- **problems**: N/A
+- **problems-main-problem**: N/A
+- **problems-focus-problem**: N/A
+- **problems-why-important**: N/A
+- **motivations**: N/A
+- **motivations-main-finding**: N/A
+- **motivations-main-insight**: N/A
+- **motivations-why-necessary**: N/A
+- **solutions**: N/A
+- **solutions-main-idea**: N/A
+- **solutions-main-method**: N/A
+- **solutions-main-result**: N/A
+- **solutions-main-conclusion**: N/A
+- **potential-inspiration**: N/A
+
+---
+
+- **this-no**: 62
+- **no**: 544
+- **title**: NVLM-D-72B
+- **citation**: N/A
+- **paper-page-url**: N/A
+- **pdf-url**: N/A
+- **record-time**: N/A
+- **classification**: N/A
+- **note**: VLM
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: N/A
+- **article-category**: N/A
+- **abstract**: N/A
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: N/A
+- **base-topics**: N/A
+- **base-core-author**: N/A
+- **base-core-group**: N/A
+- **problems**: N/A
+- **problems-main-problem**: N/A
+- **problems-focus-problem**: N/A
+- **problems-why-important**: N/A
+- **motivations**: N/A
+- **motivations-main-finding**: N/A
+- **motivations-main-insight**: N/A
+- **motivations-why-necessary**: N/A
+- **solutions**: N/A
+- **solutions-main-idea**: N/A
+- **solutions-main-method**: N/A
+- **solutions-main-result**: N/A
+- **solutions-main-conclusion**: N/A
+- **potential-inspiration**: N/A
+
+---
+
+- **this-no**: 63
+- **no**: 545
+- **title**: LLaVA-1.6
+- **citation**: N/A
+- **paper-page-url**: N/A
+- **pdf-url**: N/A
+- **record-time**: N/A
+- **classification**: N/A
+- **note**: VLM
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: N/A
+- **article-category**: N/A
+- **abstract**: N/A
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: N/A
+- **base-topics**: N/A
+- **base-core-author**: N/A
+- **base-core-group**: N/A
+- **problems**: N/A
+- **problems-main-problem**: N/A
+- **problems-focus-problem**: N/A
+- **problems-why-important**: N/A
+- **motivations**: N/A
+- **motivations-main-finding**: N/A
+- **motivations-main-insight**: N/A
+- **motivations-why-necessary**: N/A
+- **solutions**: N/A
+- **solutions-main-idea**: N/A
+- **solutions-main-method**: N/A
+- **solutions-main-result**: N/A
+- **solutions-main-conclusion**: N/A
+- **potential-inspiration**: N/A
+
+---
+
+- **this-no**: 64
+- **no**: 546
+- **title**: Yi-VL
+- **citation**: N/A
+- **paper-page-url**: N/A
+- **pdf-url**: N/A
+- **record-time**: N/A
+- **classification**: N/A
+- **note**: VLM
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: N/A
+- **article-category**: N/A
+- **abstract**: N/A
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: N/A
+- **base-topics**: N/A
+- **base-core-author**: N/A
+- **base-core-group**: N/A
+- **problems**: N/A
+- **problems-main-problem**: N/A
+- **problems-focus-problem**: N/A
+- **problems-why-important**: N/A
+- **motivations**: N/A
+- **motivations-main-finding**: N/A
+- **motivations-main-insight**: N/A
+- **motivations-why-necessary**: N/A
+- **solutions**: N/A
+- **solutions-main-idea**: N/A
+- **solutions-main-method**: N/A
+- **solutions-main-result**: N/A
+- **solutions-main-conclusion**: N/A
+- **potential-inspiration**: N/A
+
+---
+
+- **this-no**: 65
+- **no**: 547
+- **title**: CogVLM2-19B-Chat
+- **citation**: N/A
+- **paper-page-url**: N/A
+- **pdf-url**: N/A
+- **record-time**: N/A
+- **classification**: N/A
+- **note**: VLM
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: N/A
+- **article-category**: N/A
+- **abstract**: N/A
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: N/A
+- **base-topics**: N/A
+- **base-core-author**: N/A
+- **base-core-group**: N/A
+- **problems**: N/A
+- **problems-main-problem**: N/A
+- **problems-focus-problem**: N/A
+- **problems-why-important**: N/A
+- **motivations**: N/A
+- **motivations-main-finding**: N/A
+- **motivations-main-insight**: N/A
+- **motivations-why-necessary**: N/A
+- **solutions**: N/A
+- **solutions-main-idea**: N/A
+- **solutions-main-method**: N/A
+- **solutions-main-result**: N/A
+- **solutions-main-conclusion**: N/A
+- **potential-inspiration**: N/A
+
+---
+
+- **this-no**: 66
+- **no**: 2
+- **title**: The FinBen: An Holistic Financial Benchmark for Large Language Models
+- **citation**: N/A
+- **paper-page-url**: [https://arxiv.org/abs/2402.12659](https://arxiv.org/abs/2402.12659)
+- **pdf-url**: [https://arxiv.org/pdf/2402.12659](https://arxiv.org/pdf/2402.12659)
+- **record-time**: July 8, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+LLM-Reasoning-Benchmark
+- **note**: FinBen: Our Financial Language Understanding and Prediction Evaluation Benchmark. FinBen serves as the evaluation suite for financial LLMs, with a focus on understanding and prediction tasks across various financial contexts.
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 19 Jun 2024
+- **article-category**: N/A
+- **abstract**: LLMs have transformed NLP and shown promise in various fields, yet their potential in finance is underexplored due to a lack of comprehensive evaluation benchmarks, the rapid development of LLMs, and the complexity of financial tasks. In this paper, we introduce FinBen, the first extensive open-source evaluation benchmark, including 36 datasets spanning 24 financial tasks, covering seven critical aspects: information extraction (IE), textual analysis, question answering (QA), text generation, risk management, forecasting, and decision-making. FinBen offers several key innovations: a broader range of tasks and datasets, the first evaluation of stock trading, novel agent and Retrieval-Augmented Generation (RAG) evaluation, and three novel open-source evaluation datasets for text summarization, question answering, and stock trading. Our evaluation of 15 representative LLMs, including GPT-4, ChatGPT, and the latest Gemini, reveals several key findings: While LLMs excel in IE and textual analysis, they struggle with advanced reasoning and complex tasks like text generation and forecasting. GPT-4 excels in IE and stock trading, while Gemini is better at text generation and forecasting. Instruction-tuned LLMs improve textual analysis but offer limited benefits for complex tasks such as QA. FinBen has been used to host the first financial LLMs shared task at the FinNLP-AgentScen workshop during IJCAI-2024, attracting 12 teams. Their novel solutions outperformed GPT-4, showcasing FinBen's potential to drive innovation in financial LLMs. All datasets, results, and codes are released for the research community: this https URL. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: Title: FinBen: An Holistic Financial Benchmark for Large Language Models. Venue: arXiv preprint (under review). Type: Open-source benchmark paper. Release date: 19 Jun 2024 (v2). URL: https://github.com/The-FinAI/PIXIU
+- **base-topics**: Large language model evaluation; Financial NLP; Financial forecasting; Financial decision-making; Risk management; Stock trading; Text generation; Information extraction; Retrieval-augmented generation; Benchmark construction
+- **base-core-author**: Qianqian Xie, Weiguang Han, Zhengyu Chen, Ruoyu Xiang, Xiao Zhang
+- **base-core-group**: The Fin AI (a multi-institutional consortium including Wuhan University, University of Manchester, Columbia University, CUHK-Shenzhen, Sichuan University, Stevens IT, Stony Brook, Nanjing Audit University, etc.)
+- **problems**: 1) Lack of comprehensive evaluation benchmarks for LLMs in finance; 2) Existing benchmarks cover too few tasks and ignore decision-making, forecasting, risk management, and stock trading; 3) Rapid LLM evolution demands broader and deeper assessment; 4) Complex financial tasks require specialized evaluation
+- **problems-main-problem**: Absence of an extensive, open-source benchmark that holistically evaluates LLMs across the full spectrum of financial tasks
+- **problems-focus-problem**: Designing and validating FinBen, a benchmark covering 36 datasets and 24 tasks across seven financial aspects (IE, TA, QA, TG, RM, FO, DM) including stock trading and RAG/agent evaluation
+- **problems-why-important**: Reliable evaluation is crucial for advancing trustworthy financial LLMs, avoiding misuse, and guiding practitioners and regulators
+- **motivations**: Provide the first holistic open-source financial LLM benchmark; introduce stock-trading evaluation; introduce agent/RAG evaluation; release three new datasets; host a shared task to foster innovation
+- **motivations-main-finding**: GPT-4 excels at IE and trading, Gemini at generation/forecasting; instruction-tuned LLMs improve textual analysis but not complex reasoning; open-source teams can surpass GPT-4 with novel solutions
+- **motivations-main-insight**: Current LLMs are strong at IE and sentiment but weak at forecasting and complex decision-making; agent-based and RAG evaluations reveal new dimensions of capability
+- **motivations-why-necessary**: Existing benchmarks are narrow; financial tasks are high-stakes; holistic evaluation is needed to guide safe deployment and future research
+- **solutions**: Construct FinBen with 36 datasets, 24 tasks, 7 aspects; create new datasets EDTSum, FinTrade, Regulations; design zero-shot and agent-based evaluation protocols; host IJCAI-2024 shared task
+- **solutions-main-idea**: Curate diverse open datasets, reformat them into instruction-tuning pairs, add novel tasks (trading, long-form QA), and implement multi-metric evaluation to stress-test LLMs across financial capabilities
+- **solutions-main-method**: Expert-driven curation, prompt engineering, agent simulation (FinMem), multi-metric scoring (F1, EM, ROUGE, BERTScore, Sharpe Ratio, MDD), open-source release, community shared task
+- **solutions-main-result**: Evaluation of 15 LLMs reveals strengths/limits; 12 teams participated and outperformed GPT-4 on some tasks; comprehensive public leaderboard and datasets released
+- **solutions-main-conclusion**: FinBen enables nuanced understanding of financial LLMs, highlights gaps in reasoning/forecasting, and provides a living benchmark for future research and regulation
+- **potential-inspiration**: Expand to multilingual and global markets; incorporate multimodal data (audio, charts); develop adversarial and fairness tests; integrate causal inference benchmarks; extend to portfolio-level trading; create real-time evaluation pipelines
+
+---
+
+- **this-no**: 67
+- **no**: 8
+- **title**: Trillion Dollar Words: A New Financial Dataset, Task & Market Analysis
+- **citation**: Shah A, Vithani R, Gullapalli A, et al. Finer: Financial named entity recognition dataset and weak-supervision model[J]. arXiv preprint arXiv:2302.11157, 2023.
+- **paper-page-url**: [https://arxiv.org/abs/2305.07972](https://arxiv.org/abs/2402.12659)
+- **pdf-url**: [https://arxiv.org/pdf/2305.07972](https://arxiv.org/pdf/2402.12659)
+- **record-time**: July 8, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+- **note**: Data, Task, Raw, Data Types, Modalities, License, Paper. source
+FOMC, hawkish-dovish classification, 496, FOMC transcripts, text, CC BY-NC 4.0, [4], PIXIU Github FinBen 2.0 Tasks
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: 13 May 2023
+- **article-category**: N/A
+- **abstract**: Monetary policy pronouncements by Federal Open Market Committee (FOMC) are a major driver of financial market returns. We construct the largest tokenized and annotated dataset of FOMC speeches, meeting minutes, and press conference transcripts in order to understand how monetary policy influences financial markets. In this study, we develop a novel task of hawkish-dovish classification and benchmark various pre-trained language models on the proposed dataset. Using the best-performing model (RoBERTa-large), we construct a measure of monetary policy stance for the FOMC document release days. To evaluate the constructed measure, we study its impact on the treasury market, stock market, and macroeconomic indicators. Our dataset, models, and code are publicly available on Huggingface and GitHub under CC BY-NC 4.0 license. 
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: [Title: Trillion Dollar Words: A New Financial Dataset, Task & Market Analysis; Venue: ACL 2023; Type: research paper; Date: 13 May 2023; License: CC BY-NC 4.0; Data & code: public on Hugging Face & GitHub](https://github.com/The-FinAI/PIXIU)
+- **base-topics**: computational linguistics; monetary policy stance classification; hawkish-dovish sentiment; FOMC communications; financial market prediction; NLP benchmark; transformer models
+- **base-core-author**: Agam Shah, Suvan Paturi, Sudheer Chava
+- **base-core-group**: Georgia Institute of Technology
+- **problems**: traditional sentiment models misclassify monetary policy stance; rule-based and unsupervised approaches perform poorly on hawkish-dovish task; lack of annotated FOMC corpora; need for market-relevant stance measure
+- **problems-main-problem**: inability of existing NLP methods to accurately extract and quantify Federal Reserve monetary policy stance (hawkish vs dovish) from FOMC communications
+- **problems-focus-problem**: creating a high-quality labeled dataset and a robust classifier that can reliably distinguish hawkish, dovish and neutral sentences in FOMC texts
+- **problems-why-important**: FOMC words move trillions of dollars in equity and treasury markets; accurate stance detection is essential for policymakers, investors and researchers to understand and predict market reactions
+- **motivations**: demonstrate limitations of rule-based and sentiment models; introduce new classification task; release largest annotated FOMC corpus; validate stance measure with market outcomes
+- **motivations-main-finding**: RoBERTa-large achieves best F1 (~0.71); document-level hawkish measure significantly correlates with CPI, PPI and treasury yields; simple trading strategy beats buy-and-hold by 163.4 %
+- **motivations-main-insight**: transformer fine-tuning outperforms prior rule-based and RNN baselines; sentence splitting improves performance; Fed communication clarity has increased over time
+- **motivations-why-necessary**: prior work relied on unsupervised or rule-based methods that failed on nuanced stance classification; no large annotated resource existed; markets need quantitative stance signal
+- **solutions**: construct tokenized annotated FOMC dataset (1996-2022); define hawkish-dovish-neutral classification task; fine-tune transformer models; aggregate sentence labels into document-level stance measure; validate measure with macro and market data
+- **solutions-main-idea**: treat hawkish-dovish classification as a supervised sentence-level task, then aggregate results to quantify stance of entire FOMC documents and track policy tone over time
+- **solutions-main-method**: scrape & clean meeting minutes, speeches, press conferences; manual annotation with dual annotators; train/test RoBERTa-large and baselines; create hawkish measure = (#hawkish−#dovish)/#total; correlate with CPI, PPI, treasury yields; backtest trading strategy
+- **solutions-main-result**: released 2,480 labeled sentences across three data types; RoBERTa-large F1 0.7113 on combined split data; stance measure correlates 0.54–0.81 with inflation indicators; 1-year treasury yield most sensitive (β=5.23); strategy outperforms QQQ
+- **solutions-main-conclusion**: fine-tuned transformers provide reliable hawkish-dovish signal; stance measure is a valid predictor of inflation and treasury moves; resource enables future macro-finance NLP research
+- **potential-inspiration**: extend dataset to Beige Book, testimonies, social media; fuse audio/video features from press conferences; explore few-shot or zero-shot LLM benchmarking; integrate high-frequency trading signals; study cross-central-bank stance transfer
+
+---
+
+- **this-no**: 68
+- **no**: 11
+- **title**: MultiFin: A Dataset for Multilingual Financial NLP
+- **citation**: Rasmus Jørgensen, Oliver Brandt, Mareike Hartmann, Xiang Dai, Christian Igel, and Desmond Elliott. 2023. MultiFin: A Dataset for Multilingual Financial NLP. In Findings of the Association for Computational Linguistics: EACL 2023, pages 894–909, Dubrovnik, Croatia. Association for Computational Linguistics.
+- **paper-page-url**: [https://aclanthology.org/2023.findings-eacl.66/](https://arxiv.org/abs/2305.07972)
+- **pdf-url**: [https://aclanthology.org/2023.findings-eacl.66.pdf](https://arxiv.org/pdf/2305.07972)
+- **record-time**: July 8, 2025
+- **classification**: LLM-FinancialRisk-Benchmark
+- **note**: Data, Task, Raw, Data Types, Modalities, License, Paper. source
+Multifin EN, multi-class classification, 546, article headlines, text, Public, [7], PIXIU Github FinBen 2.0 Tasks
+- **journal-or-conf**: N/A
+- **level**: N/A
+- **publish-time**: EACL 2023
+- **article-category**: N/A
+- **abstract**: Financial information is generated and distributed across the world, resulting in a vast amount of domain-specific multilingual data. Multilingual models adapted to the financial domain would ease deployment when an organization needs to work with multiple languages on a regular basis. For the development and evaluation of such models, there is a need for multilingual financial language processing datasets. We describe MultiFin – a publicly available financial dataset consisting of real-world article headlines covering 15 languages across different writing systems and language families. The dataset consists of hierarchical label structure providing two classification tasks: multi-label and multi-class. We develop our annotation schema based on a real-world application and annotate our dataset using both ‘label by native-speaker’ and ‘translate-then-label’ approaches. The evaluation of several popular multilingual models, e.g., mBERT, XLM-R, and mT5, show that although decent accuracy can be achieved in high-resource languages, there is substantial room for improvement in low-resource languages.
+- **github-url**: N/A
+- **huggingface-url**: N/A
+- **other-url**: N/A
+- **summary**: N/A
+- **dataset-innovation**: N/A
+- **algo-innovation**: N/A
+- **base**: Title: MULTIFIN: A Dataset for Multilingual Financial NLP; Conference: Findings of the Association for Computational Linguistics: EACL 2023; Pages: 894–909; Date: May 2–6, 2023; Type: peer-reviewed full research paper; Dataset: 10,048 real-world financial article headlines in 15 languages (10,048 headlines, 23 LOW-LEVEL labels, 6 HIGH-LEVEL labels); Open-source: https://github.com/RasmusKaer/MultiFin
+- **base-topics**: multilingual NLP, financial domain adaptation, dataset creation, multi-label & multi-class text classification, cross-lingual transfer, low-resource languages, domain-adaptive pre-training, benchmark evaluation
+- **base-core-author**: Rasmus Kær Jørgensen (University of Copenhagen & PwC), Oliver Brandt (Independent Researcher), Mareike Hartmann (Saarland University & DFKI), Xiang Dai (CSIRO Data61), Christian Igel (University of Copenhagen), Desmond Elliott (University of Copenhagen)
+- **base-core-group**: University of Copenhagen (lead institution), PricewaterhouseCoopers (PwC) (data provider & co-affiliation), CSIRO Data61, Saarland University, DFKI
+- **problems**: (1) Lack of multilingual financial NLP datasets that cover diverse languages, writing systems and language families; (2) Performance gap between high- and low-resource languages for existing multilingual models in the financial domain; (3) Need for rigorous benchmark to evaluate cross-lingual and multilingual capabilities of financial language models
+- **problems-main-problem**: Absence of a large-scale, publicly available multilingual financial dataset that realistically reflects worldwide multilingual financial communication and enables fair evaluation of domain-specific multilingual models
+- **problems-focus-problem**: How to create a high-quality multilingual financial dataset and benchmark to rigorously measure and reduce the performance disparity between high-resource and low-resource languages in financial NLP tasks
+- **problems-why-important**: Financial information is inherently global and multilingual; multinational organizations need reliable multilingual models to process invoices, transactions, tax policies, stock market news, etc. Without such resources, deployment of NLP in real-world multilingual finance remains limited and inequitable across languages
+- **motivations**: (a) Present the first massively multilingual financial dataset with hierarchical labels; (b) Provide rigorous baselines for 4 popular multilingual models and 2 fastText baselines; (c) Demonstrate that domain-adaptive pre-training significantly boosts low-resource language performance; (d) Identify concrete directions for narrowing the high- vs low-resource gap
+- **motivations-main-finding**: XLM-R achieves best overall performance but still exhibits substantial drops on low-resource languages; a simple LSTM with aligned fastText embeddings is surprisingly competitive; domain-adaptive pre-training on financial text yields consistent improvements, especially for zero-shot transfer to low-resource languages
+- **motivations-main-insight**: “Curse of multilinguality” persists in finance: more pre-training languages and domain-specific adaptation are complementary strategies; explicit embedding alignment (fastText+RCSLS) can rival transformer transfer in some settings; translation-then-label pipeline yields high-quality annotations when native experts are scarce
+- **motivations-why-necessary**: Existing financial NLP research is overwhelmingly English-centric; global finance requires equitable multilingual capabilities; without a dedicated benchmark, progress toward robust low-resource performance cannot be measured or guided
+- **solutions**: (1) Creation of MULTIFIN: 10,048 headlines in 15 languages with hierarchical LOW-LEVEL (23 fine-grained, multi-label) and HIGH-LEVEL (6 coarse, single-label) topics; (2) Dual annotation workflow: native-speaker labeling for EN/DA and translate-then-label for others with quality validation; (3) Comprehensive benchmark evaluating mBERT, XLM-R, mT5, SBERT, fastText-LSTM/BAG under three training conditions (ALL, ENGLISH, HIGH-RESOURCE); (4) Evaluation of domain-adaptive mBERT variant and translation-based monolingual RoBERTa baseline
+- **solutions-main-idea**: Combine real-world multilingual financial headlines with hierarchical annotation to create a rigorous benchmark that exposes and quantifies the high- vs low-resource performance gap, then test multiple modeling paradigms and domain-adaptation strategies to identify best practices
+- **solutions-main-method**: (a) Data collection from PwC public article archive; (b) Hierarchical label schema derived from internal taxonomies; (c) Annotation by native speakers + translate-then-label with κ=0.94 agreement; (d) Controlled experiments: macro/micro F1 on LOW-LEVEL multi-label, accuracy on HIGH-LEVEL multi-class; (e) Wilcoxon tests for significance
+- **solutions-main-result**: XLM-R: 90.8/83.9 micro-F1 on ALL/LOW-RESOURCE; mBERT: 88.6/77.9; mT5: 81.3/51.0; fastText-LSTM: 85.4/74.4; domain-adaptive mBERT outperforms vanilla by +1.0–5.5 F1; monolingual RoBERTa on translated data slightly beats multilingual XLM-R (84 vs 82–84)
+- **solutions-main-conclusion**: MULTIFIN establishes the first rigorous multilingual financial benchmark; large-scale multilingual pre-training helps but does not close the low-resource gap; domain-adaptive pre-training and explicit cross-lingual alignment are promising; future work must expand data coverage and investigate document-level modeling
+- **potential-inspiration**: (1) Extend MULTIFIN to full articles and additional languages (Indic, African, Arabic, Chinese); (2) Explore continual domain-adaptive pre-training on streaming financial corpora; (3) Investigate prompt-based or instruction-tuned multilingual LLMs for finance; (4) Combine embedding alignment with adapter modules for lightweight low-resource adaptation; (5) Leverage noisy web financial data via weak supervision to scale low-resource language coverage; (6) Examine fairness and bias across languages and regions in financial NLP outputs

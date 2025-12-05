@@ -1,0 +1,1 @@
+fttracer: A Platform for collecting and evaluating the performance of visual language models on the Financial Trend Charts.
