@@ -1,9 +1,9 @@
 # PyFi
-The repository of PyFi: Toward Pyramid-like Financial Image Understanding for VLMs via Adversarial Agents
+The repository of **PyFi: Toward Pyramid-like Financial Image Understanding for VLMs via Adversarial Agents**
 
-- **Paper**: PyFi: Toward Pyramid-like Financial Image Understanding for VLMs via Adversarial Agents (Coming soon ...)
+- **Paper**: [PyFi: Toward Pyramid-like Financial Image Understanding for VLMs via Adversarial Agents] (https://arxiv.org/abs/2512.14735)
 - **Code**: [https://github.com/AgenticFinLab/PyFi](https://github.com/AgenticFinLab/PyFi)
 - **Dataset**: [https://huggingface.co/datasets/AgenticFinLab/PyFi-600K](https://huggingface.co/datasets/AgenticFinLab/PyFi-600K)
 - **Models**: [https://huggingface.co/collections/AgenticFinLab/PyFi-models](https://huggingface.co/collections/AgenticFinLab/pyfi-models)
 
-Detailed guidance is coming soon ...
+Detailed guidance is coming soon.
