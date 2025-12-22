@@ -207,16 +207,11 @@ PyFi models are fine-tuned on approximately 47K sample chains using two dataset 
 
 ### Evaluation Metrics
 
-PyFi introduces a comprehensive evaluation framework with domain-specific metrics:
 
-- **Financial Accuracy (FA)**: Correctness of financial concepts and calculations
-- **Reasoning Depth (RD)**: Ability to perform multi-step financial reasoning
-- **Context Awareness (CA)**: Understanding of financial context and relationships
-- **Explanation Quality (EQ)**: Clarity and completeness of explanations
 
 ### Results
 
-The following table presents a comprehensive performance comparison of PyFi models across different capability levels on the evaluation dataset (samples=301, groups with image):
+The following table presents a comprehensive performance comparison of PyFi models across different capability levels on the evaluation dataset (samples=301, groups with image,PP=Perception, DE=Data Extraction,CA=Calculation Analysis, PR=Pattern Recognition, LR=Logical Reasoning, DS=Decision Support):
 
 | Model | Overall | PP | DE | CA | PR | LR | DS |
 |-------|---------|----|----|----|----|----|----|
