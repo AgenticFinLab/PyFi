@@ -84,7 +84,7 @@ For detailed architectural specifications, please refer to our [paper](https://a
 
 ## Installation
 
-**This Repo only provides code for building adversarial agents based on the Monte Carlo search tree paradigm.**
+**This Repo only provides code for data processing and building adversarial agents based on the Monte Carlo search tree paradigm.**
 
 
 ### Prerequisites
