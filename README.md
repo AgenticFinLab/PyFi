@@ -273,7 +273,7 @@ system = ImageQASystem()
 report_path = "examples/financial_report.png"
 
 # Run MCTS tree construction for comprehensive analysis
-mcts_result = system.main(
+system.main(
     image_path=report_path,
     context_base_path="examples/context/"
 )
